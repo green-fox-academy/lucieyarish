@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/IntroduceYourself/IntroduceYourself/bin/Debug/net5.0/IntroduceYourself.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/IntroduceYourself/IntroduceYourself/bin/Debug/net5.0/IntroduceYourself.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/IntroduceYourself/IntroduceYourself/bin/Debug/net5.0/IntroduceYourself.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/IntroduceYourself/IntroduceYourself/bin/Debug/net5.0/IntroduceYourself.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/IntroduceYourself/IntroduceYourself/bin/Debug/net5.0/ref/IntroduceYourself.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/IntroduceYourself/IntroduceYourself/bin/Debug/net5.0/IntroduceYourself.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/IntroduceYourself/IntroduceYourself/obj/Debug/net5.0/IntroduceYourself.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/IntroduceYourself/IntroduceYourself/obj/Debug/net5.0/IntroduceYourself.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/IntroduceYourself/IntroduceYourself/obj/Debug/net5.0/IntroduceYourself.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/IntroduceYourself/IntroduceYourself/obj/Debug/net5.0/IntroduceYourself.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/IntroduceYourself/IntroduceYourself/obj/Debug/net5.0/IntroduceYourself.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/IntroduceYourself/IntroduceYourself/obj/Debug/net5.0/IntroduceYourself.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/IntroduceYourself/IntroduceYourself/obj/Debug/net5.0/ref/IntroduceYourself.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/IntroduceYourself/IntroduceYourself/obj/Debug/net5.0/IntroduceYourself.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/IntroduceYourself/IntroduceYourself/obj/Debug/net5.0/IntroduceYourself.genruntimeconfig.cache
