@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HumptyDumpty/HumptyDumpty/bin/Debug/net5.0/HumptyDumpty.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HumptyDumpty/HumptyDumpty/bin/Debug/net5.0/HumptyDumpty.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HumptyDumpty/HumptyDumpty/bin/Debug/net5.0/HumptyDumpty.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HumptyDumpty/HumptyDumpty/bin/Debug/net5.0/HumptyDumpty.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HumptyDumpty/HumptyDumpty/bin/Debug/net5.0/ref/HumptyDumpty.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HumptyDumpty/HumptyDumpty/bin/Debug/net5.0/HumptyDumpty.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HumptyDumpty/HumptyDumpty/obj/Debug/net5.0/HumptyDumpty.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HumptyDumpty/HumptyDumpty/obj/Debug/net5.0/HumptyDumpty.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HumptyDumpty/HumptyDumpty/obj/Debug/net5.0/HumptyDumpty.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HumptyDumpty/HumptyDumpty/obj/Debug/net5.0/HumptyDumpty.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HumptyDumpty/HumptyDumpty/obj/Debug/net5.0/HumptyDumpty.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HumptyDumpty/HumptyDumpty/obj/Debug/net5.0/HumptyDumpty.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HumptyDumpty/HumptyDumpty/obj/Debug/net5.0/ref/HumptyDumpty.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HumptyDumpty/HumptyDumpty/obj/Debug/net5.0/HumptyDumpty.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HumptyDumpty/HumptyDumpty/obj/Debug/net5.0/HumptyDumpty.genruntimeconfig.cache
