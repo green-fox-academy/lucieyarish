@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HelloOthers/HelloOthers/bin/Debug/net5.0/HelloOthers.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HelloOthers/HelloOthers/bin/Debug/net5.0/HelloOthers.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HelloOthers/HelloOthers/bin/Debug/net5.0/HelloOthers.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HelloOthers/HelloOthers/bin/Debug/net5.0/HelloOthers.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HelloOthers/HelloOthers/bin/Debug/net5.0/ref/HelloOthers.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HelloOthers/HelloOthers/bin/Debug/net5.0/HelloOthers.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HelloOthers/HelloOthers/obj/Debug/net5.0/HelloOthers.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HelloOthers/HelloOthers/obj/Debug/net5.0/HelloOthers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HelloOthers/HelloOthers/obj/Debug/net5.0/HelloOthers.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HelloOthers/HelloOthers/obj/Debug/net5.0/HelloOthers.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HelloOthers/HelloOthers/obj/Debug/net5.0/HelloOthers.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HelloOthers/HelloOthers/obj/Debug/net5.0/HelloOthers.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HelloOthers/HelloOthers/obj/Debug/net5.0/ref/HelloOthers.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HelloOthers/HelloOthers/obj/Debug/net5.0/HelloOthers.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/HelloOthers/HelloOthers/obj/Debug/net5.0/HelloOthers.genruntimeconfig.cache
