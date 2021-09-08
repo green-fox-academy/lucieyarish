@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/DefineBasicInfo/DefineBasicInfo/obj/Debug/net5.0/DefineBasicInfo.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/DefineBasicInfo/DefineBasicInfo/obj/Debug/net5.0/DefineBasicInfo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/DefineBasicInfo/DefineBasicInfo/obj/Debug/net5.0/DefineBasicInfo.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/DefineBasicInfo/DefineBasicInfo/obj/Debug/net5.0/DefineBasicInfo.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/DefineBasicInfo/DefineBasicInfo/obj/Debug/net5.0/DefineBasicInfo.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/DefineBasicInfo/DefineBasicInfo/bin/Debug/net5.0/DefineBasicInfo.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/DefineBasicInfo/DefineBasicInfo/bin/Debug/net5.0/DefineBasicInfo.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/DefineBasicInfo/DefineBasicInfo/bin/Debug/net5.0/DefineBasicInfo.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/DefineBasicInfo/DefineBasicInfo/bin/Debug/net5.0/DefineBasicInfo.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/DefineBasicInfo/DefineBasicInfo/bin/Debug/net5.0/ref/DefineBasicInfo.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/DefineBasicInfo/DefineBasicInfo/bin/Debug/net5.0/DefineBasicInfo.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/DefineBasicInfo/DefineBasicInfo/obj/Debug/net5.0/DefineBasicInfo.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/DefineBasicInfo/DefineBasicInfo/obj/Debug/net5.0/ref/DefineBasicInfo.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/DefineBasicInfo/DefineBasicInfo/obj/Debug/net5.0/DefineBasicInfo.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/DefineBasicInfo/DefineBasicInfo/obj/Debug/net5.0/DefineBasicInfo.genruntimeconfig.cache
