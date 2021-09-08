@@ -1,13 +1,13 @@
-﻿<Properties StartupConfiguration="{CBAAD7EE-089B-4DF6-8D18-24CD13C38261}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntroduceYourself/Program.cs">
+﻿<Properties StartupConfiguration="{7E5F5427-92B2-4696-9F16-00A992EF77D0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TwoNumbers/Program.cs">
     <Files>
-      <File FileName="IntroduceYourself/Program.cs" Line="12" Column="1" />
+      <File FileName="TwoNumbers/Program.cs" Line="40" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="IntroduceYourself" expanded="True">
-            <Node name="IntroduceYourself" expanded="True">
+          <Node name="TwoNumbers" expanded="True">
+            <Node name="TwoNumbers" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -18,9 +18,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TwoNumbers PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.IntroduceYourself PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

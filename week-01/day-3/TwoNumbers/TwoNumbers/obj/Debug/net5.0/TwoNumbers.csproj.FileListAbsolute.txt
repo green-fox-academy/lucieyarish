@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/TwoNumbers/TwoNumbers/bin/Debug/net5.0/TwoNumbers.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/TwoNumbers/TwoNumbers/bin/Debug/net5.0/TwoNumbers.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/TwoNumbers/TwoNumbers/bin/Debug/net5.0/TwoNumbers.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/TwoNumbers/TwoNumbers/bin/Debug/net5.0/TwoNumbers.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/TwoNumbers/TwoNumbers/bin/Debug/net5.0/ref/TwoNumbers.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/TwoNumbers/TwoNumbers/bin/Debug/net5.0/TwoNumbers.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/TwoNumbers/TwoNumbers/obj/Debug/net5.0/TwoNumbers.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/TwoNumbers/TwoNumbers/obj/Debug/net5.0/TwoNumbers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/TwoNumbers/TwoNumbers/obj/Debug/net5.0/TwoNumbers.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/TwoNumbers/TwoNumbers/obj/Debug/net5.0/TwoNumbers.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/TwoNumbers/TwoNumbers/obj/Debug/net5.0/TwoNumbers.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/TwoNumbers/TwoNumbers/obj/Debug/net5.0/TwoNumbers.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/TwoNumbers/TwoNumbers/obj/Debug/net5.0/ref/TwoNumbers.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/TwoNumbers/TwoNumbers/obj/Debug/net5.0/TwoNumbers.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/TwoNumbers/TwoNumbers/obj/Debug/net5.0/TwoNumbers.genruntimeconfig.cache
