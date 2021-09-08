@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Swap/Swap/bin/Debug/net5.0/Swap.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Swap/Swap/bin/Debug/net5.0/Swap.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Swap/Swap/bin/Debug/net5.0/Swap.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Swap/Swap/bin/Debug/net5.0/Swap.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Swap/Swap/bin/Debug/net5.0/ref/Swap.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Swap/Swap/bin/Debug/net5.0/Swap.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Swap/Swap/obj/Debug/net5.0/Swap.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Swap/Swap/obj/Debug/net5.0/Swap.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Swap/Swap/obj/Debug/net5.0/Swap.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Swap/Swap/obj/Debug/net5.0/Swap.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Swap/Swap/obj/Debug/net5.0/Swap.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Swap/Swap/obj/Debug/net5.0/Swap.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Swap/Swap/obj/Debug/net5.0/ref/Swap.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Swap/Swap/obj/Debug/net5.0/Swap.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Swap/Swap/obj/Debug/net5.0/Swap.genruntimeconfig.cache
