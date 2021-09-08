@@ -1,13 +1,14 @@
-﻿<Properties StartupConfiguration="{7E5F5427-92B2-4696-9F16-00A992EF77D0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TwoNumbers/Program.cs">
+﻿<Properties StartupConfiguration="{EC9C5CCA-9CD2-45B1-8078-20748CE3E685}|Default">
+  <MonoDevelop.Ide.ItemProperties.CodingHours PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CodingHours/Program.cs">
     <Files>
-      <File FileName="TwoNumbers/Program.cs" Line="39" Column="37" />
+      <File FileName="CodingHours/Program.cs" Line="21" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="TwoNumbers" expanded="True">
-            <Node name="TwoNumbers" expanded="True">
+          <Node name="CodingHours" expanded="True">
+            <Node name="CodingHours" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -18,7 +19,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.TwoNumbers PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

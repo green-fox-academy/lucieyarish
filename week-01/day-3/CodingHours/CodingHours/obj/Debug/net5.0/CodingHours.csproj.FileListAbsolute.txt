@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/CodingHours/CodingHours/bin/Debug/net5.0/CodingHours.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/CodingHours/CodingHours/bin/Debug/net5.0/CodingHours.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/CodingHours/CodingHours/bin/Debug/net5.0/CodingHours.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/CodingHours/CodingHours/bin/Debug/net5.0/CodingHours.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/CodingHours/CodingHours/bin/Debug/net5.0/ref/CodingHours.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/CodingHours/CodingHours/bin/Debug/net5.0/CodingHours.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/CodingHours/CodingHours/obj/Debug/net5.0/CodingHours.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/CodingHours/CodingHours/obj/Debug/net5.0/CodingHours.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/CodingHours/CodingHours/obj/Debug/net5.0/CodingHours.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/CodingHours/CodingHours/obj/Debug/net5.0/CodingHours.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/CodingHours/CodingHours/obj/Debug/net5.0/CodingHours.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/CodingHours/CodingHours/obj/Debug/net5.0/CodingHours.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/CodingHours/CodingHours/obj/Debug/net5.0/ref/CodingHours.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/CodingHours/CodingHours/obj/Debug/net5.0/CodingHours.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/CodingHours/CodingHours/obj/Debug/net5.0/CodingHours.genruntimeconfig.cache
