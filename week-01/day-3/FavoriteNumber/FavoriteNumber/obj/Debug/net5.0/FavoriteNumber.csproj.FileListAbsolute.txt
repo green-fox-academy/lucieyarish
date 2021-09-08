@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/FavoriteNumber/FavoriteNumber/bin/Debug/net5.0/FavoriteNumber.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/FavoriteNumber/FavoriteNumber/bin/Debug/net5.0/FavoriteNumber.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/FavoriteNumber/FavoriteNumber/bin/Debug/net5.0/FavoriteNumber.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/FavoriteNumber/FavoriteNumber/bin/Debug/net5.0/FavoriteNumber.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/FavoriteNumber/FavoriteNumber/bin/Debug/net5.0/ref/FavoriteNumber.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/FavoriteNumber/FavoriteNumber/bin/Debug/net5.0/FavoriteNumber.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/FavoriteNumber/FavoriteNumber/obj/Debug/net5.0/FavoriteNumber.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/FavoriteNumber/FavoriteNumber/obj/Debug/net5.0/FavoriteNumber.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/FavoriteNumber/FavoriteNumber/obj/Debug/net5.0/FavoriteNumber.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/FavoriteNumber/FavoriteNumber/obj/Debug/net5.0/FavoriteNumber.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/FavoriteNumber/FavoriteNumber/obj/Debug/net5.0/FavoriteNumber.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/FavoriteNumber/FavoriteNumber/obj/Debug/net5.0/FavoriteNumber.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/FavoriteNumber/FavoriteNumber/obj/Debug/net5.0/ref/FavoriteNumber.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/FavoriteNumber/FavoriteNumber/obj/Debug/net5.0/FavoriteNumber.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/FavoriteNumber/FavoriteNumber/obj/Debug/net5.0/FavoriteNumber.genruntimeconfig.cache
