@@ -71,7 +71,9 @@ namespace VariableMutation
 
             int j = 1521;
             // tell if j is divisible by 3 or 5 (print as a boolean)
-            bool isDivisible = j % 3 || j % 5;
+            bool isDivisible = (j % 3 == 0) || (j % 5 == 0);
+
+            Console.WriteLine(isDivisible);
         }
     }
 }
