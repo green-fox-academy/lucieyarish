@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/SecondsInADay/SecondsInADay/bin/Debug/net5.0/SecondsInADay.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/SecondsInADay/SecondsInADay/bin/Debug/net5.0/SecondsInADay.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/SecondsInADay/SecondsInADay/bin/Debug/net5.0/SecondsInADay.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/SecondsInADay/SecondsInADay/bin/Debug/net5.0/SecondsInADay.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/SecondsInADay/SecondsInADay/bin/Debug/net5.0/ref/SecondsInADay.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/SecondsInADay/SecondsInADay/bin/Debug/net5.0/SecondsInADay.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/SecondsInADay/SecondsInADay/obj/Debug/net5.0/SecondsInADay.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/SecondsInADay/SecondsInADay/obj/Debug/net5.0/SecondsInADay.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/SecondsInADay/SecondsInADay/obj/Debug/net5.0/SecondsInADay.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/SecondsInADay/SecondsInADay/obj/Debug/net5.0/SecondsInADay.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/SecondsInADay/SecondsInADay/obj/Debug/net5.0/SecondsInADay.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/SecondsInADay/SecondsInADay/obj/Debug/net5.0/SecondsInADay.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/SecondsInADay/SecondsInADay/obj/Debug/net5.0/ref/SecondsInADay.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/SecondsInADay/SecondsInADay/obj/Debug/net5.0/SecondsInADay.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/SecondsInADay/SecondsInADay/obj/Debug/net5.0/SecondsInADay.genruntimeconfig.cache
