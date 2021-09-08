@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/obj/Debug/net5.0/VariableMutation.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/obj/Debug/net5.0/VariableMutation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/obj/Debug/net5.0/VariableMutation.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/obj/Debug/net5.0/VariableMutation.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/obj/Debug/net5.0/VariableMutation.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/bin/Debug/net5.0/VariableMutation.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/bin/Debug/net5.0/VariableMutation.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/bin/Debug/net5.0/VariableMutation.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/bin/Debug/net5.0/VariableMutation.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/bin/Debug/net5.0/ref/VariableMutation.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/bin/Debug/net5.0/VariableMutation.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/obj/Debug/net5.0/VariableMutation.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/obj/Debug/net5.0/ref/VariableMutation.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/obj/Debug/net5.0/VariableMutation.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/obj/Debug/net5.0/VariableMutation.genruntimeconfig.cache
