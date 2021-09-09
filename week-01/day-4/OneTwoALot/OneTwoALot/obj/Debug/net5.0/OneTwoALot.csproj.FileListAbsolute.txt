@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OneTwoALot/OneTwoALot/obj/Debug/net5.0/OneTwoALot.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OneTwoALot/OneTwoALot/obj/Debug/net5.0/OneTwoALot.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OneTwoALot/OneTwoALot/obj/Debug/net5.0/OneTwoALot.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OneTwoALot/OneTwoALot/obj/Debug/net5.0/OneTwoALot.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OneTwoALot/OneTwoALot/obj/Debug/net5.0/OneTwoALot.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OneTwoALot/OneTwoALot/bin/Debug/net5.0/OneTwoALot.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OneTwoALot/OneTwoALot/bin/Debug/net5.0/OneTwoALot.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OneTwoALot/OneTwoALot/bin/Debug/net5.0/OneTwoALot.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OneTwoALot/OneTwoALot/bin/Debug/net5.0/OneTwoALot.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OneTwoALot/OneTwoALot/bin/Debug/net5.0/ref/OneTwoALot.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OneTwoALot/OneTwoALot/bin/Debug/net5.0/OneTwoALot.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OneTwoALot/OneTwoALot/obj/Debug/net5.0/OneTwoALot.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OneTwoALot/OneTwoALot/obj/Debug/net5.0/ref/OneTwoALot.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OneTwoALot/OneTwoALot/obj/Debug/net5.0/OneTwoALot.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OneTwoALot/OneTwoALot/obj/Debug/net5.0/OneTwoALot.genruntimeconfig.cache
