@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OddEven/OddEven/bin/Debug/net5.0/OddEven.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OddEven/OddEven/bin/Debug/net5.0/OddEven.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OddEven/OddEven/bin/Debug/net5.0/OddEven.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OddEven/OddEven/bin/Debug/net5.0/OddEven.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OddEven/OddEven/bin/Debug/net5.0/ref/OddEven.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OddEven/OddEven/bin/Debug/net5.0/OddEven.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OddEven/OddEven/obj/Debug/net5.0/OddEven.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OddEven/OddEven/obj/Debug/net5.0/OddEven.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OddEven/OddEven/obj/Debug/net5.0/OddEven.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OddEven/OddEven/obj/Debug/net5.0/OddEven.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OddEven/OddEven/obj/Debug/net5.0/OddEven.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OddEven/OddEven/obj/Debug/net5.0/OddEven.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OddEven/OddEven/obj/Debug/net5.0/ref/OddEven.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OddEven/OddEven/obj/Debug/net5.0/OddEven.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/OddEven/OddEven/obj/Debug/net5.0/OddEven.genruntimeconfig.cache
