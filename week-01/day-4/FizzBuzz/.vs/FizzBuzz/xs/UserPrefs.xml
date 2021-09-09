@@ -1,14 +1,14 @@
-﻿<Properties StartupConfiguration="{3393E9BF-205F-4FE2-B6FE-307437F7B1EC}|Default">
-  <MonoDevelop.Ide.ItemProperties.MultiplicationTable PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MultiplicationTable/Program.cs">
+﻿<Properties StartupConfiguration="{4724C879-3F71-4CBB-BD44-D4EEBE7C9521}|Default">
+  <MonoDevelop.Ide.ItemProperties.FizzBuzz PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FizzBuzz/Program.cs">
     <Files>
-      <File FileName="MultiplicationTable/Program.cs" Line="32" Column="64" />
+      <File FileName="FizzBuzz/Program.cs" Line="21" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MultiplicationTable" expanded="True">
-            <Node name="MultiplicationTable" expanded="True">
+          <Node name="FizzBuzz" expanded="True">
+            <Node name="FizzBuzz" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>

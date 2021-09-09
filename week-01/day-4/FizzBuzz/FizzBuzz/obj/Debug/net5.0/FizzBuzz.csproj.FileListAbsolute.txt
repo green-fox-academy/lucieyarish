@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/FizzBuzz/FizzBuzz/bin/Debug/net5.0/FizzBuzz.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/FizzBuzz/FizzBuzz/bin/Debug/net5.0/FizzBuzz.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/FizzBuzz/FizzBuzz/bin/Debug/net5.0/FizzBuzz.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/FizzBuzz/FizzBuzz/bin/Debug/net5.0/FizzBuzz.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/FizzBuzz/FizzBuzz/bin/Debug/net5.0/ref/FizzBuzz.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/FizzBuzz/FizzBuzz/bin/Debug/net5.0/FizzBuzz.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/FizzBuzz/FizzBuzz/obj/Debug/net5.0/FizzBuzz.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/FizzBuzz/FizzBuzz/obj/Debug/net5.0/FizzBuzz.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/FizzBuzz/FizzBuzz/obj/Debug/net5.0/FizzBuzz.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/FizzBuzz/FizzBuzz/obj/Debug/net5.0/FizzBuzz.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/FizzBuzz/FizzBuzz/obj/Debug/net5.0/FizzBuzz.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/FizzBuzz/FizzBuzz/obj/Debug/net5.0/FizzBuzz.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/FizzBuzz/FizzBuzz/obj/Debug/net5.0/ref/FizzBuzz.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/FizzBuzz/FizzBuzz/obj/Debug/net5.0/FizzBuzz.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/FizzBuzz/FizzBuzz/obj/Debug/net5.0/FizzBuzz.genruntimeconfig.cache
