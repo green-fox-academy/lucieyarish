@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PartyIndicator/PartyIndicator/obj/Debug/net5.0/PartyIndicator.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PartyIndicator/PartyIndicator/obj/Debug/net5.0/PartyIndicator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PartyIndicator/PartyIndicator/obj/Debug/net5.0/PartyIndicator.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PartyIndicator/PartyIndicator/obj/Debug/net5.0/PartyIndicator.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PartyIndicator/PartyIndicator/obj/Debug/net5.0/PartyIndicator.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PartyIndicator/PartyIndicator/bin/Debug/net5.0/PartyIndicator.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PartyIndicator/PartyIndicator/bin/Debug/net5.0/PartyIndicator.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PartyIndicator/PartyIndicator/bin/Debug/net5.0/PartyIndicator.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PartyIndicator/PartyIndicator/bin/Debug/net5.0/PartyIndicator.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PartyIndicator/PartyIndicator/bin/Debug/net5.0/ref/PartyIndicator.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PartyIndicator/PartyIndicator/bin/Debug/net5.0/PartyIndicator.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PartyIndicator/PartyIndicator/obj/Debug/net5.0/PartyIndicator.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PartyIndicator/PartyIndicator/obj/Debug/net5.0/ref/PartyIndicator.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PartyIndicator/PartyIndicator/obj/Debug/net5.0/PartyIndicator.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PartyIndicator/PartyIndicator/obj/Debug/net5.0/PartyIndicator.genruntimeconfig.cache
