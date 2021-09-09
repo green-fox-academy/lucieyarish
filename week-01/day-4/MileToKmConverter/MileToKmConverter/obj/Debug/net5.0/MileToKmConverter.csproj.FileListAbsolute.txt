@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/MileToKmConverter/MileToKmConverter/bin/Debug/net5.0/MileToKmConverter.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/MileToKmConverter/MileToKmConverter/bin/Debug/net5.0/MileToKmConverter.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/MileToKmConverter/MileToKmConverter/bin/Debug/net5.0/MileToKmConverter.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/MileToKmConverter/MileToKmConverter/bin/Debug/net5.0/MileToKmConverter.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/MileToKmConverter/MileToKmConverter/bin/Debug/net5.0/ref/MileToKmConverter.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/MileToKmConverter/MileToKmConverter/bin/Debug/net5.0/MileToKmConverter.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/MileToKmConverter/MileToKmConverter/obj/Debug/net5.0/MileToKmConverter.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/MileToKmConverter/MileToKmConverter/obj/Debug/net5.0/MileToKmConverter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/MileToKmConverter/MileToKmConverter/obj/Debug/net5.0/MileToKmConverter.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/MileToKmConverter/MileToKmConverter/obj/Debug/net5.0/MileToKmConverter.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/MileToKmConverter/MileToKmConverter/obj/Debug/net5.0/MileToKmConverter.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/MileToKmConverter/MileToKmConverter/obj/Debug/net5.0/MileToKmConverter.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/MileToKmConverter/MileToKmConverter/obj/Debug/net5.0/ref/MileToKmConverter.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/MileToKmConverter/MileToKmConverter/obj/Debug/net5.0/MileToKmConverter.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/MileToKmConverter/MileToKmConverter/obj/Debug/net5.0/MileToKmConverter.genruntimeconfig.cache
