@@ -1,13 +1,14 @@
-﻿<Properties StartupConfiguration="{D4974A44-16B1-4340-A432-DB728D0B5696}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PrintEven/Program.cs">
+﻿<Properties StartupConfiguration="{3393E9BF-205F-4FE2-B6FE-307437F7B1EC}|Default">
+  <MonoDevelop.Ide.ItemProperties.MultiplicationTable FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MultiplicationTable/Program.cs">
     <Files>
-      <File FileName="PrintEven/Program.cs" Line="13" Column="31" />
+      <File FileName="MultiplicationTable/Program.cs" Line="23" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PrintEven" expanded="True">
-            <Node name="PrintEven" expanded="True">
+          <Node name="MultiplicationTable" expanded="True">
+            <Node name="MultiplicationTable" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -24,5 +25,4 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.PrintEven PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
