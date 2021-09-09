@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/Calculator/Calculator/bin/Debug/net5.0/Calculator.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/Calculator/Calculator/bin/Debug/net5.0/Calculator.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/Calculator/Calculator/bin/Debug/net5.0/Calculator.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/Calculator/Calculator/bin/Debug/net5.0/Calculator.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/Calculator/Calculator/bin/Debug/net5.0/ref/Calculator.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/Calculator/Calculator/bin/Debug/net5.0/Calculator.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/Calculator/Calculator/obj/Debug/net5.0/Calculator.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/Calculator/Calculator/obj/Debug/net5.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/Calculator/Calculator/obj/Debug/net5.0/Calculator.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/Calculator/Calculator/obj/Debug/net5.0/Calculator.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/Calculator/Calculator/obj/Debug/net5.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/Calculator/Calculator/obj/Debug/net5.0/Calculator.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/Calculator/Calculator/obj/Debug/net5.0/ref/Calculator.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/Calculator/Calculator/obj/Debug/net5.0/Calculator.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/Calculator/Calculator/obj/Debug/net5.0/Calculator.genruntimeconfig.cache
