@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintEven/PrintEven/bin/Debug/net5.0/PrintEven.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintEven/PrintEven/bin/Debug/net5.0/PrintEven.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintEven/PrintEven/bin/Debug/net5.0/PrintEven.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintEven/PrintEven/bin/Debug/net5.0/PrintEven.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintEven/PrintEven/bin/Debug/net5.0/ref/PrintEven.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintEven/PrintEven/bin/Debug/net5.0/PrintEven.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintEven/PrintEven/obj/Debug/net5.0/PrintEven.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintEven/PrintEven/obj/Debug/net5.0/PrintEven.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintEven/PrintEven/obj/Debug/net5.0/PrintEven.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintEven/PrintEven/obj/Debug/net5.0/PrintEven.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintEven/PrintEven/obj/Debug/net5.0/PrintEven.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintEven/PrintEven/obj/Debug/net5.0/PrintEven.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintEven/PrintEven/obj/Debug/net5.0/ref/PrintEven.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintEven/PrintEven/obj/Debug/net5.0/PrintEven.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintEven/PrintEven/obj/Debug/net5.0/PrintEven.genruntimeconfig.cache

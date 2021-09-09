@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{D4974A44-16B1-4340-A432-DB728D0B5696}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PrintEven/Program.cs">
+    <Files>
+      <File FileName="PrintEven/Program.cs" Line="9" Column="83" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PrintEven" expanded="True">
+            <Node name="PrintEven" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PrintEven FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
