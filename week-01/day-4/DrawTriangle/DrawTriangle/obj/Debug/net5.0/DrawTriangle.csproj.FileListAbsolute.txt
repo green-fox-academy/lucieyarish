@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawTriangle/DrawTriangle/bin/Debug/net5.0/DrawTriangle.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawTriangle/DrawTriangle/bin/Debug/net5.0/DrawTriangle.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawTriangle/DrawTriangle/bin/Debug/net5.0/DrawTriangle.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawTriangle/DrawTriangle/bin/Debug/net5.0/DrawTriangle.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawTriangle/DrawTriangle/bin/Debug/net5.0/ref/DrawTriangle.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawTriangle/DrawTriangle/bin/Debug/net5.0/DrawTriangle.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawTriangle/DrawTriangle/obj/Debug/net5.0/DrawTriangle.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawTriangle/DrawTriangle/obj/Debug/net5.0/DrawTriangle.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawTriangle/DrawTriangle/obj/Debug/net5.0/DrawTriangle.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawTriangle/DrawTriangle/obj/Debug/net5.0/DrawTriangle.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawTriangle/DrawTriangle/obj/Debug/net5.0/DrawTriangle.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawTriangle/DrawTriangle/obj/Debug/net5.0/DrawTriangle.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawTriangle/DrawTriangle/obj/Debug/net5.0/ref/DrawTriangle.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawTriangle/DrawTriangle/obj/Debug/net5.0/DrawTriangle.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawTriangle/DrawTriangle/obj/Debug/net5.0/DrawTriangle.genruntimeconfig.cache
