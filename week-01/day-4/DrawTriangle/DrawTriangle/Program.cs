@@ -16,9 +16,9 @@ namespace DrawTriangle
 
             for (int i = 1; i <= userNumber; i++)
             {
-                if ()
+                if (userNumber)
                 {
-                    Console.WriteLine(charForUser + charForUser);
+                    Console.Write(charForUser);
 
                 }
                 

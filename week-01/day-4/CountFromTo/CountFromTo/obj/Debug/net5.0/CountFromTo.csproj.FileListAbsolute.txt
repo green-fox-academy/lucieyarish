@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/CountFromTo/CountFromTo/bin/Debug/net5.0/CountFromTo.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/CountFromTo/CountFromTo/bin/Debug/net5.0/CountFromTo.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/CountFromTo/CountFromTo/bin/Debug/net5.0/CountFromTo.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/CountFromTo/CountFromTo/bin/Debug/net5.0/CountFromTo.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/CountFromTo/CountFromTo/bin/Debug/net5.0/ref/CountFromTo.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/CountFromTo/CountFromTo/bin/Debug/net5.0/CountFromTo.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/CountFromTo/CountFromTo/obj/Debug/net5.0/CountFromTo.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/CountFromTo/CountFromTo/obj/Debug/net5.0/CountFromTo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/CountFromTo/CountFromTo/obj/Debug/net5.0/CountFromTo.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/CountFromTo/CountFromTo/obj/Debug/net5.0/CountFromTo.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/CountFromTo/CountFromTo/obj/Debug/net5.0/CountFromTo.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/CountFromTo/CountFromTo/obj/Debug/net5.0/CountFromTo.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/CountFromTo/CountFromTo/obj/Debug/net5.0/ref/CountFromTo.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/CountFromTo/CountFromTo/obj/Debug/net5.0/CountFromTo.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/CountFromTo/CountFromTo/obj/Debug/net5.0/CountFromTo.genruntimeconfig.cache

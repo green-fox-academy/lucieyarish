@@ -1,13 +1,13 @@
-﻿<Properties StartupConfiguration="{B8C09807-B123-4443-8C99-C39F55B14F07}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DrawTriangle/Program.cs">
+﻿<Properties StartupConfiguration="{AAF19EF0-2453-4331-9143-080F4F15968B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CountFromTo/Program.cs">
     <Files>
-      <File FileName="DrawTriangle/Program.cs" Line="21" Column="46" />
+      <File FileName="CountFromTo/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DrawTriangle" expanded="True">
-            <Node name="DrawTriangle" expanded="True">
+          <Node name="CountFromTo" expanded="True">
+            <Node name="CountFromTo" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -20,9 +20,9 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DrawTriangle PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CountFromTo FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
