@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{13C2A62C-5F2B-408E-84AD-396DD35D9900}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="VariableMutation/Program.cs">
     <Files>
-      <File FileName="VariableMutation/Program.cs" Line="74" Column="61" />
+      <File FileName="VariableMutation/Program.cs" Line="66" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,7 +22,11 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/Program.cs" relfile="VariableMutation/Program.cs" line="74" column="1" />
+      <Breakpoint file="/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/Program.cs" relfile="VariableMutation/Program.cs" line="42" column="1" />
+      <Breakpoint file="/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/VariableMutation/VariableMutation/Program.cs" relfile="VariableMutation/Program.cs" line="44" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

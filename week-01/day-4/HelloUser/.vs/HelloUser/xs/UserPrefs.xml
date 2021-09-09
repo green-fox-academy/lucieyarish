@@ -1,13 +1,13 @@
-﻿<Properties StartupConfiguration="{CF1CA841-F4FB-4694-B411-0BDAD6D91005}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SecondsInADay/Program.cs">
+﻿<Properties StartupConfiguration="{5047FFDF-FFF8-46C7-A279-5B29AE85373E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloUser/Program.cs">
     <Files>
-      <File FileName="SecondsInADay/Program.cs" Line="19" Column="47" />
+      <File FileName="HelloUser/Program.cs" Line="11" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SecondsInADay" expanded="True">
-            <Node name="SecondsInADay" expanded="True">
+          <Node name="HelloUser" expanded="True">
+            <Node name="HelloUser" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -18,9 +18,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.SecondsInADay PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HelloUser FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
