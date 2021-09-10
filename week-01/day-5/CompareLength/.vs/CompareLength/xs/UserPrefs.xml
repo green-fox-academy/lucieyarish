@@ -1,13 +1,13 @@
-﻿<Properties StartupConfiguration="{6255B4B2-6298-4403-B463-52CD34FB2021}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Third/Program.cs">
+﻿<Properties StartupConfiguration="{4E0A447B-F50E-44E7-A0EC-C0EC8D109CBA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CompareLength/Program.cs">
     <Files>
-      <File FileName="Third/Program.cs" Line="14" Column="36" />
+      <File FileName="CompareLength/Program.cs" Line="16" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Third" expanded="True">
-            <Node name="Third" expanded="True">
+          <Node name="CompareLength" expanded="True">
+            <Node name="CompareLength" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -18,7 +18,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Third PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.CompareLength PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

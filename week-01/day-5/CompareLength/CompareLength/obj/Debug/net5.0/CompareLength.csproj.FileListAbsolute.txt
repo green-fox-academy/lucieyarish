@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/CompareLength/CompareLength/bin/Debug/net5.0/CompareLength.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/CompareLength/CompareLength/bin/Debug/net5.0/CompareLength.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/CompareLength/CompareLength/bin/Debug/net5.0/CompareLength.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/CompareLength/CompareLength/bin/Debug/net5.0/CompareLength.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/CompareLength/CompareLength/bin/Debug/net5.0/ref/CompareLength.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/CompareLength/CompareLength/bin/Debug/net5.0/CompareLength.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/CompareLength/CompareLength/obj/Debug/net5.0/CompareLength.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/CompareLength/CompareLength/obj/Debug/net5.0/CompareLength.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/CompareLength/CompareLength/obj/Debug/net5.0/CompareLength.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/CompareLength/CompareLength/obj/Debug/net5.0/CompareLength.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/CompareLength/CompareLength/obj/Debug/net5.0/CompareLength.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/CompareLength/CompareLength/obj/Debug/net5.0/CompareLength.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/CompareLength/CompareLength/obj/Debug/net5.0/ref/CompareLength.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/CompareLength/CompareLength/obj/Debug/net5.0/CompareLength.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/CompareLength/CompareLength/obj/Debug/net5.0/CompareLength.genruntimeconfig.cache
