@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DoubleItems/DoubleItems/bin/Debug/net5.0/DoubleItems.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DoubleItems/DoubleItems/bin/Debug/net5.0/DoubleItems.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DoubleItems/DoubleItems/bin/Debug/net5.0/DoubleItems.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DoubleItems/DoubleItems/bin/Debug/net5.0/DoubleItems.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DoubleItems/DoubleItems/bin/Debug/net5.0/ref/DoubleItems.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DoubleItems/DoubleItems/bin/Debug/net5.0/DoubleItems.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DoubleItems/DoubleItems/obj/Debug/net5.0/DoubleItems.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DoubleItems/DoubleItems/obj/Debug/net5.0/DoubleItems.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DoubleItems/DoubleItems/obj/Debug/net5.0/DoubleItems.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DoubleItems/DoubleItems/obj/Debug/net5.0/DoubleItems.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DoubleItems/DoubleItems/obj/Debug/net5.0/DoubleItems.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DoubleItems/DoubleItems/obj/Debug/net5.0/DoubleItems.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DoubleItems/DoubleItems/obj/Debug/net5.0/ref/DoubleItems.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DoubleItems/DoubleItems/obj/Debug/net5.0/DoubleItems.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DoubleItems/DoubleItems/obj/Debug/net5.0/DoubleItems.genruntimeconfig.cache
