@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/ChangeElement/ChangeElement/bin/Debug/net5.0/ChangeElement.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/ChangeElement/ChangeElement/bin/Debug/net5.0/ChangeElement.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/ChangeElement/ChangeElement/bin/Debug/net5.0/ChangeElement.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/ChangeElement/ChangeElement/bin/Debug/net5.0/ChangeElement.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/ChangeElement/ChangeElement/bin/Debug/net5.0/ref/ChangeElement.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/ChangeElement/ChangeElement/bin/Debug/net5.0/ChangeElement.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/ChangeElement/ChangeElement/obj/Debug/net5.0/ChangeElement.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/ChangeElement/ChangeElement/obj/Debug/net5.0/ChangeElement.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/ChangeElement/ChangeElement/obj/Debug/net5.0/ChangeElement.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/ChangeElement/ChangeElement/obj/Debug/net5.0/ChangeElement.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/ChangeElement/ChangeElement/obj/Debug/net5.0/ChangeElement.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/ChangeElement/ChangeElement/obj/Debug/net5.0/ChangeElement.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/ChangeElement/ChangeElement/obj/Debug/net5.0/ref/ChangeElement.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/ChangeElement/ChangeElement/obj/Debug/net5.0/ChangeElement.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/ChangeElement/ChangeElement/obj/Debug/net5.0/ChangeElement.genruntimeconfig.cache
