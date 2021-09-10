@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumAll/SumAll/obj/Debug/net5.0/SumAll.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumAll/SumAll/obj/Debug/net5.0/SumAll.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumAll/SumAll/obj/Debug/net5.0/SumAll.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumAll/SumAll/obj/Debug/net5.0/SumAll.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumAll/SumAll/obj/Debug/net5.0/SumAll.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumAll/SumAll/bin/Debug/net5.0/SumAll.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumAll/SumAll/bin/Debug/net5.0/SumAll.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumAll/SumAll/bin/Debug/net5.0/SumAll.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumAll/SumAll/bin/Debug/net5.0/SumAll.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumAll/SumAll/bin/Debug/net5.0/ref/SumAll.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumAll/SumAll/bin/Debug/net5.0/SumAll.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumAll/SumAll/obj/Debug/net5.0/SumAll.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumAll/SumAll/obj/Debug/net5.0/ref/SumAll.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumAll/SumAll/obj/Debug/net5.0/SumAll.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumAll/SumAll/obj/Debug/net5.0/SumAll.genruntimeconfig.cache
