@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{5C53CAC9-DA7F-4707-AB53-D2E28037B2BA}|Default">
+  <MonoDevelop.Ide.ItemProperties.DiagonalMatrix PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DiagonalMatrix/Program.cs">
+    <Files>
+      <File FileName="DiagonalMatrix/Program.cs" Line="21" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DiagonalMatrix" expanded="True">
+            <Node name="DiagonalMatrix" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

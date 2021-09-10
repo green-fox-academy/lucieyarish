@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DiagonalMatrix/DiagonalMatrix/obj/Debug/net5.0/DiagonalMatrix.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DiagonalMatrix/DiagonalMatrix/obj/Debug/net5.0/DiagonalMatrix.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DiagonalMatrix/DiagonalMatrix/obj/Debug/net5.0/DiagonalMatrix.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DiagonalMatrix/DiagonalMatrix/obj/Debug/net5.0/DiagonalMatrix.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DiagonalMatrix/DiagonalMatrix/obj/Debug/net5.0/DiagonalMatrix.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DiagonalMatrix/DiagonalMatrix/bin/Debug/net5.0/DiagonalMatrix.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DiagonalMatrix/DiagonalMatrix/bin/Debug/net5.0/DiagonalMatrix.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DiagonalMatrix/DiagonalMatrix/bin/Debug/net5.0/DiagonalMatrix.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DiagonalMatrix/DiagonalMatrix/bin/Debug/net5.0/DiagonalMatrix.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DiagonalMatrix/DiagonalMatrix/bin/Debug/net5.0/ref/DiagonalMatrix.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DiagonalMatrix/DiagonalMatrix/bin/Debug/net5.0/DiagonalMatrix.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DiagonalMatrix/DiagonalMatrix/obj/Debug/net5.0/DiagonalMatrix.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DiagonalMatrix/DiagonalMatrix/obj/Debug/net5.0/ref/DiagonalMatrix.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DiagonalMatrix/DiagonalMatrix/obj/Debug/net5.0/DiagonalMatrix.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/DiagonalMatrix/DiagonalMatrix/obj/Debug/net5.0/DiagonalMatrix.genruntimeconfig.cache
