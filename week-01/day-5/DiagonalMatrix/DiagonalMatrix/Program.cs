@@ -18,11 +18,13 @@ namespace DiagonalMatrix
             {
                 for (int column = 0; column < my2DArr.GetLength(1); column++)
                 {
-                    if ( )
+                    if (row == column)
                     {
                         my2DArr[row, column] = 1;
+                        
                     }
-                    
+                    Console.Write(my2DArr[row, column] + " ");
+
                 }
                 Console.WriteLine();
             }    
