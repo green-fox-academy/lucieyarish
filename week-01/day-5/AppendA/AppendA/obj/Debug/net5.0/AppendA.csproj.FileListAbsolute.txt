@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/AppendA/AppendA/bin/Debug/net5.0/AppendA.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/AppendA/AppendA/bin/Debug/net5.0/AppendA.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/AppendA/AppendA/bin/Debug/net5.0/AppendA.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/AppendA/AppendA/bin/Debug/net5.0/AppendA.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/AppendA/AppendA/bin/Debug/net5.0/ref/AppendA.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/AppendA/AppendA/bin/Debug/net5.0/AppendA.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/AppendA/AppendA/obj/Debug/net5.0/AppendA.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/AppendA/AppendA/obj/Debug/net5.0/AppendA.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/AppendA/AppendA/obj/Debug/net5.0/AppendA.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/AppendA/AppendA/obj/Debug/net5.0/AppendA.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/AppendA/AppendA/obj/Debug/net5.0/AppendA.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/AppendA/AppendA/obj/Debug/net5.0/AppendA.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/AppendA/AppendA/obj/Debug/net5.0/ref/AppendA.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/AppendA/AppendA/obj/Debug/net5.0/AppendA.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/AppendA/AppendA/obj/Debug/net5.0/AppendA.genruntimeconfig.cache
