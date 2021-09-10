@@ -14,6 +14,7 @@ namespace Reverse
             // - Reverse the order of the elements of `numbers`
             for (int i = 0; i < numbers.Length / 2; i++)
             {
+
                 
                 Console.WriteLine(numbers[i]);
             }
