@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumElements/SumElements/bin/Debug/net5.0/SumElements.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumElements/SumElements/bin/Debug/net5.0/SumElements.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumElements/SumElements/bin/Debug/net5.0/SumElements.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumElements/SumElements/bin/Debug/net5.0/SumElements.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumElements/SumElements/bin/Debug/net5.0/ref/SumElements.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumElements/SumElements/bin/Debug/net5.0/SumElements.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumElements/SumElements/obj/Debug/net5.0/SumElements.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumElements/SumElements/obj/Debug/net5.0/SumElements.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumElements/SumElements/obj/Debug/net5.0/SumElements.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumElements/SumElements/obj/Debug/net5.0/SumElements.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumElements/SumElements/obj/Debug/net5.0/SumElements.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumElements/SumElements/obj/Debug/net5.0/SumElements.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumElements/SumElements/obj/Debug/net5.0/ref/SumElements.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumElements/SumElements/obj/Debug/net5.0/SumElements.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/SumElements/SumElements/obj/Debug/net5.0/SumElements.genruntimeconfig.cache
