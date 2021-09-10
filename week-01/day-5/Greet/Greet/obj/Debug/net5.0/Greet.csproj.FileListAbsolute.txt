@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Greet/Greet/bin/Debug/net5.0/Greet.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Greet/Greet/bin/Debug/net5.0/Greet.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Greet/Greet/bin/Debug/net5.0/Greet.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Greet/Greet/bin/Debug/net5.0/Greet.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Greet/Greet/bin/Debug/net5.0/ref/Greet.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Greet/Greet/bin/Debug/net5.0/Greet.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Greet/Greet/obj/Debug/net5.0/Greet.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Greet/Greet/obj/Debug/net5.0/Greet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Greet/Greet/obj/Debug/net5.0/Greet.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Greet/Greet/obj/Debug/net5.0/Greet.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Greet/Greet/obj/Debug/net5.0/Greet.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Greet/Greet/obj/Debug/net5.0/Greet.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Greet/Greet/obj/Debug/net5.0/ref/Greet.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Greet/Greet/obj/Debug/net5.0/Greet.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Greet/Greet/obj/Debug/net5.0/Greet.genruntimeconfig.cache
