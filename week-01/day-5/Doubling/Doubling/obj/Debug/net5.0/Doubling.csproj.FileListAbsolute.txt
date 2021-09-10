@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Doubling/Doubling/bin/Debug/net5.0/Doubling.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Doubling/Doubling/bin/Debug/net5.0/Doubling.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Doubling/Doubling/bin/Debug/net5.0/Doubling.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Doubling/Doubling/bin/Debug/net5.0/Doubling.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Doubling/Doubling/bin/Debug/net5.0/ref/Doubling.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Doubling/Doubling/bin/Debug/net5.0/Doubling.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Doubling/Doubling/obj/Debug/net5.0/Doubling.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Doubling/Doubling/obj/Debug/net5.0/Doubling.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Doubling/Doubling/obj/Debug/net5.0/Doubling.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Doubling/Doubling/obj/Debug/net5.0/Doubling.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Doubling/Doubling/obj/Debug/net5.0/Doubling.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Doubling/Doubling/obj/Debug/net5.0/Doubling.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Doubling/Doubling/obj/Debug/net5.0/ref/Doubling.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Doubling/Doubling/obj/Debug/net5.0/Doubling.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Doubling/Doubling/obj/Debug/net5.0/Doubling.genruntimeconfig.cache

@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{A0FADBA4-9EB5-44FE-AC6F-84D5FEA78D11}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Doubling/Program.cs">
+    <Files>
+      <File FileName="Doubling/Program.cs" Line="7" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Doubling" expanded="True">
+            <Node name="Doubling" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Doubling PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
