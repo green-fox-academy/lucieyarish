@@ -1,13 +1,13 @@
-﻿<Properties StartupConfiguration="{7B219414-55F6-4CA3-B2D9-C4E0F15E8E2A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SumAll/Program.cs">
+﻿<Properties StartupConfiguration="{7320A31B-63F2-405D-BCC1-3705B03F37F1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Reverse/Program.cs">
     <Files>
-      <File FileName="SumAll/Program.cs" Line="19" Column="1" />
+      <File FileName="Reverse/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SumAll" expanded="True">
-            <Node name="SumAll" expanded="True">
+          <Node name="Reverse" expanded="True">
+            <Node name="Reverse" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -18,9 +18,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.SumAll PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Reverse FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
