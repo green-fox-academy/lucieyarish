@@ -9,16 +9,16 @@ namespace DrawTriangle
             // Write a program that reads a number from the standard input, then draws a
             // triangle like this:
             Console.WriteLine("Give me a number, please.");
-            string userInput = Console.ReadLine();
-            int userNumber = Int32.Parse(userInput);
+            int UserNumber = Int32.Parse(Console.ReadLine());
 
-            string charForUser = "*";
+            string UserChar = "*";
+            string EmptyChar = " ";
 
-            for (int i = 1; i <= userNumber; i++)
+            for (int i = 1; i <= UserNumber; i++)
             {
-                if (userNumber)
+                if (UserNumber)
                 {
-                    Console.Write(charForUser);
+                    Console.Write(UserChar);
 
                 }
                 

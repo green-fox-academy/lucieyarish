@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Third/Third/bin/Debug/net5.0/Third.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Third/Third/bin/Debug/net5.0/Third.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Third/Third/bin/Debug/net5.0/Third.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Third/Third/bin/Debug/net5.0/Third.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Third/Third/bin/Debug/net5.0/ref/Third.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Third/Third/bin/Debug/net5.0/Third.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Third/Third/obj/Debug/net5.0/Third.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Third/Third/obj/Debug/net5.0/Third.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Third/Third/obj/Debug/net5.0/Third.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Third/Third/obj/Debug/net5.0/Third.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Third/Third/obj/Debug/net5.0/Third.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Third/Third/obj/Debug/net5.0/Third.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Third/Third/obj/Debug/net5.0/ref/Third.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Third/Third/obj/Debug/net5.0/Third.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Third/Third/obj/Debug/net5.0/Third.genruntimeconfig.cache
