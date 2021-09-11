@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Cuboid/Cuboid/bin/Debug/net5.0/Cuboid.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Cuboid/Cuboid/bin/Debug/net5.0/Cuboid.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Cuboid/Cuboid/bin/Debug/net5.0/Cuboid.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Cuboid/Cuboid/bin/Debug/net5.0/Cuboid.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Cuboid/Cuboid/bin/Debug/net5.0/ref/Cuboid.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Cuboid/Cuboid/bin/Debug/net5.0/Cuboid.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Cuboid/Cuboid/obj/Debug/net5.0/Cuboid.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Cuboid/Cuboid/obj/Debug/net5.0/Cuboid.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Cuboid/Cuboid/obj/Debug/net5.0/Cuboid.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Cuboid/Cuboid/obj/Debug/net5.0/Cuboid.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Cuboid/Cuboid/obj/Debug/net5.0/Cuboid.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Cuboid/Cuboid/obj/Debug/net5.0/Cuboid.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Cuboid/Cuboid/obj/Debug/net5.0/ref/Cuboid.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Cuboid/Cuboid/obj/Debug/net5.0/Cuboid.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Cuboid/Cuboid/obj/Debug/net5.0/Cuboid.genruntimeconfig.cache
