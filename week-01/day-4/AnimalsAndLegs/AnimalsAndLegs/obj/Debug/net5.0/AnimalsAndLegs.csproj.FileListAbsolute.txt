@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AnimalsAndLegs/AnimalsAndLegs/bin/Debug/net5.0/AnimalsAndLegs.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AnimalsAndLegs/AnimalsAndLegs/bin/Debug/net5.0/AnimalsAndLegs.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AnimalsAndLegs/AnimalsAndLegs/bin/Debug/net5.0/AnimalsAndLegs.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AnimalsAndLegs/AnimalsAndLegs/bin/Debug/net5.0/AnimalsAndLegs.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AnimalsAndLegs/AnimalsAndLegs/bin/Debug/net5.0/ref/AnimalsAndLegs.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AnimalsAndLegs/AnimalsAndLegs/bin/Debug/net5.0/AnimalsAndLegs.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AnimalsAndLegs/AnimalsAndLegs/obj/Debug/net5.0/AnimalsAndLegs.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AnimalsAndLegs/AnimalsAndLegs/obj/Debug/net5.0/AnimalsAndLegs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AnimalsAndLegs/AnimalsAndLegs/obj/Debug/net5.0/AnimalsAndLegs.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AnimalsAndLegs/AnimalsAndLegs/obj/Debug/net5.0/AnimalsAndLegs.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AnimalsAndLegs/AnimalsAndLegs/obj/Debug/net5.0/AnimalsAndLegs.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AnimalsAndLegs/AnimalsAndLegs/obj/Debug/net5.0/AnimalsAndLegs.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AnimalsAndLegs/AnimalsAndLegs/obj/Debug/net5.0/ref/AnimalsAndLegs.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AnimalsAndLegs/AnimalsAndLegs/obj/Debug/net5.0/AnimalsAndLegs.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AnimalsAndLegs/AnimalsAndLegs/obj/Debug/net5.0/AnimalsAndLegs.genruntimeconfig.cache
