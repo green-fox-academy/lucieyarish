@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintBigger/PrintBigger/bin/Debug/net5.0/PrintBigger.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintBigger/PrintBigger/bin/Debug/net5.0/PrintBigger.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintBigger/PrintBigger/bin/Debug/net5.0/PrintBigger.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintBigger/PrintBigger/bin/Debug/net5.0/PrintBigger.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintBigger/PrintBigger/bin/Debug/net5.0/ref/PrintBigger.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintBigger/PrintBigger/bin/Debug/net5.0/PrintBigger.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintBigger/PrintBigger/obj/Debug/net5.0/PrintBigger.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintBigger/PrintBigger/obj/Debug/net5.0/PrintBigger.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintBigger/PrintBigger/obj/Debug/net5.0/PrintBigger.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintBigger/PrintBigger/obj/Debug/net5.0/PrintBigger.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintBigger/PrintBigger/obj/Debug/net5.0/PrintBigger.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintBigger/PrintBigger/obj/Debug/net5.0/PrintBigger.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintBigger/PrintBigger/obj/Debug/net5.0/ref/PrintBigger.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintBigger/PrintBigger/obj/Debug/net5.0/PrintBigger.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/PrintBigger/PrintBigger/obj/Debug/net5.0/PrintBigger.genruntimeconfig.cache

@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{FD7168F3-4C55-4BDD-B882-A8256B5270A8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PrintBigger/Program.cs">
+    <Files>
+      <File FileName="PrintBigger/Program.cs" Line="21" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PrintBigger" expanded="True">
+            <Node name="PrintBigger" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PrintBigger PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
