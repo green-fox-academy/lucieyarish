@@ -1,14 +1,13 @@
-﻿<Properties StartupConfiguration="{ED2A5DF4-C6EB-490B-BAA9-58ADDF91BE09}|Default">
-  <MonoDevelop.Ide.ItemProperties.AnimalsAndLegs PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AnimalsAndLegs/Program.cs">
+﻿<Properties StartupConfiguration="{9E510100-E166-4C21-8FED-1B0E41191791}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AverageOfInput/Program.cs">
     <Files>
-      <File FileName="AnimalsAndLegs/Program.cs" Line="22" Column="84" />
+      <File FileName="AverageOfInput/Program.cs" Line="32" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="AnimalsAndLegs" expanded="True">
-            <Node name="AnimalsAndLegs" expanded="True">
+          <Node name="AverageOfInput" expanded="True">
+            <Node name="AverageOfInput" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -20,6 +19,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AverageOfInput PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

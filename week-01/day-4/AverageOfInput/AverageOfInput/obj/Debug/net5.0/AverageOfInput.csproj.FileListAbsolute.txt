@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AverageOfInput/AverageOfInput/bin/Debug/net5.0/AverageOfInput.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AverageOfInput/AverageOfInput/bin/Debug/net5.0/AverageOfInput.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AverageOfInput/AverageOfInput/bin/Debug/net5.0/AverageOfInput.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AverageOfInput/AverageOfInput/bin/Debug/net5.0/AverageOfInput.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AverageOfInput/AverageOfInput/bin/Debug/net5.0/ref/AverageOfInput.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AverageOfInput/AverageOfInput/bin/Debug/net5.0/AverageOfInput.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AverageOfInput/AverageOfInput/obj/Debug/net5.0/AverageOfInput.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AverageOfInput/AverageOfInput/obj/Debug/net5.0/AverageOfInput.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AverageOfInput/AverageOfInput/obj/Debug/net5.0/AverageOfInput.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AverageOfInput/AverageOfInput/obj/Debug/net5.0/AverageOfInput.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AverageOfInput/AverageOfInput/obj/Debug/net5.0/AverageOfInput.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AverageOfInput/AverageOfInput/obj/Debug/net5.0/AverageOfInput.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AverageOfInput/AverageOfInput/obj/Debug/net5.0/ref/AverageOfInput.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AverageOfInput/AverageOfInput/obj/Debug/net5.0/AverageOfInput.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/AverageOfInput/AverageOfInput/obj/Debug/net5.0/AverageOfInput.genruntimeconfig.cache
