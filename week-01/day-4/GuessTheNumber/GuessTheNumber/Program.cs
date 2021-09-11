@@ -24,17 +24,19 @@ namespace GuessTheNumber
                 {
                     Console.WriteLine("The stored number is lower!");
                 }
-                if (userGuess == num)
-                {
-                    Console.WriteLine("You found the number!");
-                }
+  
                 Console.WriteLine("Try to guess the correct number!");
                 userGuess = int.Parse(Console.ReadLine());
 
             } while (userGuess != 8);
 
-            
-            
+            if (userGuess == num)
+            {
+                Console.WriteLine("You found the number!");
+            }
+
+
+
             // The stored number is higher
             // The stored number is lower
             // You found the number: 8
