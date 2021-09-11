@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{14CE428A-9DB4-4665-8C4B-B26E2717F7B9}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="PrintAll/Program.cs">
     <Files>
-      <File FileName="PrintAll/Program.cs" Line="18" Column="6" />
+      <File FileName="PrintAll/Program.cs" Line="15" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,9 +12,6 @@
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

@@ -10,9 +10,9 @@ namespace PrintAll
             //   with the following content: `[4, 5, 6, 7]`
             int[] numbers = { 4, 5, 6, 7 };
             // - Print all the elements of `numbers`
-            for (int i = 0; i < numbers.Length; i++)
+            foreach (int number in numbers)
             {
-                Console.WriteLine(numbers[i] + "");
+                Console.WriteLine(number + "");
             }
         }
     }
