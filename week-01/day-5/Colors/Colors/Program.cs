@@ -15,12 +15,13 @@ namespace Colors
             // - In `colors[2]` store the shades of pink:
             //   `"orchid", "violet", "pink", "hot pink"`
 
-            string[,] colors = new string[,]
+            string[][] colors = new string[3][];
             {
-                shadesOfGreen[] {"lime", "forest green", "olive", "pale green", "spring green"},
-                shadesOfRed[]{"orange red", "red", "tomato"},
-                shadesOfPink{"orchid", "violet", "pink", "hot pink"}
-            };
+                colors[0] = new string { "lime", "forest green", "olive", "pale green", "spring green" },
+                colors[1] = new string { "orange red", "red", "tomato" },
+                colors[2] = new string { "orchid", "violet", "pink", "hot pink" }
+             }
+
 
         }
     }
