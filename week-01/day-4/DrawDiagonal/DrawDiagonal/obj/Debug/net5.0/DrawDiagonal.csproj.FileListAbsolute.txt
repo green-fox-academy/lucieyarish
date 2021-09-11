@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/obj/Debug/net5.0/DrawDiagonal.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/obj/Debug/net5.0/DrawDiagonal.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/obj/Debug/net5.0/DrawDiagonal.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/obj/Debug/net5.0/DrawDiagonal.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/obj/Debug/net5.0/DrawDiagonal.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/bin/Debug/net5.0/DrawDiagonal.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/bin/Debug/net5.0/DrawDiagonal.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/bin/Debug/net5.0/DrawDiagonal.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/bin/Debug/net5.0/DrawDiagonal.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/bin/Debug/net5.0/ref/DrawDiagonal.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/bin/Debug/net5.0/DrawDiagonal.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/obj/Debug/net5.0/DrawDiagonal.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/obj/Debug/net5.0/ref/DrawDiagonal.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/obj/Debug/net5.0/DrawDiagonal.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/obj/Debug/net5.0/DrawDiagonal.genruntimeconfig.cache

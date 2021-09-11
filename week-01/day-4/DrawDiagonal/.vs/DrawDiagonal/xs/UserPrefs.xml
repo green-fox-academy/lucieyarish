@@ -1,13 +1,14 @@
-﻿<Properties StartupConfiguration="{B8C09807-B123-4443-8C99-C39F55B14F07}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DrawTriangle/Program.cs">
+﻿<Properties StartupConfiguration="{C17AEF16-025F-4EDF-9F3E-EDC52831821F}|Default">
+  <MonoDevelop.Ide.ItemProperties.DrawDiagonal PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DrawDiagonal/Program.cs">
     <Files>
-      <File FileName="DrawTriangle/Program.cs" Line="13" Column="28" />
+      <File FileName="DrawDiagonal/Program.cs" Line="35" Column="56" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DrawTriangle" expanded="True">
-            <Node name="DrawTriangle" expanded="True">
+          <Node name="DrawDiagonal" expanded="True">
+            <Node name="DrawDiagonal" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -17,7 +18,6 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DrawTriangle PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
