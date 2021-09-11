@@ -19,7 +19,7 @@ namespace Doubling
         static void PrintDoubleNumber(int num1)
         {
             // - Print the result of `DoubleNumber(baseNumber)
-            Console.WriteLine(num1 * num1);
+            Console.WriteLine(num1 * 2);
         }
         
         
