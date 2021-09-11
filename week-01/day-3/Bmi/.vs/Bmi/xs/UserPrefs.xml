@@ -1,14 +1,14 @@
-﻿<Properties StartupConfiguration="{D1572177-403D-4ECA-929C-EA2A2A1B3A73}|Default">
-  <MonoDevelop.Ide.ItemProperties.Sum PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sum/Program.cs">
+﻿<Properties StartupConfiguration="{ECEB42B8-1F67-4E52-9FC1-03520808F57C}|Default">
+  <MonoDevelop.Ide.ItemProperties.Bmi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bmi/Program.cs">
     <Files>
-      <File FileName="Sum/Program.cs" Line="23" Column="1" />
+      <File FileName="Bmi/Program.cs" Line="15" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Sum" expanded="True">
-            <Node name="Sum" expanded="True">
+          <Node name="Bmi" expanded="True">
+            <Node name="Bmi" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -22,9 +22,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Sum/Sum/Program.cs" relfile="Sum/Program.cs" line="14" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

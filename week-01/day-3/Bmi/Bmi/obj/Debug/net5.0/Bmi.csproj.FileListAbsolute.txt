@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Bmi/Bmi/bin/Debug/net5.0/Bmi.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Bmi/Bmi/bin/Debug/net5.0/Bmi.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Bmi/Bmi/bin/Debug/net5.0/Bmi.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Bmi/Bmi/bin/Debug/net5.0/Bmi.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Bmi/Bmi/bin/Debug/net5.0/ref/Bmi.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Bmi/Bmi/bin/Debug/net5.0/Bmi.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Bmi/Bmi/obj/Debug/net5.0/Bmi.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Bmi/Bmi/obj/Debug/net5.0/Bmi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Bmi/Bmi/obj/Debug/net5.0/Bmi.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Bmi/Bmi/obj/Debug/net5.0/Bmi.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Bmi/Bmi/obj/Debug/net5.0/Bmi.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Bmi/Bmi/obj/Debug/net5.0/Bmi.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Bmi/Bmi/obj/Debug/net5.0/ref/Bmi.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Bmi/Bmi/obj/Debug/net5.0/Bmi.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-3/Bmi/Bmi/obj/Debug/net5.0/Bmi.genruntimeconfig.cache
