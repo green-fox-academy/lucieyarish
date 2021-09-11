@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/ConditionalVariableMutation/ConditionalVariableMutation/bin/Debug/net5.0/ConditionalVariableMutation.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/ConditionalVariableMutation/ConditionalVariableMutation/bin/Debug/net5.0/ConditionalVariableMutation.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/ConditionalVariableMutation/ConditionalVariableMutation/bin/Debug/net5.0/ConditionalVariableMutation.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/ConditionalVariableMutation/ConditionalVariableMutation/bin/Debug/net5.0/ConditionalVariableMutation.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/ConditionalVariableMutation/ConditionalVariableMutation/bin/Debug/net5.0/ref/ConditionalVariableMutation.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/ConditionalVariableMutation/ConditionalVariableMutation/bin/Debug/net5.0/ConditionalVariableMutation.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/ConditionalVariableMutation/ConditionalVariableMutation/obj/Debug/net5.0/ConditionalVariableMutation.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/ConditionalVariableMutation/ConditionalVariableMutation/obj/Debug/net5.0/ConditionalVariableMutation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/ConditionalVariableMutation/ConditionalVariableMutation/obj/Debug/net5.0/ConditionalVariableMutation.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/ConditionalVariableMutation/ConditionalVariableMutation/obj/Debug/net5.0/ConditionalVariableMutation.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/ConditionalVariableMutation/ConditionalVariableMutation/obj/Debug/net5.0/ConditionalVariableMutation.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/ConditionalVariableMutation/ConditionalVariableMutation/obj/Debug/net5.0/ConditionalVariableMutation.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/ConditionalVariableMutation/ConditionalVariableMutation/obj/Debug/net5.0/ref/ConditionalVariableMutation.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/ConditionalVariableMutation/ConditionalVariableMutation/obj/Debug/net5.0/ConditionalVariableMutation.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/ConditionalVariableMutation/ConditionalVariableMutation/obj/Debug/net5.0/ConditionalVariableMutation.genruntimeconfig.cache

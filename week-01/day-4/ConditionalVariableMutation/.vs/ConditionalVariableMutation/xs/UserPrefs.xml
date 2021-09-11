@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{EEE819CB-7957-41EA-AF86-3AFEECCD0C28}|Default">
+  <MonoDevelop.Ide.ItemProperties.ConditionalVariableMutation PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConditionalVariableMutation/Program.cs">
+    <Files>
+      <File FileName="ConditionalVariableMutation/Program.cs" Line="85" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ConditionalVariableMutation" expanded="True">
+            <Node name="ConditionalVariableMutation" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
