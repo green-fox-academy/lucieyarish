@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/GuessTheNumber/GuessTheNumber/bin/Debug/net5.0/GuessTheNumber.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/GuessTheNumber/GuessTheNumber/bin/Debug/net5.0/GuessTheNumber.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/GuessTheNumber/GuessTheNumber/bin/Debug/net5.0/GuessTheNumber.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/GuessTheNumber/GuessTheNumber/bin/Debug/net5.0/GuessTheNumber.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/GuessTheNumber/GuessTheNumber/bin/Debug/net5.0/ref/GuessTheNumber.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/GuessTheNumber/GuessTheNumber/bin/Debug/net5.0/GuessTheNumber.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/GuessTheNumber/GuessTheNumber/obj/Debug/net5.0/GuessTheNumber.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/GuessTheNumber/GuessTheNumber/obj/Debug/net5.0/GuessTheNumber.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/GuessTheNumber/GuessTheNumber/obj/Debug/net5.0/GuessTheNumber.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/GuessTheNumber/GuessTheNumber/obj/Debug/net5.0/GuessTheNumber.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/GuessTheNumber/GuessTheNumber/obj/Debug/net5.0/GuessTheNumber.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/GuessTheNumber/GuessTheNumber/obj/Debug/net5.0/GuessTheNumber.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/GuessTheNumber/GuessTheNumber/obj/Debug/net5.0/ref/GuessTheNumber.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/GuessTheNumber/GuessTheNumber/obj/Debug/net5.0/GuessTheNumber.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/GuessTheNumber/GuessTheNumber/obj/Debug/net5.0/GuessTheNumber.genruntimeconfig.cache
