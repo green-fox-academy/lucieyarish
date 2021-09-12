@@ -8,15 +8,22 @@ namespace Sum
         {
             // Write a function called `sum()` that returns the sum of
             // numbers from zero to the given parameter
+            
+            Console.WriteLine(sum(6));
         }
 
-        static void sum(int myNum)
+        static int sum (int addAll)
         {
-            for (int i = 0; i < myNum; i++)
-            {
+            int result = 0;
 
+            for (int i = 0; i <= addAll; i++)
+            {
+                result = result + i;
             }
-            Console.WriteLine();
+
+            // Use return statement to terminate execution of the method in
+            // which it appears and return control to the calling method
+            return result;
         }
     }
 }
