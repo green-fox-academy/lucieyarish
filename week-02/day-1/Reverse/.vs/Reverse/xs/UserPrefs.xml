@@ -1,14 +1,13 @@
-﻿<Properties StartupConfiguration="{D77285E5-440C-43DD-B44C-66B2162FBE81}|Default">
-  <MonoDevelop.Ide.ItemProperties.SimpleReplace PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SimpleReplace/Program.cs">
+﻿<Properties StartupConfiguration="{A10C0A12-FB7F-4CDA-BD60-04EE9D9F561A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Reverse/Program.cs">
     <Files>
-      <File FileName="SimpleReplace/Program.cs" Line="12" Column="1" />
+      <File FileName="Reverse/Program.cs" Line="19" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SimpleReplace" expanded="True">
-            <Node name="SimpleReplace" expanded="True">
+          <Node name="Reverse" expanded="True">
+            <Node name="Reverse" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -21,6 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Reverse PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
