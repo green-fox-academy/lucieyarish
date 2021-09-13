@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.Colors FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Colors/Program.cs">
     <Files>
-      <File FileName="Colors/Program.cs" Line="18" Column="45" />
+      <File FileName="Colors/Program.cs" Line="24" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,6 +13,9 @@
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
