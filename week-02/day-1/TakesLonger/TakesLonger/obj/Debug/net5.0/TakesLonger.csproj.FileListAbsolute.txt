@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/bin/Debug/net5.0/TakesLonger.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/bin/Debug/net5.0/TakesLonger.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/bin/Debug/net5.0/TakesLonger.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/bin/Debug/net5.0/TakesLonger.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/bin/Debug/net5.0/ref/TakesLonger.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/bin/Debug/net5.0/TakesLonger.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/obj/Debug/net5.0/TakesLonger.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/obj/Debug/net5.0/TakesLonger.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/obj/Debug/net5.0/TakesLonger.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/obj/Debug/net5.0/TakesLonger.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/obj/Debug/net5.0/TakesLonger.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/obj/Debug/net5.0/TakesLonger.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/obj/Debug/net5.0/ref/TakesLonger.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/obj/Debug/net5.0/TakesLonger.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/obj/Debug/net5.0/TakesLonger.genruntimeconfig.cache

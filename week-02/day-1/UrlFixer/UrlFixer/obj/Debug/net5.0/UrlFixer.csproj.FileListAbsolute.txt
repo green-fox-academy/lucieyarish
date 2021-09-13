@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/UrlFixer/UrlFixer/bin/Debug/net5.0/UrlFixer.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/UrlFixer/UrlFixer/bin/Debug/net5.0/UrlFixer.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/UrlFixer/UrlFixer/bin/Debug/net5.0/UrlFixer.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/UrlFixer/UrlFixer/bin/Debug/net5.0/UrlFixer.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/UrlFixer/UrlFixer/bin/Debug/net5.0/ref/UrlFixer.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/UrlFixer/UrlFixer/bin/Debug/net5.0/UrlFixer.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/UrlFixer/UrlFixer/obj/Debug/net5.0/UrlFixer.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/UrlFixer/UrlFixer/obj/Debug/net5.0/UrlFixer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/UrlFixer/UrlFixer/obj/Debug/net5.0/UrlFixer.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/UrlFixer/UrlFixer/obj/Debug/net5.0/UrlFixer.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/UrlFixer/UrlFixer/obj/Debug/net5.0/UrlFixer.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/UrlFixer/UrlFixer/obj/Debug/net5.0/UrlFixer.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/UrlFixer/UrlFixer/obj/Debug/net5.0/ref/UrlFixer.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/UrlFixer/UrlFixer/obj/Debug/net5.0/UrlFixer.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/UrlFixer/UrlFixer/obj/Debug/net5.0/UrlFixer.genruntimeconfig.cache
