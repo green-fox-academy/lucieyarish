@@ -14,14 +14,19 @@ namespace Reverse
             Console.WriteLine(Reverse(toBeReversed));
         }
 
-        static string Reverse(string s)
-        {
-            string reverseStr = String.Empty;
-            for (int i = s.Length -1; i > -1; i--)
+        //static string Reverse(string s)
+        //{
+        //    for (int i = s.Length - 1; i <= 0; i--)
+        //    {
+                
+        //    }
+
+        //    return s;
+
+            for (int i = 0; i<10; i++)
             {
-                string reverseStr = s + i;
+
             }
-            return reverseStr;
         }
     }
 }
