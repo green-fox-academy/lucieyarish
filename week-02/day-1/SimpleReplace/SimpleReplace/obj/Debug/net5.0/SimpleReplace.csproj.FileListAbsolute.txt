@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/SimpleReplace/SimpleReplace/bin/Debug/net5.0/SimpleReplace.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/SimpleReplace/SimpleReplace/bin/Debug/net5.0/SimpleReplace.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/SimpleReplace/SimpleReplace/bin/Debug/net5.0/SimpleReplace.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/SimpleReplace/SimpleReplace/bin/Debug/net5.0/SimpleReplace.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/SimpleReplace/SimpleReplace/bin/Debug/net5.0/ref/SimpleReplace.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/SimpleReplace/SimpleReplace/bin/Debug/net5.0/SimpleReplace.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/SimpleReplace/SimpleReplace/obj/Debug/net5.0/SimpleReplace.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/SimpleReplace/SimpleReplace/obj/Debug/net5.0/SimpleReplace.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/SimpleReplace/SimpleReplace/obj/Debug/net5.0/SimpleReplace.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/SimpleReplace/SimpleReplace/obj/Debug/net5.0/SimpleReplace.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/SimpleReplace/SimpleReplace/obj/Debug/net5.0/SimpleReplace.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/SimpleReplace/SimpleReplace/obj/Debug/net5.0/SimpleReplace.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/SimpleReplace/SimpleReplace/obj/Debug/net5.0/ref/SimpleReplace.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/SimpleReplace/SimpleReplace/obj/Debug/net5.0/SimpleReplace.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/SimpleReplace/SimpleReplace/obj/Debug/net5.0/SimpleReplace.genruntimeconfig.cache
