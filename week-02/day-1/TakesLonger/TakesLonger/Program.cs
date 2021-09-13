@@ -29,9 +29,6 @@ namespace TakesLonger
 
 
 
-
-
-
             Console.WriteLine(sb);
         }
     }

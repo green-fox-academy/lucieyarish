@@ -1,13 +1,13 @@
-﻿<Properties StartupConfiguration="{3FAE101B-98E3-4CFD-A34E-3B4241B8B664}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TakesLonger/Program.cs">
+﻿<Properties StartupConfiguration="{B9CF9FA9-1FAC-4F96-8850-3C4A63AD7E52}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TodoPrint/Program.cs">
     <Files>
-      <File FileName="TakesLonger/Program.cs" Line="26" Column="1" />
+      <File FileName="TodoPrint/Program.cs" Line="21" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="TakesLonger" expanded="True">
-            <Node name="TakesLonger" expanded="True">
+          <Node name="TodoPrint" expanded="True">
+            <Node name="TodoPrint" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -19,10 +19,10 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TodoPrint PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.TakesLonger PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

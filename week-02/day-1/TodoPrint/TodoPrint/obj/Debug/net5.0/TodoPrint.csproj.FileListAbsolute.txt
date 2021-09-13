@@ -1,0 +1,15 @@
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TodoPrint/TodoPrint/bin/Debug/net5.0/TodoPrint.deps.json
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TodoPrint/TodoPrint/bin/Debug/net5.0/TodoPrint.runtimeconfig.json
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TodoPrint/TodoPrint/bin/Debug/net5.0/TodoPrint.runtimeconfig.dev.json
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TodoPrint/TodoPrint/bin/Debug/net5.0/TodoPrint.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TodoPrint/TodoPrint/bin/Debug/net5.0/ref/TodoPrint.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TodoPrint/TodoPrint/bin/Debug/net5.0/TodoPrint.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TodoPrint/TodoPrint/obj/Debug/net5.0/TodoPrint.csproj.AssemblyReference.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TodoPrint/TodoPrint/obj/Debug/net5.0/TodoPrint.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TodoPrint/TodoPrint/obj/Debug/net5.0/TodoPrint.AssemblyInfoInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TodoPrint/TodoPrint/obj/Debug/net5.0/TodoPrint.AssemblyInfo.cs
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TodoPrint/TodoPrint/obj/Debug/net5.0/TodoPrint.csproj.CoreCompileInputs.cache
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TodoPrint/TodoPrint/obj/Debug/net5.0/TodoPrint.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TodoPrint/TodoPrint/obj/Debug/net5.0/ref/TodoPrint.dll
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TodoPrint/TodoPrint/obj/Debug/net5.0/TodoPrint.pdb
+/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TodoPrint/TodoPrint/obj/Debug/net5.0/TodoPrint.genruntimeconfig.cache
