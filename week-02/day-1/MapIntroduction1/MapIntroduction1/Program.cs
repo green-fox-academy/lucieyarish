@@ -33,6 +33,14 @@ namespace MapIntroduction1
 
             //Print how many key-value pairs are in the map
             Console.WriteLine(myMap.Count);
+
+            //Print the value that is associated with key 99
+
+            //Remove the key-value pair where with key 97
+
+            //Print whether there is an associated value with key 100 or not
+
+            //Remove all the key-value pairs
         }
     }
 }
