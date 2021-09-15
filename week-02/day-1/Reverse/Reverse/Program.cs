@@ -11,14 +11,16 @@ namespace Reverse
             // Create a method that can reverse a String which is passed as the parameter
             // Pass the toBeReversed variable to this method to check if it works well
 
-            Console.WriteLine(Reverse(toBeReversed));
+            Reverse(toBeReversed);
         }
 
         static string Reverse(string s)
         {
-            char[] test = s.ToCharArray();
-            Array.Reverse(test);
-            return new string (test);
+            for (int i = s.Length - 1; i >= 0; i--)
+            {
+                Console.Write(s[i]);
+            }
+            return s;
         }
     }
 }
