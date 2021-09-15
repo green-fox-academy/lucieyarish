@@ -19,7 +19,6 @@ namespace Av
             var canvas = this.Get<Canvas>("canvas");
             var foxDraw = new FoxDraw(canvas);
 
-
             foxDraw.SetBackgroundColor(Colors.Black);
             foxDraw.SetFillColor(Colors.White);
             foxDraw.SetStrokeColor(Colors.White);
@@ -38,13 +37,119 @@ namespace Av
             // Draw the canvas' diagonals.
             // If it starts from the upper-left corner
             // it should be green, otherwise it should be red.
-            DrawDiagonals(foxDraw);
+            //DrawDiagonals(foxDraw);
+
+            // Create a function that draws a single line and takes 3 parameters:
+            // The x and y coordinates of the line's starting point and the
+            // foxDraw and draws a line from that point to the center of the
+            // canvas.
+            // Draw at least 3 lines with that function using a loop.
+            //GoToCenter(foxDraw);
+
+            // Create a function that draws a single line and takes 3 parameters:
+            // The x and y coordinates of the line's starting point and the foxDraw
+            // and draws a 50 long horizontal line from that point.
+            // Draw at least 3 lines with that function using a loop.
+            //HorizontalLines(foxDraw);
+
+            // Draw a green 10x10 square to the canvas' center.
+            //CenteredSquare(foxDraw);
+            //CenteredSquareEasy(foxDraw);
+
+            // draw four different size and color rectangles.
+            // avoid code duplication.
+            FourRectangles(foxDraw);
+
+
+        }
+
+        private void FourRectangles(FoxDraw foxDraw)
+        {
+            foxDraw.SetStrokeColor(Colors.Blue);
+            //foxDraw.SetFillColor(Colors.SkyBlue);
+            int upperX = 0;
+            int upperY = 0;
+            int length = 50;
+            Color[] colors = {Colors.Yellow, Colors.Green, Colors.Blue, Colors.Red};
+
+            foxDraw.DrawRectangle(upperX, upperY, length, length);
+            for (int i = 0; i < 4; i++)
+            {
+                foxDraw.SetFillColor(colors[i]);
+                upperX = upperX + length;
+                upperY = upperY + length;
+                length += 50;
+                foxDraw.DrawRectangle(upperX, upperY, length, length);
+               
+
+            }
+            
+        }
+
+        private void CenteredSquareEasy(FoxDraw foxDraw)
+        {
+            foxDraw.SetStrokeColor(Colors.Salmon);
+            foxDraw.SetFillColor(Colors.Salmon);
+            foxDraw.DrawRectangle(245, 255, 10, 10);
+        }
+
+        private void CenteredSquare(FoxDraw foxDraw)
+        {
+            foxDraw.SetStrokeThicknes(1);
+            foxDraw.SetStrokeColor(Colors.Pink);
+            foxDraw.SetFillColor(Colors.Pink);
+            foxDraw.DrawLine(245, 245, 255, 245);
+            foxDraw.DrawLine(255, 245, 255, 255);
+            foxDraw.DrawLine(255, 255, 245, 255);
+            foxDraw.DrawLine(245, 255, 245, 245);
+        }
+
+        private void HorizontalLines(FoxDraw foxDraw)
+        {
+            var upperY = 100;
+            var bottomY = 100;
+            foxDraw.DrawLine(0, upperY, 50, bottomY);
+
+            for (int i = 1; i < 3; i++)
+            {
+                upperY += 100;
+                bottomY += 100;
+                foxDraw.DrawLine(0, upperY, 50, bottomY);
+            }
+
+        }
+
+        private void GoToCenter(FoxDraw foxDraw)
+        {
+            int upperX = 0;
+            int upperY = 0;
+            foxDraw.DrawLine(upperX, upperY, 250, 250);
+
+            for (int i = 1; i < 3; i++)
+            {
+                upperY += 250;
+                foxDraw.DrawLine(upperX, upperY, 250, 250);
+
+            }
         }
 
         private void DrawDiagonals(FoxDraw foxDraw)
         {
-            foxDraw.DrawLine
-           
+            int upperX = 0;
+            int upperY = 0;
+            int bottomX = 0;
+            int bottomY = 0;
+            foxDraw.DrawLine(upperX, upperY, bottomX, bottomY);
+
+            if (upperX == 0 && upperY == 0)
+            {
+                foxDraw.SetStrokeColor(Colors.Green);
+                foxDraw.DrawLine(upperX, upperY, 500, 500);
+            }else
+            {
+                foxDraw.SetStrokeColor(Colors.Red);
+                foxDraw.DrawLine(500, upperY, bottomX, 500);
+            }
         }
 
         private void DrawColorfulBox(FoxDraw foxDraw)
