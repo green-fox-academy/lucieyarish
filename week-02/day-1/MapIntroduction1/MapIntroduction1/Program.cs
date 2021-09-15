@@ -35,12 +35,16 @@ namespace MapIntroduction1
             Console.WriteLine(myMap.Count);
 
             //Print the value that is associated with key 99
+            Console.WriteLine(myMap.GetValueOrDefault(99));
 
             //Remove the key-value pair where with key 97
+            myMap.Remove(97);
 
             //Print whether there is an associated value with key 100 or not
+            Console.WriteLine(myMap.GetValueOrDefault(100));
 
             //Remove all the key-value pairs
+            myMap.Clear();
         }
     }
 }
