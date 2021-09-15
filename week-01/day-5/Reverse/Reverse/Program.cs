@@ -19,6 +19,8 @@ namespace Reverse
                 Console.WriteLine(numbers[i]);
             }
 
+
+
             
         }
     }
