@@ -13,7 +13,7 @@ namespace Reverse
 
 
             // - Reverse the order of the elements of `numbers`
-            for (int i = numbers.Length - 1; i <= numbers.Length; i--)
+            for (int i = numbers.Length - 1; i >= 0; i--)
             {
                 // - Print the elements of the reversed `numbers`
                 Console.WriteLine(numbers[i]);
