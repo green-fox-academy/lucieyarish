@@ -80,8 +80,139 @@ namespace Av
             // center of the canvas.
             // Create a loop that fills the canvas with rainbow
             // colored squares (red, orange, yellow, green, blue, indigo, violet).
-            RainbowBoxFunction(foxDraw);
+            //RainbowBoxFunction(foxDraw);
 
+            //PurpleSteps(foxDraw);
+
+            //PurpleSteps3D(foxDraw);
+
+            // UNFINISHED Fill the canvas with a checkerboard pattern. 
+            //Checkerboard(foxDraw);
+
+            // Create a function that draws a single line and takes 3 parameters:
+            // the x and y coordinates of the line's starting point and the
+            // foxDraw and draws a line from that point to the center of the
+            // canvas.
+            // Fill the canvas with lines from the edges, every 20 px, to the center.
+            //FunctionToCenter(foxDraw);
+
+            // UNFINISHED Create a function that takes 2 parameters:
+            // A list of (x, y) points and foxDraw
+            // and connects them with green lines.
+            // connect these to get a box: {new Point(10, 10), new Point(290, 10), new Point(290, 290), new Point(10, 290)}
+            // Connect these: {new Point(50, 100), new Point(70, 70), new Point(80, 90), new Point(90, 90), new Point(100, 70),
+            // new Point(120, 100), new Point(85, 130), new Point(50, 100)}
+
+            // UNFINISED Draw the night sky:
+            //  - The background should be black
+            //  - The stars can be small squares
+            //  - The stars should have random positions on the canvas
+            //  - The stars should have random color (some shade of grey)
+
+            // Line play
+            LinePlay(foxDraw);
+
+        }
+
+        private void LinePlay(FoxDraw foxDraw)
+        {
+            int upperX = 0;
+            int upperY = 60;
+            int bottomX = 0;
+            int bottomY = 500;
+            foxDraw.SetStrokeThicknes(1);
+            foxDraw.SetStrokeColor(Colors.Yellow);
+            for (int i = 0; i < 10; i++)
+            {
+                upperY += 40;
+                bottomX += 40;
+                foxDraw.DrawLine(upperX, upperY, bottomX, bottomY);
+            }
+
+            foxDraw.SetStrokeColor(Colors.Purple);
+            upperX = 60;
+            upperY = 0;
+            bottomX = 500;
+            bottomY = 0;
+
+            for (int i = 0; i < 10; i++)
+            {
+                upperX += 40;
+                bottomY += 40;
+                foxDraw.DrawLine(upperX, upperY, bottomX, bottomY);
+            }
+
+        }
+
+
+        private void FunctionToCenter(FoxDraw foxDraw)
+        {
+            int upperX = 0;
+            int upperY = 0;
+            foxDraw.SetStrokeThicknes(1);
+            foxDraw.SetStrokeColor(Colors.Azure);
+            foxDraw.DrawLine(upperX, upperY, 250, 250);
+
+            for (int i = 1; i < 25; i++)
+            {
+                upperY += 20;
+                foxDraw.DrawLine(upperX, upperY, 250, 250);
+            }
+        }
+
+        private void Checkerboard(FoxDraw foxDraw)
+        {
+            
+            foxDraw.SetStrokeThicknes(2);
+            foxDraw.SetStrokeColor(Colors.Purple);
+            foxDraw.SetFillColor(Colors.Purple);
+            int upperX = 0;
+            int upperY = 0;
+            int length = 50;
+            foxDraw.DrawRectangle(upperX, upperY, length, length);
+            for (int i = 0; i < 4; i++)
+            {
+                upperY += 100;
+                foxDraw.DrawRectangle(upperX, upperY, length, length);
+            }
+            
+        }
+
+        private void PurpleSteps3D(FoxDraw foxDraw)
+        {
+            foxDraw.SetStrokeColor(Colors.Purple);
+            foxDraw.SetFillColor(Colors.Purple);
+            foxDraw.SetStrokeThicknes(2);
+            int upperX = 10;
+            int upperY = 10;
+            int length = 15;
+
+            foxDraw.DrawRectangle(upperX, upperY, length, length);
+            for (int i = 0; i < 6; i++)
+            {
+                upperX = upperX + length;
+                upperY = upperY + length;
+                length += 15;
+                foxDraw.DrawRectangle(upperX, upperY, length, length);
+            }
+        }
+
+        private void PurpleSteps(FoxDraw foxDraw)
+        {
+            int upperX = 25;
+            int upperY = 25;
+            int length = 10;
+            foxDraw.SetStrokeColor(Colors.Purple);
+            foxDraw.SetStrokeThicknes(1);
+            foxDraw.SetFillColor(Colors.MediumPurple);
+
+            foxDraw.DrawRectangle(upperX, upperY, length, length);
+            for (int i = 1; i < 20; i++)
+            {
+                upperX += 10;
+                upperY += 10;
+                foxDraw.DrawRectangle(upperX, upperY, length, length);
+            }
         }
 
         private void RainbowBoxFunction(FoxDraw foxDraw)
@@ -208,7 +339,6 @@ namespace Av
             {
                 upperY += 250;
                 foxDraw.DrawLine(upperX, upperY, 250, 250);
-
             }
         }
 
