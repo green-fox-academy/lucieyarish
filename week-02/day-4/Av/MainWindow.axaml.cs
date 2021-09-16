@@ -58,9 +58,90 @@ namespace Av
 
             // draw four different size and color rectangles.
             // avoid code duplication.
-            FourRectangles(foxDraw);
+            //FourRectangles(foxDraw);
 
+            // create a function that draws one square and takes 3 parameters:
+            // the x and y coordinates of the square's top left corner
+            // and the foxDraw and draws a 50x50 square from that point.
+            // draw 3 squares with that function.
+            // avoid code duplication.
+            //PositionSquare(foxDraw);
 
+            // create a function that draws one square and takes 2 parameters:
+            // the square size and the foxDraw
+            // and draws a square of that size to the center of the canvas.
+            // draw 3 squares with that function.
+            // avoid code duplication.
+            //CenterBoxFunction(foxDraw);
+
+            // Create a square drawing function that takes 3 parameters:
+            // The square size, and the fill color, foxDraw
+            // and draws a square of that size and color to the
+            // center of the canvas.
+            // Create a loop that fills the canvas with rainbow
+            // colored squares (red, orange, yellow, green, blue, indigo, violet).
+            RainbowBoxFunction(foxDraw);
+
+        }
+
+        private void RainbowBoxFunction(FoxDraw foxDraw)
+        {
+            foxDraw.SetStrokeColor(Colors.Black);
+            foxDraw.SetStrokeThicknes(3);
+            foxDraw.SetFillColor(Colors.Red);
+            int upperX = 100;
+            int upperY = 100;
+            int length = 300;
+            Color[] colors = { Colors.Orange, Colors.Yellow, Colors.Green, Colors.Blue, Colors.Indigo, Colors.Violet };
+
+            foxDraw.DrawRectangle(upperX, upperY, length, length);
+            for (int i = 1; i <= 5; i++)
+            {
+                foxDraw.SetFillColor(colors[i]);
+                upperX += 25;
+                upperY += 25;
+                length -= 50;
+                
+                foxDraw.DrawRectangle(upperX, upperY, length, length);
+            }
+        }
+
+        private void CenterBoxFunction(FoxDraw foxDraw)
+        {
+            foxDraw.SetStrokeColor(Colors.Black);
+            foxDraw.SetStrokeThicknes(3);
+            foxDraw.SetFillColor(Colors.Salmon);
+            int upperX = 175;
+            int upperY = 175;
+            int length = 150;
+            Color[] colors = { Colors.Salmon, Colors.White, Colors.Gray };
+
+            foxDraw.DrawRectangle(upperX, upperY, length, length);
+            for (int i = 1; i < 3; i++)
+            {
+                foxDraw.SetFillColor(colors[i]);
+                upperX += 25;
+                upperY += 25;
+                for (int j = 1; j < 3; j++)
+                {
+                    length -= 25;
+                }
+                foxDraw.DrawRectangle(upperX, upperY, length, length);
+            }
+        }
+
+        private void PositionSquare(FoxDraw foxDraw)
+        {
+            int upperX = 0;
+            int upperY = 0;
+            int length = 50;
+            foxDraw.DrawRectangle(upperX, upperY, length, length);
+            for (int i = 1; i < 3; i++)
+            {
+                upperX += 50;
+                upperY += 50;
+                foxDraw.DrawRectangle(upperX, upperY, length, length);
+            }
         }
 
         private void FourRectangles(FoxDraw foxDraw)
@@ -80,8 +161,6 @@ namespace Av
                 upperY = upperY + length;
                 length += 50;
                 foxDraw.DrawRectangle(upperX, upperY, length, length);
-               
-
             }
             
         }
