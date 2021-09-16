@@ -58,15 +58,15 @@ namespace Av
 
             // draw four different size and color rectangles.
             // avoid code duplication.
-            //FourRectangles(foxDraw);
+            FourRectangles(foxDraw);
 
 
         }
 
         private void FourRectangles(FoxDraw foxDraw)
         {
-            foxDraw.SetStrokeColor(Colors.Blue);
-            //foxDraw.SetFillColor(Colors.SkyBlue);
+            foxDraw.SetStrokeColor(Colors.White);
+            foxDraw.SetFillColor(Colors.Red);
             int upperX = 0;
             int upperY = 0;
             int length = 50;
