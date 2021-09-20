@@ -3,25 +3,19 @@ namespace Animal
 {
     public class Animal
     {
-        private int Hunger;
-        private int Thirst;
-
-        public Animal(int hunger, int thirst)
-        {
-            Hunger = hunger;
-            Thirst = thirst;
-        }
+        private int Hunger = 50;
+        private int Thirst = 50;
 
         public void Eat()
         {
             Hunger--;
-            Console.WriteLine(Hunger);
+            Console.WriteLine($"Hunger level: {Hunger}");
         }
 
         public void Drink()
         {
             Thirst--;
-            Console.WriteLine(Thirst);
+            Console.WriteLine($"Thirst level: {Thirst}");
         }
 
         public void Play()
@@ -29,7 +23,7 @@ namespace Animal
 
             Hunger+= 1;
             Thirst+= 1;
-            Console.WriteLine(Hunger + " and " + Thirst);
+            Console.WriteLine($"Hunger level: {Hunger}, Thirst level: {Thirst}");
         }
     }
 }

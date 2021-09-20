@@ -6,7 +6,7 @@ namespace Animal
     {
         static void Main(string[] args)
         {
-            Animal crocodile = new Animal(50, 50);
+            Animal crocodile = new Animal();
             crocodile.Eat();
             crocodile.Drink();
             crocodile.Play();
