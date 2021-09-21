@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetOfThings", "FleetOfThings\FleetOfThings.csproj", "{8A051106-5445-474C-89E2-2062D2728E9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetrolStation", "PetrolStation\PetrolStation.csproj", "{6F89B5C1-B359-4686-B973-7A366605089D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8A051106-5445-474C-89E2-2062D2728E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A051106-5445-474C-89E2-2062D2728E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A051106-5445-474C-89E2-2062D2728E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A051106-5445-474C-89E2-2062D2728E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F89B5C1-B359-4686-B973-7A366605089D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F89B5C1-B359-4686-B973-7A366605089D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F89B5C1-B359-4686-B973-7A366605089D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F89B5C1-B359-4686-B973-7A366605089D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3CDCAD6E-B0F4-403B-98DA-05D383A13AAF}
+		SolutionGuid = {A9E65A53-2581-44C4-88A9-5B266FECD26E}
 	EndGlobalSection
 EndGlobal

@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace FleetOfThings
+namespace FleetOfThings2
 {
     public class Fleet
     {
-        private List<Thing> Things;
+        private List<Things> Things;
 
         public Fleet()
         {
-            Things = new List<Thing>();
+            Things = new List<Things>();
         }
 
-        public void Add(Thing thing)
+        public void Add(Things thing)
         {
             Things.Add(thing);
         }

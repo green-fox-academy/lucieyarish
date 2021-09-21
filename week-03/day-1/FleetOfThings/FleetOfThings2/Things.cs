@@ -1,12 +1,14 @@
 ﻿using System;
-namespace FleetOfThings
+using System.Collections.Generic;
+
+namespace FleetOfThings2
 {
-    public class Thing
+    public class Things
     {
         public string Name;
         public bool Completed;
 
-        public Thing(string name)
+        public Things(string name)
         {
             this.Name = name;
         }

@@ -1,17 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace FleetOfThings
+namespace FleetOfThings2
 {
     class Program
     {
         static void Main(string[] args)
         {
             var fleet = new Fleet();
-            Thing item1 = new Thing("milk");
-            Thing item2 = new Thing("Remove the obstacles");
-            Thing item3 = new Thing("Stand up");
-            Thing item4 = new Thing("Eat lunch!");
+            Things item1 = new Things("milk");
+            Things item2 = new Things("Remove the obstacles");
+            Things item3 = new Things("Stand up");
+            Things item4 = new Things("Eat lunch!");
             item3.Complete();
             item4.Complete();
 
