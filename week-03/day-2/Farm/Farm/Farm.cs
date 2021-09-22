@@ -1,46 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
+
 namespace Farm
 {
     public class Farm
     {
-        List<Animal> FarmAnimals;
-        public int FarmCapacity = 3;
+        public List<Animal> FarmAnimals { get; public set; }
+        public int farmCapacity;
 
         public Farm()
         {
             FarmAnimals = new List<Animal>();
-            int farmCapacity = 3;
+            farmCapacity = 3;
         }
+    
 
-        public void AddAnimal(Animal animal)
+        public void Breed()
         {
-
-            FarmAnimals.Add(animal);
-        }
-
-        public int Breed()
-        {
-            int count = 0;
-            for (int i = 0; i < FarmAnimals.Count; i++)
-            {
-                if (FarmAnimals.Count <= FarmCapacity)
-                {
-                    count++;
-                }
-                else
-                {
-                    Console.WriteLine("Sorry, the farm capacity is full!");
-                }
-            }
-            return count;
+            if (FarmAnimals.Count < farmCapacity)
+             {
+                FarmAnimals.Add(new Animal());
+             }
+    
         }
 
         public void Sell()
         {
             for (int i = 0; i < FarmAnimals.Count; i++)
             {
-                if (FarmAnimals[i].Hunger <= 49)
+                if (FarmAnimals[i].hunger <= 49)
                 {
                     FarmAnimals.RemoveAt(i);
                 }

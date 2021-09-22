@@ -7,14 +7,19 @@ namespace Farm
     {
         static void Main(string[] args)
         {
-            Farm allFarmAnimals = new Farm();
+            Farm farm = new Farm();
             Animal cow = new Animal();
             Animal pig = new Animal();
-            allFarmAnimals.AddAnimal(cow);
-            allFarmAnimals.AddAnimal(pig);
-            pig.Eat();
+            Animal goose = new Animal();
+            Animal chicken = new Animal();
 
-            Console.WriteLine(allFarmAnimals.Breed());
+            farm.FarmAnimals.Add(cow);
+            farm.FarmAnimals.Add(pig);
+            farm.FarmAnimals.Add(goose);
+            farm.FarmAnimals.Add(chicken);
+
+
+
         }
     }
 }
