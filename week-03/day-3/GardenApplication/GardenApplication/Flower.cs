@@ -6,8 +6,7 @@ namespace GardenApplication
         public Flower(string color, string type)
         {
             this.Color = color;
-            this.PlantType = type;
-            this.WaterCurrAmount = 0;
+            this.PlantType = type; 
         }
     }
 }
