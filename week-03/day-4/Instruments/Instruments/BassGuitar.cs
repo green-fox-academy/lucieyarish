@@ -1,18 +1,18 @@
 ﻿using System;
 namespace Instruments
 {
-    public class ElectricGuitar : StringedInstrument
+    public class BassGuitar : StringedInstrument
     {
-        public ElectricGuitar(int num) : this()
+        public BassGuitar(int num) : this()
         {
             NumberOfStrings = num;
         }
 
-        public ElectricGuitar()
+        public BassGuitar()
         {
-            NumberOfStrings = 6;
-            InstrumentSound = "Twang";
-            InstrumentName = "Electric Guitar";
+            NumberOfStrings = 4;
+            InstrumentSound = "Duum-duum-duum";
+            InstrumentName = "Bass Guitar";
         }
 
         public override void Play()

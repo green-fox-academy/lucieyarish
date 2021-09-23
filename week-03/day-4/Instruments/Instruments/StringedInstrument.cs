@@ -3,14 +3,19 @@ namespace Instruments
 {
     public abstract class StringedInstrument : Instrument
     {
-        protected int numberOfStrings;
+        protected int NumberOfStrings { get; set; }
+
+        public StringedInstrument(string name, int num, string sound) : base(name, sound)
+        {
+            NumberOfStrings = num;  
+        }
 
         public StringedInstrument()
         {
-           
+
         }
 
-        public void Sound()
+        public virtual void Sound()
         {
 
         }
