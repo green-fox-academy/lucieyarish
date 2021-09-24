@@ -7,11 +7,17 @@ namespace Farm
     {
         public int hunger;
         public int thirst;
+        public string name;
 
-        public Animal()
+        public Animal(string name)
         {
             hunger = 50;
             thirst = 50;
+            this.name = name;
+        }
+
+        public Animal()
+        {
         }
 
         public void Eat()
@@ -28,7 +34,6 @@ namespace Farm
 
         public void Play()
         {
-
             hunger += 1;
             thirst += 1;
             Console.WriteLine($"Hunger level: {hunger}, Thirst level: {thirst}");

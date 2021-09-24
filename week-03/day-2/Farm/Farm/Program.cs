@@ -13,10 +13,15 @@ namespace Farm
             Animal goose = new Animal();
             Animal chicken = new Animal();
 
-            farm.FarmAnimals.Add(cow);
-            farm.FarmAnimals.Add(pig);
-            farm.FarmAnimals.Add(goose);
-            farm.FarmAnimals.Add(chicken);
+            cow.Eat();
+            farm.Breed(new Animal("cow"));
+            pig.Eat();
+            farm.Breed(new Animal("pig"));
+            goose.Eat();
+            farm.Breed(new Animal("goose"));
+            chicken.Eat();
+            farm.Breed(new Animal("chicken"));
+
 
 
 
