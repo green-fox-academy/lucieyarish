@@ -5,15 +5,22 @@ namespace Farm
 {
     public class Animal
     {
-        public int hunger;
-        public int thirst;
-        public string name;
+        public Animal(int hunger, int thirst, string name)
+        {
+            Hunger = hunger;
+            Thirst = thirst;
+            Name = name;
+        }
+
+        public int Hunger;
+        public int Thirst;
+        public string Name;
 
         public Animal(string name)
         {
-            hunger = 50;
-            thirst = 50;
-            this.name = name;
+            Hunger = 50;
+            Thirst = 50;
+            this.Name = name;
         }
 
         public Animal()
@@ -22,21 +29,21 @@ namespace Farm
 
         public void Eat()
         {
-            hunger--;
-            Console.WriteLine($"Hunger level: {hunger}");
+            Hunger--;
+            Console.WriteLine($"Hunger level: {Hunger}");
         }
 
         public void Drink()
         {
-            thirst--;
-            Console.WriteLine($"Thirst level: {thirst}");
+            Thirst--;
+            Console.WriteLine($"Thirst level: {Thirst}");
         }
 
         public void Play()
         {
-            hunger += 1;
-            thirst += 1;
-            Console.WriteLine($"Hunger level: {hunger}, Thirst level: {thirst}");
+            Hunger += 1;
+            Thirst += 1;
+            Console.WriteLine($"Hunger level: {Hunger}, Thirst level: {Thirst}");
         }
     }
 }

@@ -13,6 +13,7 @@ namespace Farm
             Animal goose = new Animal();
             Animal chicken = new Animal();
 
+
             cow.Eat();
             farm.Breed(new Animal("cow"));
             pig.Eat();
@@ -21,10 +22,6 @@ namespace Farm
             farm.Breed(new Animal("goose"));
             chicken.Eat();
             farm.Breed(new Animal("chicken"));
-
-
-
-
         }
     }
 }

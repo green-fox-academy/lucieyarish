@@ -37,7 +37,7 @@ namespace Farm
         {
             for (int i = 0; i < FarmAnimals.Count; i++)
             {
-                if (FarmAnimals[i].hunger <= 49)
+                if (FarmAnimals[i].Hunger <= 49)
                 {
                     FarmAnimals.RemoveAt(i);
                 }
