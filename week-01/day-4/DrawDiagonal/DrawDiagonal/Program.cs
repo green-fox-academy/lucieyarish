@@ -17,22 +17,35 @@ namespace DrawDiagonal
 
             Console.WriteLine("Give me a number, please.");
             int userNum = int.Parse(Console.ReadLine());
-            string line = "";
             string charForUser = "%";
 
-            for (int i = 0; i < userNum; i++)
+            for (int row = 1; row <= userNum; row++)
             {
-                if (i == userNum || i == 1)
+                if (row == userNum || row == 1)
+                {
+                    for (int j = 1; j <= userNum; j++)
+                    {
+                        Console.Write(charForUser);
+                    }
+                }
+                else
                 {
                     Console.Write(charForUser);
-                } else
-                {
-
+                    for (int column = 2; column < userNum; column++)
+                    {
+                        if (column != row)
+                        {
+                            Console.Write(" ");
+                        }
+                        else
+                        {
+                            Console.Write(charForUser);
+                        }
+                    }
+                    Console.Write(charForUser);
                 }
-            }
-
-
-            // The square should have as many lines as the number was
+                Console.Write("\n");
+            }   
         }
     }
 }
