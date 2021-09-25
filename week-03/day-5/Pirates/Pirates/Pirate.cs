@@ -41,7 +41,7 @@ namespace Pirates
         {
             
         }
-
+        
         public string Get
         {
             get { return (name); }
