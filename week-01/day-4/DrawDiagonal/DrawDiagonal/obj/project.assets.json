@@ -20,7 +20,7 @@
       "outputPath": "/Users/lucieyarish/greenfox/lucieyarish/week-01/day-4/DrawDiagonal/DrawDiagonal/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/lucieyarish/.nuget/NuGet/NuGet.Config"
+        "/Users/lucieyarish/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
