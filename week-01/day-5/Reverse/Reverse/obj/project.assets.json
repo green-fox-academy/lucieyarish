@@ -20,7 +20,7 @@
       "outputPath": "/Users/lucieyarish/greenfox/lucieyarish/week-01/day-5/Reverse/Reverse/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/lucieyarish/.config/NuGet/NuGet.Config"
+        "/Users/lucieyarish/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

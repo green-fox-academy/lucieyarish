@@ -6,22 +6,19 @@ namespace Reverse
     {
         static void Main(string[] args)
         {
-            // - Create an array variable named `numbers`
-            //   with the following content: `[3, 4, 5, 6, 7]`
             int[] numbers = { 3, 4, 5, 6, 7 };
             
-
-
-            // - Reverse the order of the elements of `numbers`
             for (int i = numbers.Length - 1; i >= 0; i--)
             {
-                // - Print the elements of the reversed `numbers`
                 Console.WriteLine(numbers[i]);
             }
-
-
-
             
+            //Solution with Array.Reverse
+            //Array.Reverse(numbers);
+            //foreach (int num in numbers)
+            //{
+            //    Console.WriteLine(num);
+            //}     
         }
     }
 }
