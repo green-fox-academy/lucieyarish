@@ -7,31 +7,21 @@ namespace WriteSingleLine
     {
         static void Main(string[] args)
         {
-            // Write a function that is able to manipulate a file
-            // By writing your name into it as a single line
-            // The file should be named "my-file.txt"
-            // In case the program is unable to write the file,
-            // It should print the following error message:
-            // "Unable to write file: my-file.txt"
-
-            string path = "Assest/my-file.txt";
-            WriteLinesFunction(path);
-            
-
-            static void WriteLinesFunction (string path)
+            Console.WriteLine("Give me your name, please!");
+            string userName = Console.ReadLine();
+            WriteLine(userName);
+        }
+        public static void WriteLine(string name)
+        {
+            string path = "/Users/lucieyarish/greenfox/lucieyarish/week-02/day-2/WriteSingleLine/WriteSingleLine/Assets/my-file.txt";
+            try
             {
-                try
-                {
-                    File.WriteAllLines(path, new string[] { "Lucie Yarish" });
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Unable to write file: my-file.txt");
-                }
+                File.WriteAllText(path, name);
             }
-
-            Console.ReadLine();
-
+            catch (Exception ex)
+            {
+                Console.WriteLine("Unable to write file: my-file.txt");
+            }
         }
     }
 }
