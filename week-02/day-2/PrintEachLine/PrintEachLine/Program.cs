@@ -7,19 +7,16 @@ namespace PrintEachLine
     {
         static void Main(string[] args)
         {
-            // Write a program that opens a file called "my-file.txt",
-            // then prints
-            // each line from the file.
-            // If the program is unable to read the file (for example
-            // it does not exist),
-            // then it should print the following error message:
-            // "Unable to read file: my-file.txt"
-            string path = @"my-file.txt";
+            string path = "/Users/lucieyarish/greenfox/lucieyarish/week-02/day-2/PrintEachLine/PrintEachLine/Assets/myfile.txt";
             try
             {
                 string[] content = File.ReadAllLines(path);
+                foreach (string line in content)
+                {
+                    Console.WriteLine(line);
+                }
             }
-            catch (Exception ex)
+            catch
             {
                     Console.WriteLine("Unable to read file: my-file.txt");
             }
