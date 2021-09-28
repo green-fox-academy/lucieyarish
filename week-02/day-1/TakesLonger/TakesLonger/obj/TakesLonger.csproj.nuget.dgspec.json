@@ -14,7 +14,7 @@
         "outputPath": "/Users/lucieyarish/greenfox/lucieyarish/week-02/day-1/TakesLonger/TakesLonger/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/lucieyarish/.config/NuGet/NuGet.Config"
+          "/Users/lucieyarish/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }
