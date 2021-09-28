@@ -8,17 +8,12 @@ namespace CountLines
         static void Main(string[] args)
 
         {
-
             string path = "Assets/myFile.txt";
             LinesCount(path);
-   
-       
-
         }
 
-        static void LinesCount(string path)
+        public static void LinesCount(string path)
         {
-            
             try
             {
                 string[] content = File.ReadAllLines(path);
