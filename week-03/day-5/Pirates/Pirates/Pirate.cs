@@ -4,13 +4,13 @@ namespace Pirates
 {
     public class Pirate
     {
-        protected string name;
+        protected string Name;
         protected int intoxicationLevel;
         
 
         public Pirate(string name)
         {
-            this.name = name;
+            this.Name = name;
             this.intoxicationLevel = 0;
         }
 
@@ -44,7 +44,7 @@ namespace Pirates
         
         public string Get
         {
-            get { return (name); }
+            get { return (Name); }
         }
     }
 }

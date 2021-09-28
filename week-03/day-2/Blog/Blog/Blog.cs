@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.VisualBasic.CompilerServices;
 
 namespace Blog
 {
     public class Blog
     {
-        private List<BlogPost> MyBlog;
+        public List<BlogPost> MyBlog { get; set; }
 
         public Blog()
         {
@@ -19,15 +20,20 @@ namespace Blog
 
         public void Delete(int i)
         {
-            for (int j = 0; j < MyBlog.Count; j++)
-            {
-                MyBlog.RemoveAt(i);
-            }
+            MyBlog.RemoveAt(i);
         }
 
         public void Update(int i, BlogPost post)
         {
+            MyBlog[i] = post;
+        }
 
+        public void PrintAll()
+        {
+            foreach (BlogPost item in MyBlog)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }

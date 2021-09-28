@@ -5,10 +5,10 @@ namespace Blog
 {
     public class BlogPost
     {
-        private string AuthorName;
-        private string Title;
-        private string Text;
-        private string PublicationDate;
+        private string AuthorName { get; set; }
+        private string Title { get; set; }
+        private string Text { get; set; }
+        private string PublicationDate { get; set; }
 
         public BlogPost(string authorname, string title, string text, string publicationdate)
         {
