@@ -1,0 +1,47 @@
+REview
+
+week 3 day 5
+pirates
+
+Pirate.cs
+
+prazdny brawl () je ta nedodelanost jestli to chapu
+
+radek 45:
+Properta jmenem get ktera vraci name se takhle urcite nema pouzit. Lepsi je spis udelat funkci GetName() nebo udelat property primo z toho name.
+
+Ship.cs
+
+koukal jsem zes tam pridala ten using na xml, na co to bylo potreba?
+
+Jinak jsou pirati ok
+
+Aircraft carrier nekomentuju, moc tam toho neni
+
+den 4
+
+Cloneable
+
+Student.cs
+
+v konstruktoru muzes volat konstruktor predka a usetris si ty radky navic.
+ public Student(string name, int age, string gender, string previousOrganization) : base(name,age,gender)
+        {
+            this.PreviousOrganization = previousOrganization;
+            SkippedDays = 0;
+        }
+
+jinak ok.
+
+Comparable - bez pripominek
+Instuments - ok
+
+Gardem
+Plant - nezapomen ze prazdej bezparametrickej konstruktor nemusis psat, program si ho doplni sam. Mas je na vic mistech.
+
+Nechybi tam nejaky vypisovani?
+
+Celkove moc pekny, drzim palce na zkousku :)
+
+
+
