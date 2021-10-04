@@ -1,49 +1,50 @@
+using System.IO.MemoryMappedFiles;
+
 namespace AircraftCarrier
 {
     public abstract class Aircraft
     {
-        protected string aircraftType;
-        protected int ammunitionAmount;
-        protected int ammoStorage;
-        protected int baseDamage;
-        protected int maxAmmo;
-
-        protected Aircraft(string aircraftType)
+        public int AmmoAmount { get; protected set; }
+        public int BaseDamage { get; protected set; }
+        public int MaxAmmo { get; protected set; }
+        public int Damage { get; protected set; }
+        private AircraftType Type;
+        public Aircraft(AircraftType type)
         {
-            this.aircraftType = aircraftType;
-            this.ammunitionAmount = 0;
-            this.ammoStorage = 0;
+            Type = type;
+            AmmoAmount = 0;
         }
 
-        protected Aircraft()
+        public int Fight()
         {
-
+            int Damage = BaseDamage * AmmoAmount;
+            AmmoAmount = 0;
+            return Damage;
         }
 
-        public virtual void Fight()
+        public int RefillAmmo(int ammoRefill)
         {
-            int damage = baseDamage * ammunitionAmount;
+            int freeCapacity = MaxAmmo - AmmoAmount;
+            return ammoRefill - freeCapacity;
         }
 
-        public virtual void RefillAmmo(int number)
+        public string GetType()
         {
-            
+            return Type.ToString();
         }
 
-        public new virtual string GetType()
+        public string GetStatus()
         {
-            return aircraftType;
+            return $"Type: {Type}, Ammo: {AmmoAmount}, Base Damage: {BaseDamage}, All Damage: {Damage}";
         }
 
-        public virtual void GetStatus()
+        public bool IsPriority()
         {
-            
+            if (Type == AircraftType.F35)
+            {
+                return true;
+            }
+            return false;
         }
-
-        public virtual void IsPriority()
-        {
-            
-        }
-
     }
 }

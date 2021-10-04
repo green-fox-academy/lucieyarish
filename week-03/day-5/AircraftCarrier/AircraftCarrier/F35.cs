@@ -2,10 +2,10 @@ namespace AircraftCarrier
 {
     public class F35 : Aircraft
     {
-        public F35()
+        public F35() : base(AircraftType.F35)
         {
-            this.maxAmmo = 12;
-            this.baseDamage = 50;
+            MaxAmmo = 12;
+            BaseDamage = 50;
         }
     }
 }
