@@ -17,57 +17,30 @@ namespace FilesPractice
 
         public static void WhiteSpaceRemover(string path)
         {
-            string fileContent = File.ReadAllText(path);
-            // string result = fileContent.Replace(' ', '|');
-            string[] subs = fileContent.Split(" ");
-            // char[] toChar = fileContent.ToCharArray();
-            
-            string output = "";
-            foreach (var s in subs)
+            try
             {
-                if (s == "")
+                string fileContent = File.ReadAllText(path);
+                string[] subs = fileContent.Split(" ");
+
+                string output = "";
+                foreach (var s in subs)
                 {
+                    if (s == "")
+                    {
                     
+                    }
+                    else
+                    {
+                        output += s + " ";
+                    }
                 }
-                else
-                {
-                    output += s + " ";
-                }
+                Console.WriteLine(output);
             }
-            // foreach (string s in subs)
-            // {
-            //     // string str = string.Join("", subs);
-            //     if (s != "")
-            //     {
-            //         output = String.Join(" ", s);
-            //     }
-            // }
             
-            
-
-            Console.WriteLine(output);
-
-
-            // for (int i = 0; i < toChar.Length; i++)
-            // {
-            //     if (toChar[i].ToString() == "")
-            //     {
-            //         Console.WriteLine(toChar[i].ToString());
-            //     }
-            // }
-
-
-
-
-            // try
-            // {
-            //     
-            //
-            // }
-            // catch (FileNotFoundException)
-            // {
-            //     throw new FileNotFoundException("File does not exist!");
-            // }
+            catch (FileNotFoundException)
+            {
+                throw new FileNotFoundException("File does not exist!");
+            }
         }
     }
 }
