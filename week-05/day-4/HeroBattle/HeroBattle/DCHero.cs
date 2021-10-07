@@ -4,6 +4,12 @@ namespace HeroBattle
     {
         public DCHero(string name, double motivationLevel) : base(name, motivationLevel)
         {
+            IsDCHero = true;
+        }
+
+        public DCHero(string name) : base(name, 45)
+        {
+            IsDCHero = true;
         }
     }
 }

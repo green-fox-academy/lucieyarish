@@ -7,6 +7,9 @@ namespace HeroBattle
         public string Name { get; protected set; }
         public double MotivationLevel { get; protected set; }
 
+        public bool IsDCHero { get; protected set; }
+        public bool IsMarvelHero { get; protected set; }
+
         public Hero(string name, double motivationLevel)
         {
             Name = name;
@@ -35,20 +38,30 @@ namespace HeroBattle
 
         public void Punch(Hero enemy)
         {
-            if (GetMotivationLevel() > 0)
+            if (this is DCHero && enemy.IsDCHero)
             {
-                double damage = Math.Round(MotivationLevel / 1.5);
-                enemy.BePunched(damage);
+                Console.WriteLine("Can't fight your friend!");
+            }
+            else if (this is MarvelHero && enemy.IsMarvelHero)
+            {
+                Console.WriteLine("Can't fight your friend!");
             }
             else
             {
-                Console.WriteLine("I don't have enough motivation to fight you!");
+                if (GetMotivationLevel() > 0)
+                {
+                    double damage = Math.Round(MotivationLevel / 1.5);
+                    enemy.BePunched(damage);
+                } else
+                {
+                    Console.WriteLine("I don't have enough motivation to fight you!");
+                } 
             }
         }
 
         public void BePunched(double damage)
         {
-            MotivationLevel = Math.Round(damage / (MotivationLevel / 2));
+            MotivationLevel -= Math.Round(damage / (MotivationLevel / 2));
             if (MotivationLevel < 0)
             {
                 MotivationLevel = 0;
