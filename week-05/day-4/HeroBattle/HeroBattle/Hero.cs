@@ -24,7 +24,7 @@ namespace HeroBattle
             }
             else if (MotivationLevel > 25 && MotivationLevel < 40)
             {
-                return 1;
+                return 1;                                  
             }
             else if (MotivationLevel >= 40)
             {
