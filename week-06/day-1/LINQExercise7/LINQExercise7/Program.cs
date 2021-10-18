@@ -9,7 +9,10 @@ namespace LINQExercise7
         {
             string[] cities = { "ROME", "LONDON", "NAIROBI", "CALIFORNIA", "ZURICH", "NEW DELHI", "AMSTERDAM", "ABU DHABI", "PARIS" };
 
-            var getCityWithLambda = cities.GroupBy(c => c).To
+            var getCityWithLambda = cities.Where(c => c.StartsWith("A") && c.EndsWith("I")).ToList();
+            var getCityWithQuery = from city in cities
+                where city.StartsWith("A") && city.EndsWith("I")
+                select city;
         }
     }
 }
