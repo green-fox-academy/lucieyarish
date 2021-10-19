@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="form-container">
+    <form action="" method="get">
+    
+        <h1>ACCOUNT LOGIN</h1>
+        <label for="username">USERNAME</label>
+        <input type="text" id="username" name="username" placeholder="Enter username" pattern="[a-z].{5,}" title="Username should be at least 6 characters long and only contain lowercase letters. E.g. 'john'" required>
+
+        <label for="user-password">PASSWORD</label>
+        <input type="password" id="user-password" name="user-password" placeholder="Enter password" minlength="8" maxlength="20" required>
+        <p class="password"><a href="#">Forgot password?</a></p>
+
+        <button type="submit">Login</button>
+    </form>
+</div>
+</body>
+</html>

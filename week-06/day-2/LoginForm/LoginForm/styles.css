@@ -1,0 +1,76 @@
+/* BASE FORM STYLES */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.25;
+    background-color: lightgrey;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.form-container {
+    font-size: 10px;
+    margin: 70px;
+    /*padding: 20px 60px 50px 60px;*/
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    min-width: 150px;
+    max-width: 500px;
+}
+
+form {
+    margin: auto;
+    justify-content: center;
+    padding: 30px;
+}
+
+/* TEXT INPUT STYLES */
+input[type="text"],
+input[type="password"]{
+    display: block;
+    margin: 5px 0 15px 0;
+    padding: 5px 0 5px 4px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus{
+    border: 1px solid lightgreen;
+    outline: none;
+}
+
+/* SELECT BOXES AND BUTTONS */
+button[type="submit"]{
+    background: black;
+    color: azure;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    width: 100px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 0;
+    margin-top: 30px;
+}
+
+/* FORGOT PASSWORD LINK*/
+p.password {
+    float: right;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #696969;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+a:active {
+    color: black;
+}
