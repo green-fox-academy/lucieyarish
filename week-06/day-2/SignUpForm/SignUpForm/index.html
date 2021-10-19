@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class ="main-box">
+        <div class="form-container">
+            <form action="" method="get">
+
+                <h1>Sign Up</h1>
+                <label for="username"></label>
+                <input type="text" id="username" name="name" placeholder="Username" pattern="[a-z].{5,}" title="Username should be at least 6 characters long and only contain lowercase letters. E.g. 'john'" required>
+                
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+                
+                <label for="user-password"></label>
+                <input type="password" id="user-password" name="user-password" placeholder="Password" minlength="8" maxlength="20" required>
+
+                <label for="password-confirm"></label>
+                <input type="password" id="password-confirm" name="user-password" placeholder="Password" minlength="8" maxlength="20" required>
+                
+                <p class="password"><a href="#">Forgot password?</a></p>
+
+                <button type="submit">Login</button>
+            </form> 
+        </div>
+    </div>
+
+</body>
+</html>
