@@ -10,11 +10,12 @@ namespace HelloWorldRESTApp.Controllers
         // {
         //     return View("Index");
         // }
+        static int count = 1;
         
         [HttpGet("greeting")]
         public Greeting Greet([FromQuery] string name)
         {
-            var greeting = new Greeting() {Id = 1, Content = $"Hello {name}"};
+            var greeting = new Greeting() {Id = count++, Content = $"Hello {name}"};
             return greeting;
         }
     }
