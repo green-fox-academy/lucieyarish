@@ -4,5 +4,8 @@ namespace HelloWorldRESTApp.Models
     {
         public long Id { get; set; }
         public string Content { get; set; }
+        public int FontSize { get; set; }
+        
+        public int FontColor { get; set; }
     }
 }
