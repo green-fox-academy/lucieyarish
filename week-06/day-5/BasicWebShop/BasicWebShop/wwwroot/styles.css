@@ -1,0 +1,82 @@
+/* BASE FORM STYLES */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* TOP NAVBAR WITH FILTERING BUTTONS */
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #174582;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    /*margin: 0 20px 0.5em 20px;*/
+    border: 2px solid #A9E31B;
+    border-radius: 2px;
+    width: auto;
+}
+
+.navbar-buttons {
+    margin-left: 20px;
+    width: auto;
+}
+
+.buttons-filtering {
+    background-color: #174582;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.buttons-filtering:focus {
+    outline: none;
+}
+
+/* TABLE STYLES */
+.table-container {
+    justify-content: left;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: auto;
+    font-size: 18px;
+}
+
+table, th, td {
+    border: 1px solid #696969;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+    padding: 7px;
+}
+
+th {
+    text-align: left;
+    background-color: #2D4D84;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #E4FFA0;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+} 
+
