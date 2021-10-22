@@ -23,36 +23,44 @@ hr {
 }
 
 nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: auto;
-    overflow: auto;
-    height: 30px;
+    margin-left: 20px;
 }
 
 ul {
     padding: 0;
     list-style: none;
-    margin-left: 20px;
+    margin: 0;
 }
 
-li {
-    float: right;
-    margin-right: 50px;
-}
-
-.navbar-buttons {
-    margin-left: 20px;
+.all-links {
+    display: flex;
+    gap: 0.5em;
     width: auto;
+}
+
+form {
+    width: auto;
+}
+
+li form {
+    display: block;
+    /*width: 6px;*/
 }
 
 .buttons-filtering {
     background-color: #174582;
     color: white;
-    padding: 5px;
+    padding: 3px 5px;
     border: none;
     border-radius: 3px;
     font-size: 15px;
     margin-right: 5px;
     margin-bottom: 5px;
+    width: auto;
 }
 
 .buttons-filtering:focus {

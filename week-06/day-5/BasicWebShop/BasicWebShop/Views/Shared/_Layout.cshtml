@@ -8,26 +8,41 @@
     <link rel="stylesheet" type="text/css" href="/styles.css">
 </head>
 <body>
-<div class="navbar-buttons">
+<header>
     <a href="/home"><h1>Lucie's Web Shop</h1></a>
     <hr>
-    <form action="only-available" method="get">
-        <button class="buttons-filtering">ONLY AVAILABLE</button>
-    </form>
-    <form action="cheapest-first">
-        <button class="buttons-filtering">CHEAPEST FIRST</button>
-    </form>
-    <form action="contains-corgi">
-        <button class="buttons-filtering">CONTAINS CORGI</button>
-    </form>
-    <form action="average-stock">
-        <button class="buttons-filtering">AVERAGE STOCK</button>
-    </form>
-    <form action="most-expensive-available">
-        <button class="buttons-filtering">MOST EXPENSIVE AVAILABLE</button>
-    </form>
-</div>
-
+    <nav class="navbar-buttons">
+        <ul>
+            <div class="all-links">
+                <li>
+                    <form action="only-available" method="get">
+                        <button class="buttons-filtering">ONLY AVAILABLE</button>
+                    </form>
+                </li>
+                <li>
+                    <form action="cheapest-first">
+                        <button class="buttons-filtering">CHEAPEST FIRST</button>
+                    </form>
+                </li>
+                <li>
+                    <form action="contains-corgi">
+                        <button class="buttons-filtering">CONTAINS CORGI</button>
+                    </form>
+                </li>
+                <li>
+                    <form action="average-stock">
+                        <button class="buttons-filtering">AVERAGE STOCK</button>
+                    </form>
+                </li>
+                <li>
+                    <form action="most-expensive-available">
+                        <button class="buttons-filtering">MOST EXPENSIVE AVAILABLE</button>
+                    </form>
+                </li>
+            </div>
+        </ul>
+    </nav>
+</header>
 @RenderBody()
 
 </body>
