@@ -20,7 +20,7 @@ namespace BasicWebShop.Controllers
             items.Add(new Item()
             {
                 Name = "Retriever",
-                Description = "Cute ong-haired dog",
+                Description = "Cute long-haired dog",
                 Price = 6000.89d,
                 Quantity = 3,
                 ID = Id++
@@ -81,6 +81,35 @@ namespace BasicWebShop.Controllers
         public IActionResult DisplayCheapestFirst()
         {
             var result = items.OrderBy(p => p.Price).ToList();
+            return View("Index", new ShopItems()
+                {
+                    allItems = result
+                }
+            );
+        }
+        
+        [HttpGet("contains-corgi")]
+        public IActionResult DisplayCorgi()
+        {
+            var result = items.Where(p => p.Name == "Corgi").ToList();
+            return View("Index", new ShopItems()
+                {
+                    allItems = result
+                }
+            );
+        }
+        
+        [HttpGet("average-stock")]
+        public IActionResult DisplayAverageStock()
+        {
+            var result = items.Average(p => p.Quantity).ToString();
+            return View("Average", result);
+        }
+        
+        [HttpGet("most-expensive-available")]
+        public IActionResult DisplayMostExpensive()
+        {
+            var result = items.Where(p => p.Quantity != 0).OrderByDescending(p => p.Price).Take(1).ToList();
             return View("Index", new ShopItems()
                 {
                     allItems = result
