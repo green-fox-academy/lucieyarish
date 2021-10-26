@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
+using Microsoft.AspNetCore.Mvc;
 
 namespace UsefulUtilitiesDependencyInjection.Models
 {
@@ -30,19 +32,16 @@ namespace UsefulUtilitiesDependencyInjection.Models
             return colors[random.Next(colors.Count)];
         }
 
-        public void ValidateEmail(string email)
+        public string ValidateEmail(string email)
         {
-            try
+            Email = email;
+            if ((!email.Contains('@') || !email.Contains('.')))
             {
-                if ((!email.Contains('@') || !email.Contains('.')))
-                {
-                    Email = email;
-                }
+                return $"<p style=\"color:green{email}</p>";
             }
-            catch (Exception e)
-            {
-                throw new Exception("Please enter a valid email address.");
-            }
+            return $"<p style=\"color:red{email} is not valid</p>";
+
+
         }
     }
 }

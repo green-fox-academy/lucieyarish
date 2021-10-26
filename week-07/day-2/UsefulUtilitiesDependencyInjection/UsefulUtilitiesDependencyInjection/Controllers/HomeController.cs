@@ -27,9 +27,9 @@ namespace UsefulUtilitiesDependencyInjection.Controllers
         }
 
         [HttpGet("/useful/email")]
-        public IActionResult EmailValidation([FromQuery] string email)
+        public IActionResult EmailValidation([FromQuery]string email)
         {
-            return View("Index");
+            return View("ValidateEmail");
         }
     }
     
