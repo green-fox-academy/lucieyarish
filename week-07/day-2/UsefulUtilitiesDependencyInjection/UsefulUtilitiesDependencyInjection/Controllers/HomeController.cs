@@ -25,6 +25,12 @@ namespace UsefulUtilitiesDependencyInjection.Controllers
             var viewModel = new IndexViewModel(UtilityService.RandomColor());
             return View("Index", viewModel);
         }
+
+        [HttpGet("/useful/email")]
+        public IActionResult EmailValidation([FromQuery] string email)
+        {
+            return View("Index");
+        }
     }
     
 }
