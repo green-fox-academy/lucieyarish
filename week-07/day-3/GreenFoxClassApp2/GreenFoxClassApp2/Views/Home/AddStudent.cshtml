@@ -1,0 +1,14 @@
+@model GreenFoxClassApp2.Services.StudentService
+<html>
+<head>
+    <title>Greenfox Class App</title>
+
+</head>
+<body>
+<form method="get" asp-controller="Home">
+    <label for="student">Student Name: </label>
+    <input type="text" id="student" name="studentName">
+    <input type="submit" value="Add" asp-action-id="studenName" asp-action="SaveStudent">
+</form>
+</body>
+</html>

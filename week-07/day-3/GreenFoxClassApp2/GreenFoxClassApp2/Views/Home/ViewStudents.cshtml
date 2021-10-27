@@ -1,0 +1,18 @@
+@model GreenFoxClassApp2.Services.StudentService
+<html>
+<head>
+    <title>Greenfox Class App</title>
+
+</head>
+<body>
+<ul>
+    @foreach (var student in @Model.FindAll())
+    {
+        <li>
+            @student
+        </li>
+    }
+</ul>
+
+</body>
+</html>
