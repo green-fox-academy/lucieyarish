@@ -40,8 +40,24 @@ namespace UsefulUtilitiesDependencyInjection.Models
                 return $"<p style=\"color:green\">{email}</p>";
             }
             return $"<p style=\"color:red\">{email} is not valid</p>";
+        }
+        
+        public string Caesar(string text, int shift)
+        {
+            if (shift < 0)
+            {
+                shift = shift + 26;
+            }
 
+            string result = "";
 
+            foreach (var character in text)
+            {
+                var offset = char.IsUpper(character) ? 'A' : 'a';
+                result += (char)((character + shift - offset) % 26 + offset);
+            }
+
+            return result;
         }
     }
 }
