@@ -1,0 +1,14 @@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<html>
+<head>
+    <title>Greenfox Class App</title>
+
+</head>
+<body>
+<form method="get" asp-controller="Home">
+    <label for="studentName">Student name:</label>
+    <input type="text" id="studentName" name="studentName">
+    <input type="submit" value="Add" asp-action="SaveStudent" asp-action-id="studentName">
+</form>
+</body>
+</html>

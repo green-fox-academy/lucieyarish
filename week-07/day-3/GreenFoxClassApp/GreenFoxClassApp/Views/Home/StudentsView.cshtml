@@ -1,0 +1,19 @@
+@using GreenFoxClassApp
+@using GreenFoxClassApp.ViewModels
+@model GreenFoxClassApp.ViewModels.IndexViewModel
+<html>
+<head>
+    <title></title>
+
+</head>
+<body>
+    <ul>
+        @foreach (var student in @Model.AllStudents)
+        {
+            <li>
+                @student
+            </li>   
+        }
+    </ul>
+</body>
+</html>
