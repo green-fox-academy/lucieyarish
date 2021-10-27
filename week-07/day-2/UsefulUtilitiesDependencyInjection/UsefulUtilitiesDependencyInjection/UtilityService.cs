@@ -35,11 +35,11 @@ namespace UsefulUtilitiesDependencyInjection.Models
         public string ValidateEmail(string email)
         {
             Email = email;
-            if ((!email.Contains('@') || !email.Contains('.')))
+            if ((email.Contains('@') && email.Contains('.')))
             {
-                return $"<p style=\"color:green{email}</p>";
+                return $"<p style=\"color:green\">{email}</p>";
             }
-            return $"<p style=\"color:red{email} is not valid</p>";
+            return $"<p style=\"color:red\">{email} is not valid</p>";
 
 
         }

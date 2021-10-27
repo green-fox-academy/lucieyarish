@@ -29,7 +29,7 @@ namespace UsefulUtilitiesDependencyInjection.Controllers
         [HttpGet("/useful/email")]
         public IActionResult EmailValidation([FromQuery]string email)
         {
-            return View("ValidateEmail");
+            return View("ValidateEmail", UtilityService.ValidateEmail(email));
         }
     }
     
