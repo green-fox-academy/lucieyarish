@@ -44,5 +44,19 @@ namespace FoxClub.Controllers
             // new { name = name
             // });
         }
+
+        [HttpGet("store")]
+        public IActionResult Store()
+        {
+            return View();
+        }
+
+        [HttpPost("choose")]
+        public IActionResult Choose(string food, string drink)
+        {
+            Service.LoggedFox.Food = food;
+            Service.LoggedFox.Drink = drink;
+            return RedirectToAction("Index");
+        }
     }
 }
