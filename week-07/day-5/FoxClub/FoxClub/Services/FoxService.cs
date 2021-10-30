@@ -7,7 +7,6 @@ namespace FoxClub.Services
     {
         public List<Fox> Foxes { get; set; }
         public Fox LoggedFox { get; set; }
-
         public FoxService()
         {
             Foxes = new List<Fox>();

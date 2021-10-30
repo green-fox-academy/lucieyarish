@@ -13,6 +13,7 @@ namespace FoxClub
         public Fox(string name)
         {
             Name = name;
+            Tricks = new List<string>();
             Food = "donut";
             Drink = "milk";
         }
