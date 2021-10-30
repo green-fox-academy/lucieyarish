@@ -39,5 +39,13 @@ namespace FoxClub.Services
         //     var result = Foxes.FirstOrDefault(f => f.Name == name);
         //     return result;
         // }
+
+        public void AddTrick(string trick)
+        {
+            if (!LoggedFox.Tricks.Contains(trick))
+            {
+                LoggedFox.Tricks.Add(trick);
+            }
+        }
     }
 }

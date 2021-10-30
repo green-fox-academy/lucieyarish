@@ -58,5 +58,19 @@ namespace FoxClub.Controllers
             Service.LoggedFox.Drink = drink;
             return RedirectToAction("Index");
         }
+
+        [HttpGet("trick")]
+        public IActionResult Trick()
+        {
+            return View();
+        }
+        
+        [HttpPost("learn")]
+        public IActionResult Learn(string trick)
+        {
+            Service.AddTrick(trick);
+            Service.LoggedFox.Tricks = new List<string>();
+            return RedirectToAction("Index");
+        }
     }
 }
