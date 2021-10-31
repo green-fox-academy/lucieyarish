@@ -15,7 +15,7 @@ namespace GreenFoxClassApp2.Controllers
         
         public IActionResult Index()
         {
-            return View();
+            return View(Service);
         }
 
         [HttpGet("list")]
@@ -35,6 +35,19 @@ namespace GreenFoxClassApp2.Controllers
         {
             Service.Save(student);
             return View("ViewStudents", Service);
+        }
+
+        [HttpGet("check")]
+        public IActionResult Check()
+        {
+            return View(Service);
+        }
+        
+        [HttpPost("checkexists")]
+        public IActionResult CheckExists(string student)
+        {
+            Service.Check(student);
+            return RedirectToAction("Check", Service);
         }
     }
 }

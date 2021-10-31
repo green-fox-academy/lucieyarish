@@ -1,0 +1,28 @@
+@using GreenFoxClassApp2.Models
+@model GreenFoxClassApp2.Services.StudentService
+
+<html>
+<head>
+    <title>Greenfox Class App</title>
+
+</head>
+<body>
+<form method="post" action="checkexists">
+    <label for="name">Check Student:</label>
+    <input type="text" id="name" name="name">
+    <input type="submit" value="Check">
+</form>
+@if (@Model.StudentExists)
+   {
+       <p>Student with the given name already exists.</p>
+   }
+else
+{
+    <p>Student with the given name doesn't exist yet.</p>
+}
+
+<a href="/gfa">Home</a><br/>
+<a href="/gfa/list">View Students</a><br/>
+<a href="/gfa/add">Add New Student</a>
+</body>
+</html>

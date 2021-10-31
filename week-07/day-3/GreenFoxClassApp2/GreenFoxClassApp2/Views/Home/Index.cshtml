@@ -1,10 +1,15 @@
+@model GreenFoxClassApp2.Services.StudentService
+
 <html>
 <head>
     <title>Greenfox Class App</title>
 
 </head>
 <body>
-<a href="gfa/list">View Students</a>
-<a href="gfa/add">Add New Student</a>
+<a href="gfa/list">View Students</a><br/>
+<a href="gfa/add">Add New Student</a><br/>
+<a href="gfa/check">Check Existing Students</a>
+<h2>Student Count:</h2>
+<p>@Model.Count()</p>
 </body>
 </html>
