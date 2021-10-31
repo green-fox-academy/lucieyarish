@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GreenFoxClassApp2.Controllers
 {
+    [Route("gfa")]
     public class HomeController : Controller
     {
         private StudentService Service { get; }
@@ -12,25 +13,24 @@ namespace GreenFoxClassApp2.Controllers
             Service = studentService;
         }
         
-        [HttpGet("gfa")]
         public IActionResult Index()
         {
             return View();
         }
 
-        [HttpGet("gfa/list")]
+        [HttpGet("list")]
         public IActionResult ViewStudents()
         {
             return View("ViewStudents", Service);
         }
 
-        [HttpGet("gfa/add")]
+        [HttpGet("add")]
         public IActionResult AddStudent()
         {
-            return View("AddStudent");
+            return View(Service);
         }
 
-        [HttpGet("gfa/save")]
+        [HttpGet("save")]
         public IActionResult SaveStudent(string student)
         {
             Service.Save(student);

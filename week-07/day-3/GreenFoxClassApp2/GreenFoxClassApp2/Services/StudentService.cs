@@ -5,7 +5,7 @@ namespace GreenFoxClassApp2.Services
 {
     public class StudentService
     {
-        private readonly List<string> Names;
+        public List<string> Names;
         
         public StudentService()
         {
