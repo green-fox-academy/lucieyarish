@@ -69,7 +69,6 @@ namespace FoxClub.Controllers
         public IActionResult Learn(string trick)
         {
             Service.AddTrick(trick);
-            Service.LoggedFox.Tricks = new List<string>();
             return RedirectToAction("Index");
         }
     }
