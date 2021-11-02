@@ -40,5 +40,21 @@ namespace ListingTodos.Services
             DbContext.SaveChanges();
             return savedTodo;
         }
+        
+        // public Todo FindById(long id)
+        // {
+        //     return DbContext.Todos.Find(id);
+        // }
+        
+        public Todo RemoveTodo(long id)
+        {
+            var removedTodo = DbContext.Todos.FirstOrDefault(t => t.Id == id);
+            if (removedTodo != null)
+            {
+                DbContext.Todos.Remove(removedTodo);
+            }
+            DbContext.SaveChanges();
+            return removedTodo;
+        }
     }
 }

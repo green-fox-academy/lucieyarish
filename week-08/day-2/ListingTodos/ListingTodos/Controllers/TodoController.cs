@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using ListingTodos.Models;
 using ListingTodos.Models.Entities;
@@ -68,6 +69,13 @@ namespace ListingTodos.Controllers
         public IActionResult SubmitTodo(Todo todo)
         {
             TodoService.CreateTodo(todo);
+            return RedirectToAction("ListAll");
+        }
+
+        [HttpPost("{id:long}/delete")]
+        public IActionResult RemoveTodo([FromRoute] long id)
+        {
+            TodoService.RemoveTodo(id);
             return RedirectToAction("ListAll");
         }
     }
