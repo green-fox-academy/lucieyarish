@@ -46,5 +46,16 @@ namespace ListingTodos.Controllers
 
             return View("List", todos);
         }
+
+        [HttpGet("active")]
+        public IActionResult ListActive()
+        {
+            var activeTodos = new TodoViewModel()
+            {
+                AllTodos = TodoService.FindActive()
+            };
+
+            return View("Active", activeTodos);
+        }
     }
 }

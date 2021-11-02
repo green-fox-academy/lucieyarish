@@ -21,7 +21,16 @@ namespace ListingTodos.Services
 
         public List<Todo> FindActive()
         {
-            return DbContext.Todos.ToList();
+            var ActiveTodos = new List<Todo>();
+            foreach (var todo in DbContext.Todos)
+            {
+                if (!todo.IsDone)
+                {
+                    ActiveTodos.Add(todo);
+                }
+            }
+
+            return ActiveTodos;
         }
     }
 }
