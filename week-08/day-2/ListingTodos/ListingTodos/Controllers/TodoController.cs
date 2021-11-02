@@ -25,7 +25,7 @@ namespace ListingTodos.Controllers
             TodoService = service;
         }
 
-        [Route("")]
+        // [Route("")]
         [Route("list")]
         // [HttpGet]
         // public IActionResult List()
@@ -37,7 +37,7 @@ namespace ListingTodos.Controllers
         //     return View("List", todos);
         // }
         
-        [HttpGet]
+        // [HttpGet("list")]
         public IActionResult ListALl() {
             // Create a SQL query in the background
             var todos = new TodoViewModel()
@@ -72,11 +72,11 @@ namespace ListingTodos.Controllers
             return RedirectToAction("ListAll");
         }
 
-        [HttpPost("{id:long}/delete")]
-        public IActionResult RemoveTodo([FromRoute] long id)
+        [HttpGet("{id:long}/delete")]
+        public IActionResult DeleteTodo([FromRoute] long id)
         {
             TodoService.RemoveTodo(id);
-            return RedirectToAction("ListAll");
+            return LocalRedirect($"~/todo/list");
         }
     }
 }

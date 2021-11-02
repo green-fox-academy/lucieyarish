@@ -41,20 +41,16 @@ namespace ListingTodos.Services
             return savedTodo;
         }
         
-        // public Todo FindById(long id)
-        // {
-        //     return DbContext.Todos.Find(id);
-        // }
-        
-        public Todo RemoveTodo(long id)
+        public Todo FindById(long id)
         {
-            var removedTodo = DbContext.Todos.FirstOrDefault(t => t.Id == id);
-            if (removedTodo != null)
-            {
-                DbContext.Todos.Remove(removedTodo);
-            }
+            var foundTodo = DbContext.Todos.Where(t => t.Id == id).ToList().First();
+            return foundTodo;
+        }
+        
+        public void RemoveTodo(long id)
+        {
+            DbContext.Todos.Remove(FindById(id));
             DbContext.SaveChanges();
-            return removedTodo;
         }
     }
 }
