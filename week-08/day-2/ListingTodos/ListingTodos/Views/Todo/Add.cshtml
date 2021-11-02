@@ -1,0 +1,21 @@
+@model ListingTodos.Models.TodoViewModel
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Add New Todo</title>
+</head>
+<body>
+<h1>Add new todo:</h1>
+
+@using (Html.BeginForm("AddTodo", "Todo", FormMethod.Post))
+    {
+        @Html.LabelFor(model => model.Todo.Title);<br/>
+        @Html.TextBoxFor(model => model.Todo.Title);<br/>
+
+        <button type="submit">Submit</button>
+    }
+
+<a href="active">View active todos only</a><br/>
+<a href="list">View all todos</a>
+</body>
+</html>

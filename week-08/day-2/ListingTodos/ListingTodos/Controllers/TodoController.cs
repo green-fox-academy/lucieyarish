@@ -57,5 +57,18 @@ namespace ListingTodos.Controllers
 
             return View("Active", activeTodos);
         }
+
+        [HttpGet("add")]
+        public IActionResult AddTodo()
+        {
+            return View("Add");
+        }
+
+        [HttpPost("add")]
+        public IActionResult SubmitTodo(Todo todo)
+        {
+            TodoService.CreateTodo(todo);
+            return RedirectToAction("ListAll");
+        }
     }
 }

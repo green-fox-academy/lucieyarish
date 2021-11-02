@@ -5,8 +5,10 @@
     <title>Todos</title>
 </head>
 <body>
-
+<a href="todo/add">Add new todo</a><br/>
+<a href="todo/active">View active todos only</a>
 <h1>Todos for today:</h1>
+
 <table>
     <tr>
         <th>ID:</th>
@@ -22,6 +24,7 @@
                 <td>@todo.Title</td>
                 <td>@todo.IsDone</td>
                 <td>@todo.IsUrgent</td>
+                <td><a href="#">Delete</a></td>
              </tr>
         }
 </table>

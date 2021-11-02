@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using ListingTodos.Models.Entities;
 using ListingTodos.Persistence;
@@ -31,6 +32,13 @@ namespace ListingTodos.Services
             }
 
             return ActiveTodos;
+        }
+
+        public Todo CreateTodo(Todo todo)
+        {
+            var savedTodo = DbContext.Todos.Add(todo).Entity;
+            DbContext.SaveChanges();
+            return savedTodo;
         }
     }
 }
