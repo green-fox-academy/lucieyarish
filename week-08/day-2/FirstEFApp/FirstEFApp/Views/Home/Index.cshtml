@@ -1,0 +1,31 @@
+@model FirstEFApp.Models.IndexViewModel
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Main Page</title>
+    </head>
+    <body>
+    
+    @if (Model.User is null)
+    {
+        <h1>No user was picked</h1>
+    }
+    else
+    {
+        <h1>Hello, @Model.User.Name</h1>
+    }
+    
+    @using (Html.BeginForm("AddUser", "Home", FormMethod.Post))
+    {
+        @Html.LabelFor(model => model.User.Name);
+        @Html.TextBoxFor(model => model.User.Name);
+
+        <button type="submit">Press me</button>
+    }
+    
+    @foreach (var user  in Model.AllUsers)
+    {
+        <p>@user.Name</p>
+    }
+
+    </body>
+    </html>
