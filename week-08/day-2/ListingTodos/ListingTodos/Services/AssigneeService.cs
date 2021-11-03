@@ -18,5 +18,12 @@ namespace ListingTodos.Services
         {
             return DbContext.Assignees.ToList();
         }
+        
+        public Assignee CreateAssignee(Assignee assignee)
+        {
+            var savedAssignee = DbContext.Assignees.Add(assignee).Entity;
+            DbContext.SaveChanges();
+            return savedAssignee;
+        }
     }
 }

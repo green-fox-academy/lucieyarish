@@ -1,0 +1,23 @@
+@model ListingTodos.Models.AssigneeViewModel
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Add New Assignee</title>
+</head>
+<body>
+<h1>Add new assignee:</h1>
+
+@using (Html.BeginForm("AddAssignee", "Assignee", FormMethod.Post))
+{
+    @Html.LabelFor(model => model.Assignee.Name);<br/>
+    @Html.TextBoxFor(model => model.Assignee.Name);<br/>
+    @Html.LabelFor(model => model.Assignee.Email);<br/>
+    @Html.TextBoxFor(model => model.Assignee.Email);<br/>
+
+    <button type="submit">Submit</button>
+}
+
+@Html.ActionLink("Back to all assignees", "ListAll", "Assignee")
+@Html.ActionLink("Back to all todos", "ListAll", "Todo")
+</body>
+</html>

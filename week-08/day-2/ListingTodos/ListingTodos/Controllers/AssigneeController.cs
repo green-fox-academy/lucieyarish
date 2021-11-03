@@ -1,4 +1,5 @@
 using ListingTodos.Models;
+using ListingTodos.Models.Entities;
 using ListingTodos.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,6 +24,19 @@ namespace ListingTodos.Controllers
             };
 
             return View("Assignees", assignees);
+        }
+        
+        [HttpGet("add")]
+        public IActionResult AddAssignee()
+        {
+            return View("AddAssignee");
+        }
+        
+        [HttpPost("add")]
+        public IActionResult SubmitAssignee(Assignee assignee)
+        {
+            AssigneeService.CreateAssignee(assignee);
+            return RedirectToAction("ListAll");
         }
     }
 }
