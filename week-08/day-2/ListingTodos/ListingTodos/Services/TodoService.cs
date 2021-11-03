@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using ListingTodos.Models.Entities;
 using ListingTodos.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace ListingTodos.Services
 {
@@ -51,6 +52,15 @@ namespace ListingTodos.Services
         {
             DbContext.Todos.Remove(FindById(id));
             DbContext.SaveChanges();
+        }
+
+        public List<Todo> SearchTodo(string todo)
+        {
+            var allTodos = DbContext.Todos;
+            var foundTodos = allTodos
+                .Where(t => (t.Title.Contains(todo)) || (t.Description.Contains(todo)))
+                .ToList();
+            return foundTodos;
         }
     }
 }

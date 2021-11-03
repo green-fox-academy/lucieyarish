@@ -78,5 +78,16 @@ namespace ListingTodos.Controllers
             TodoService.RemoveTodo(id);
             return LocalRedirect($"~/todo/list");
         }
+
+        [HttpGet("search")]
+        public IActionResult Search([FromQuery]string todo)
+        {
+            var foundTodos = TodoService.SearchTodo(todo);
+            var todos = new TodoViewModel()
+            {
+                AllTodos = foundTodos
+            };
+            return View("List", todos);
+        }
     }
 }
