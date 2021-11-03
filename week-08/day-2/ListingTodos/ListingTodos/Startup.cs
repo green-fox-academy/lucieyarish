@@ -28,6 +28,7 @@ namespace ListingTodos
         {
             services.AddMvc(options => options.EnableEndpointRouting = false);
             services.AddTransient<TodoService>();
+            services.AddTransient<AssigneeService>();
             ConfigureDb(services);
         }
 

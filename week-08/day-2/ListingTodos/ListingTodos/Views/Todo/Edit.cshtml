@@ -1,0 +1,28 @@
+@model ListingTodos.Models.TodoViewModel
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Edit Todo</title>
+</head>
+<body>
+<h1>Edit todo:</h1>
+
+@using (Html.BeginForm("EditTodo", "Todo", FormMethod.Post, new { todoId = Model.Todo.Id}))
+{
+    @Html.LabelFor(model => model.Todo.Title, "Title");<br/>
+    @Html.TextBoxFor(model => model.Todo.Title);<br/>
+    @Html.LabelFor(model => model.Todo.Description, "Description");<br/>
+    @Html.TextBoxFor(model => model.Todo.Description);<br/>
+    @Html.LabelFor(model => model.Todo.IsUrgent, "Urgent");<br/>
+    @Html.CheckBoxFor(model => model.Todo.IsUrgent);<br/>
+    @Html.LabelFor(model => model.Todo.Description, "Done");<br/>
+    @Html.CheckBoxFor(model => model.Todo.IsDone);<br/>
+
+    <button type="submit">Submit</button>
+    @Html.ActionLink("Cancel", "ListALl", "Todo")
+}
+
+<a href="active">View active todos only</a><br/>
+<a href="list">View all todos</a>
+</body>
+</html>

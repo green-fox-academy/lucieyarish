@@ -89,5 +89,23 @@ namespace ListingTodos.Controllers
             };
             return View("List", todos);
         }
+        
+        [HttpGet("{id:long}/edit")]
+        public IActionResult EditTodo([FromRoute] long id)
+        {
+            var foundTodo = TodoService.FindById(id);
+            var todo = new TodoViewModel()
+            {
+                Todo = foundTodo
+            };
+            return View("Edit", todo);
+        }
+        
+        [HttpPost("{id:long}/edit")]
+        public IActionResult EditTodo([FromRoute]long id, Todo todo)
+        {
+            TodoService.EditTodo(id, todo);
+            return LocalRedirect($"~/todo/list"); 
+        }
     }
 }

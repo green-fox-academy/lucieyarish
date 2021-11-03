@@ -1,0 +1,31 @@
+@model ListingTodos.Models.AssigneeViewModel
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Assignees</title>
+</head>
+<body>
+@Html.ActionLink("View all assignees", "ListAll", "Assignee")
+<h1>Todos for today:</h1>
+
+<p>List of Assignees:</p>
+<table>
+    <tr>
+        <th>ID:</th>
+        <th>Name:</th>
+        <th>Email:</th>
+    </tr>
+
+    @foreach (var person in @Model.Assignees)
+    {
+        <tr>
+            <td>@person.Id</td>
+            <td>@person.Name</td>
+            <td>@person.Email</td>
+        </tr>
+    }
+</table>
+
+@Html.ActionLink("Back to all todos", "ListAll", "Todo")
+</body>
+</html>

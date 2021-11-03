@@ -62,5 +62,16 @@ namespace ListingTodos.Services
                 .ToList();
             return foundTodos;
         }
+
+        public void EditTodo(long id, Todo newTodo)
+        {
+            var foundTodo = FindById(id);
+            foundTodo.Title = newTodo.Title;
+            foundTodo.Description = newTodo.Description;
+            foundTodo.IsUrgent = newTodo.IsUrgent;
+            foundTodo.IsDone = newTodo.IsDone;
+            DbContext.SaveChanges();
+
+        }
     }
 }

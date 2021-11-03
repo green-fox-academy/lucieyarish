@@ -5,6 +5,7 @@
     <title>Todos</title>
 </head>
 <body>
+<a href="list">View all</a><br/>
 <a href="add">Add new todo</a><br/>
 <a href="active">View active todos only</a>
 <h1>Todos for today:</h1>
@@ -22,18 +23,23 @@
         <th>Done:</th>
         <th>Urgent:</th>
     </tr>
-    
-        @foreach (var todo in @Model.AllTodos)
-        {
-            <tr>
-                <td>@todo.Id</td>
-                <td>@todo.Title</td>
-                <td>@todo.Description</td>
-                <td>@todo.IsDone</td>
-                <td>@todo.IsUrgent</td>
-                <td><a href="@todo.Id/delete">Delete</a></td>
-            </tr>
-        }
+
+    @foreach (var todo in @Model.AllTodos)
+    {
+        <tr>
+            <td>@todo.Id</td>
+            <td>@todo.Title</td>
+            <td>@todo.Description</td>
+            <td>@todo.IsDone</td>
+            <td>@todo.IsUrgent</td>
+            <td><a href="@todo.Id/delete">Delete</a></td>
+            @* <td>@Html.ActionLink("Edit", "EditTodo", "Todo")</td> *@
+            <td><a href="@todo.Id/edit">Edit</a></td>
+        </tr>
+    }
 </table>
+@Html.ActionLink("List of Assignees", "ListAll", "Assignee")
+
+@* <a href="assignee/assignees">List of Assignees</a> *@
 </body>
 </html>
