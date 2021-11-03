@@ -1,0 +1,24 @@
+@model ListingTodos.Models.AssigneeViewModel
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Edit Assignee</title>
+</head>
+<body>
+<h1>Edit assignee:</h1>
+
+@using (Html.BeginForm("EditAssignee", "Assignee", FormMethod.Post, new { todoId = Model.Assignee.Id}))
+{
+    @Html.LabelFor(model => model.Assignee.Name, "Name");<br/>
+    @Html.TextBoxFor(model => model.Assignee.Name);<br/>
+    @Html.LabelFor(model => model.Assignee.Email, "Email");<br/>
+    @Html.TextBoxFor(model => model.Assignee.Email);<br/>
+
+    <button type="submit">Submit</button>
+    @Html.ActionLink("Cancel", "ListALl", "Assignee")
+}
+
+<a href="assignees">View all assignees</a><br/>
+<a href="list">View all todos</a>
+</body>
+</html>

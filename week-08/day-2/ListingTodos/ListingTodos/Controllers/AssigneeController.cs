@@ -15,7 +15,7 @@ namespace ListingTodos.Controllers
             AssigneeService = service;
         }
 
-        [HttpGet("assignees")]
+        [HttpGet("all")]
         public IActionResult ListAll()
         {
             var assignees = new AssigneeViewModel()
@@ -37,6 +37,31 @@ namespace ListingTodos.Controllers
         {
             AssigneeService.CreateAssignee(assignee);
             return RedirectToAction("ListAll");
+        }
+        
+        [HttpGet("{id:long}/delete")]
+        public IActionResult DeleteAssignee([FromRoute] long id)
+        {
+            AssigneeService.RemoveAssignee(id);
+            return LocalRedirect($"~/assignee/all");
+        }
+        
+        [HttpGet("{id:long}/edit")]
+        public IActionResult EditAssignee([FromRoute] long id)
+        {
+            var foundAssignee = AssigneeService.FindById(id);
+            var assignee = new AssigneeViewModel()
+            {
+                Assignee = foundAssignee
+            };
+            return View("EditAssignee", assignee);
+        }
+        
+        [HttpPost("{id:long}/edit")]
+        public IActionResult EditAssignee([FromRoute]long id, Assignee assignee)
+        {
+            AssigneeService.EditAssignee(id, assignee);
+            return LocalRedirect($"~/assignee/all"); 
         }
     }
 }

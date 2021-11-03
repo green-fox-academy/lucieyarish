@@ -25,5 +25,34 @@ namespace ListingTodos.Services
             DbContext.SaveChanges();
             return savedAssignee;
         }
+        
+        public Assignee FindById(long id)
+        {
+            var foundPerson = DbContext.Assignees.Where(a => a.Id == id).ToList().First();
+            return foundPerson;
+        }
+        
+        public void RemoveAssignee(long id)
+        {
+            DbContext.Assignees.Remove(FindById(id));
+            DbContext.SaveChanges();
+        }
+        public List<Assignee> SearchAssignee(string assignee)
+        {
+            var allAssignees = DbContext.Assignees;
+            var foundassignee = allAssignees
+                .Where(t => (t.Name.Contains(assignee)) || (t.Email.Contains(assignee)))
+                .ToList();
+            return foundassignee;
+        }
+
+        public void EditAssignee(long id, Assignee newAssignee)
+        {
+            var foundAssignee = FindById(id);
+            foundAssignee.Name = newAssignee.Name;
+            foundAssignee.Email = newAssignee.Email;
+            DbContext.SaveChanges();
+
+        }
     }
 }
