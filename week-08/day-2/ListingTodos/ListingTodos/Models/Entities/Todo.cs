@@ -7,5 +7,7 @@ namespace ListingTodos.Models.Entities
         public string Description { get; set; }
         public bool IsUrgent { get; set; }
         public bool IsDone { get; set; }
+        public Assignee Assignee { get; set; }
+        public long? AssigneeID { get; set; }
     }
 }

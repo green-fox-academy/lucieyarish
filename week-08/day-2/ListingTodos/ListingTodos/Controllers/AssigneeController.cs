@@ -9,10 +9,12 @@ namespace ListingTodos.Controllers
     public class AssigneeController : Controller
     {
         private AssigneeService AssigneeService { get; }
+        private TodoService TodoService { get; }
 
-        public AssigneeController(AssigneeService service)
+        public AssigneeController(AssigneeService service, TodoService todoservice)
         {
             AssigneeService = service;
+            TodoService = todoservice;
         }
 
         [HttpGet("all")]
@@ -62,6 +64,25 @@ namespace ListingTodos.Controllers
         {
             AssigneeService.EditAssignee(id, assignee);
             return LocalRedirect($"~/assignee/all"); 
+        }
+
+        [HttpGet("{id:long}/details")]
+        public IActionResult Details([FromRoute] long id)
+        {
+            var foundAssignee = AssigneeService.FindById(id);
+            var assignee = new AssigneeViewModel()
+            {
+                Assignee = foundAssignee
+            };
+            return View("Details", assignee);
+        }
+
+        [HttpPost("{id:long}/details")]
+        public IActionResult Details([FromRoute] long id, Assignee assignee)
+        {
+            AssigneeService.GetDetails(id, assignee);
+            return LocalRedirect("~/assignee/details");
+            // return View("Details");
         }
     }
 }

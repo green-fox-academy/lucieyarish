@@ -1,0 +1,25 @@
+@model ListingTodos.Models.AssigneeViewModel
+
+<html>
+<head>
+    <title>Assignee Details</title>
+</head>
+<body>
+<ul>
+    @foreach (var todo in Model.Assignee.AssignedTodos)
+    {
+        @if (Model.Assignee.AssignedTodos.Count != 0)
+        {
+            <li>@todo.Title @todo.Description</li>
+        }
+        else
+        {
+            <li>No todos assigned!</li>
+        }
+    
+    }
+
+</ul>
+
+</body>
+</html>

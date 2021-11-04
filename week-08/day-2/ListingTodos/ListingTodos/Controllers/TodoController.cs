@@ -14,15 +14,17 @@ namespace ListingTodos.Controllers
     {
         // private static List<string> todos;
         private TodoService TodoService { get; }
+        private AssigneeService AssigneeService { get; }
 
         // static TodoController()
         // {
         //     todos = new List<string>();
         // }
         
-        public TodoController(TodoService service)
+        public TodoController(TodoService service, AssigneeService assigneeService)
         {
             TodoService = service;
+            AssigneeService = assigneeService;
         }
 
         // [Route("")]
@@ -94,17 +96,20 @@ namespace ListingTodos.Controllers
         public IActionResult EditTodo([FromRoute] long id)
         {
             var foundTodo = TodoService.FindById(id);
+            var foundAssignees = AssigneeService.FindAll();
             var todo = new TodoViewModel()
             {
-                Todo = foundTodo
+                Todo = foundTodo,
+                AllAssignees = foundAssignees
             };
+            
             return View("Edit", todo);
         }
         
         [HttpPost("{id:long}/edit")]
-        public IActionResult EditTodo([FromRoute]long id, Todo todo)
+        public IActionResult EditTodo([FromRoute]long id, Todo todo, long assigneeId)
         {
-            TodoService.EditTodo(id, todo);
+            TodoService.EditTodo(id, todo, assigneeId);
             return LocalRedirect($"~/todo/list"); 
         }
     }

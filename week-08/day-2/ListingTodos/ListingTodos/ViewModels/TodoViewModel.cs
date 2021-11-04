@@ -8,5 +8,7 @@ namespace ListingTodos.Models
         public Todo Todo { get; set; }
         
         public List<Todo> AllTodos { get; set; }
+        public Assignee Assignee { get; set; }
+        public List<Assignee> AllAssignees { get; set; }
     }
 }

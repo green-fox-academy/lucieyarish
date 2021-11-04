@@ -11,5 +11,14 @@ namespace ListingTodos.Persistence
         {
         }
         
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Todo>()
+                .HasOne<Assignee>(t => t.Assignee)
+                .WithMany(x => x.AssignedTodos)
+                .HasForeignKey(t => t.AssigneeID)
+                .IsRequired(false);
+        }
+        
     }
 }

@@ -1,3 +1,5 @@
+@using ListingTodos.Models.Entities
+@using Microsoft.AspNetCore.Identity
 @model ListingTodos.Models.TodoViewModel
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -11,12 +13,23 @@
 {
     @Html.LabelFor(model => model.Todo.Title, "Title");<br/>
     @Html.TextBoxFor(model => model.Todo.Title);<br/>
+    
     @Html.LabelFor(model => model.Todo.Description, "Description");<br/>
     @Html.TextBoxFor(model => model.Todo.Description);<br/>
+    
     @Html.LabelFor(model => model.Todo.IsUrgent, "Urgent");<br/>
     @Html.CheckBoxFor(model => model.Todo.IsUrgent);<br/>
+    
     @Html.LabelFor(model => model.Todo.Description, "Done");<br/>
     @Html.CheckBoxFor(model => model.Todo.IsDone);<br/>
+    
+    <label>Assignee:</label>
+    <select name="assigneeID">
+        @foreach (var item in Model.AllAssignees)
+        {
+            <option value="@item.Id">@item.Name</option>
+        }
+    </select>
 
     <button type="submit">Submit</button>
     @Html.ActionLink("Cancel", "ListALl", "Todo")

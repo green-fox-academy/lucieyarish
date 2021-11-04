@@ -63,13 +63,14 @@ namespace ListingTodos.Services
             return foundTodos;
         }
 
-        public void EditTodo(long id, Todo newTodo)
+        public void EditTodo(long id, Todo newTodo, long assigneeId)
         {
             var foundTodo = FindById(id);
             foundTodo.Title = newTodo.Title;
             foundTodo.Description = newTodo.Description;
             foundTodo.IsUrgent = newTodo.IsUrgent;
             foundTodo.IsDone = newTodo.IsDone;
+            foundTodo.AssigneeID = assigneeId;
             DbContext.SaveChanges();
 
         }

@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using ListingTodos.Models.Entities;
 using ListingTodos.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace ListingTodos.Services
 {
@@ -16,7 +17,8 @@ namespace ListingTodos.Services
         
         public List<Assignee> FindAll()
         {
-            return DbContext.Assignees.ToList();
+            // return DbContext.Assignees.ToList();
+            return DbContext.Assignees.Include(a => a.AssignedTodos).ToList();
         }
         
         public Assignee CreateAssignee(Assignee assignee)
@@ -28,7 +30,7 @@ namespace ListingTodos.Services
         
         public Assignee FindById(long id)
         {
-            var foundPerson = DbContext.Assignees.Where(a => a.Id == id).ToList().First();
+            var foundPerson = FindAll().Where(a => a.Id == id).ToList().First();
             return foundPerson;
         }
         
@@ -53,6 +55,14 @@ namespace ListingTodos.Services
             foundAssignee.Email = newAssignee.Email;
             DbContext.SaveChanges();
 
+        }
+        
+        
+
+        public void GetDetails(long id, Assignee newAssignee)
+        {
+            var foundAssignee = FindById(id);
+            foundAssignee.AssignedTodos = newAssignee.AssignedTodos;
         }
     }
 }
