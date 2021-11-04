@@ -60,7 +60,10 @@ namespace ListingTodos.Services
         {
             var allTodos = DbContext.Todos;
             var foundTodos = allTodos
-                .Where(t => (t.Title.Contains(todo)) || (t.Description.Contains(todo)))
+                .Where(t => (t.Title.Contains(todo)) || 
+                            (t.Description.Contains(todo)) || 
+                            (t.CreateDate.Contains(todo)) || 
+                            (t.DueDate.Contains(todo)))
                 .ToList();
             return foundTodos;
         }
