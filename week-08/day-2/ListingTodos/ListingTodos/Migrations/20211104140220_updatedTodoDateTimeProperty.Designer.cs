@@ -3,14 +3,16 @@ using System;
 using ListingTodos.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ListingTodos.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20211104140220_updatedTodoDateTimeProperty")]
+    partial class updatedTodoDateTimeProperty
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,14 +45,14 @@ namespace ListingTodos.Migrations
                     b.Property<long?>("AssigneeID")
                         .HasColumnType("bigint");
 
-                    b.Property<string>("CreateDate")
-                        .HasColumnType("longtext");
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime(6)");
 
                     b.Property<string>("Description")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("DueDate")
-                        .HasColumnType("longtext");
+                    b.Property<DateTime>("DueDate")
+                        .HasColumnType("datetime(6)");
 
                     b.Property<bool>("IsDone")
                         .HasColumnType("tinyint(1)");

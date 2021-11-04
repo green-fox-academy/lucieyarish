@@ -107,9 +107,9 @@ namespace ListingTodos.Controllers
         }
         
         [HttpPost("{id:long}/edit")]
-        public IActionResult EditTodo([FromRoute]long id, Todo todo, long assigneeId)
+        public IActionResult EditTodo([FromRoute]long id, Todo todo, long assigneeId, string dueDate)
         {
-            TodoService.EditTodo(id, todo, assigneeId);
+            TodoService.EditTodo(id, todo, assigneeId, dueDate);
             return LocalRedirect($"~/todo/list"); 
         }
     }

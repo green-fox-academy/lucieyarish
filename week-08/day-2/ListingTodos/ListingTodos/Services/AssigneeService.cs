@@ -42,10 +42,10 @@ namespace ListingTodos.Services
         public List<Assignee> SearchAssignee(string assignee)
         {
             var allAssignees = DbContext.Assignees;
-            var foundassignee = allAssignees
+            var foundAssignee = allAssignees
                 .Where(t => (t.Name.Contains(assignee)) || (t.Email.Contains(assignee)))
                 .ToList();
-            return foundassignee;
+            return foundAssignee;
         }
 
         public void EditAssignee(long id, Assignee newAssignee)

@@ -8,6 +8,11 @@
 @Html.ActionLink("View all assignees", "ListAll", "Assignee")<br/>
 @Html.ActionLink("Add new assignee", "AddAssignee", "Assignee")
 <h1>List of Assignees:</h1>
+<p>Search Todo:</p>
+<form method="get" action="search">
+    <input type="text" id="assignee" name="assignee" placeholder="Search assignee...">
+    <input type="submit" value="Search">
+</form>
 
 <table>
     <tr>

@@ -48,6 +48,17 @@ namespace ListingTodos.Controllers
             return LocalRedirect($"~/assignee/all");
         }
         
+        [HttpGet("search")]
+        public IActionResult Search([FromQuery]string assignee)
+        {
+            var foundAssignees = AssigneeService.SearchAssignee(assignee);
+            var assignees = new AssigneeViewModel()
+            {
+                Assignees = foundAssignees
+            };
+            return View("Assignees", assignees);
+        }
+        
         [HttpGet("{id:long}/edit")]
         public IActionResult EditAssignee([FromRoute] long id)
         {

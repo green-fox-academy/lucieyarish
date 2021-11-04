@@ -5,21 +5,19 @@
     <title>Assignee Details</title>
 </head>
 <body>
-<ul>
-    @foreach (var todo in Model.Assignee.AssignedTodos)
-    {
-        @if (Model.Assignee.AssignedTodos.Count != 0)
+@if (Model.Assignee.AssignedTodos.Count == 0)
+{
+    <p>No todos assigned!</p>
+}
+else
+{
+    <ul>
+        @foreach (var todo in Model.Assignee.AssignedTodos)
         {
-            <li>@todo.Title @todo.Description</li>
+            
+                <li>@todo.Title @todo.Description</li>
         }
-        else
-        {
-            <li>No todos assigned!</li>
-        }
-    
-    }
-
-</ul>
-
+    </ul>
+}
 </body>
 </html>

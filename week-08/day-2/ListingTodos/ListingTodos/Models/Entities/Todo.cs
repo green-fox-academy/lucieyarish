@@ -9,5 +9,9 @@ namespace ListingTodos.Models.Entities
         public bool IsDone { get; set; }
         public Assignee Assignee { get; set; }
         public long? AssigneeID { get; set; }
+        
+        public string CreateDate { get; set; }
+        
+        public string DueDate { get; set; }
     }
 }

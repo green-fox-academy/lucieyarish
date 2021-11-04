@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -38,6 +39,7 @@ namespace ListingTodos.Services
         public Todo CreateTodo(Todo todo)
         {
             var savedTodo = DbContext.Todos.Add(todo).Entity;
+            savedTodo.CreateDate = DateTime.Now.ToString();
             DbContext.SaveChanges();
             return savedTodo;
         }
@@ -63,7 +65,7 @@ namespace ListingTodos.Services
             return foundTodos;
         }
 
-        public void EditTodo(long id, Todo newTodo, long assigneeId)
+        public void EditTodo(long id, Todo newTodo, long assigneeId, string dueDate)
         {
             var foundTodo = FindById(id);
             foundTodo.Title = newTodo.Title;
@@ -71,6 +73,7 @@ namespace ListingTodos.Services
             foundTodo.IsUrgent = newTodo.IsUrgent;
             foundTodo.IsDone = newTodo.IsDone;
             foundTodo.AssigneeID = assigneeId;
+            foundTodo.DueDate = dueDate;
             DbContext.SaveChanges();
 
         }
