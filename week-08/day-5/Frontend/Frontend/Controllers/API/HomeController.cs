@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Runtime.Serialization;
 using Frontend.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -86,21 +87,44 @@ namespace Frontend.Controllers.API
             }
             return Ok(new {error = "Please provide a title!"});
         }
+
+        [HttpPost("/arrays")]
+        public IActionResult HandleArrays([FromBody] What input)
+        {
+            string myWhat = input.what;
+            int[] myNumbers = input.numbers;
+            int myResult = 0;
+            int myResult2 = 1;
+
+            if (myWhat is null || myNumbers is null)
+            {
+                return Ok(new {error = "Please provide what to do with the numbers!"});
+            }
+            switch (myWhat)
+            {
+                case "sum":
+                    for (int i = 0; i <= myNumbers.Length; i++)
+                    {
+                        myResult += i;
+                    }
+                    return Ok(new {result = myResult});
+                case "multiply":
+                    for (int i = 0; i <= myNumbers.Length; i++)
+                    {
+                        myResult2 *= i;
+                    }
+                    return Ok(new {result = myResult});
+                case "double":
+                    for (int i = 0; i <= myNumbers.Length; i++)
+                    {
+                        myNumbers[i] = myNumbers[i] * 2;
+                    }
+                    return Ok(new {result = myNumbers});
+            }
+            return Ok();
+        }
         
-
-            //
-            // if ()
-            // {
-            //     return Ok(new {result = operation + 10});
-            // }
-            //
-            // return BadRequest( new {error = "Please provide a number!"});
-            // else if (operation == "factor")
-            // {
-            //     return Ok(new {result =})
-            // }
-
-            // PUT api/<ValuesController>/5
+        // PUT api/<ValuesController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
