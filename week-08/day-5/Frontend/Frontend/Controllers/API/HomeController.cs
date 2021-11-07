@@ -137,8 +137,12 @@ namespace Frontend.Controllers.API
             }
             return Ok();
         }
-        
+
         [HttpGet("/log")]
+        public IActionResult LogEntries()
+        {
+            return Ok(new { entries = LogService.DisplayLogs(), entry_count = LogService.GetLogsCount()});
+        }
         
         // PUT api/<ValuesController>/5
         [HttpPut("{id}")]
