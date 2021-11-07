@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.Serialization;
 using Frontend.Models;
+using Frontend.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Frontend.Controllers.API
@@ -11,6 +12,13 @@ namespace Frontend.Controllers.API
     [ApiController]
     public class HomeController : ControllerBase
     {
+        private LogService LogService { get; }
+
+        public HomeController(LogService service)
+        {
+            LogService = service;
+        }
+        
         // GET: api/<ValuesController>
         [HttpGet]
         public ActionResult Get()
@@ -22,16 +30,19 @@ namespace Frontend.Controllers.API
         [HttpGet("/doubling")]
         public IActionResult GetDouble([FromQuery] int? input)
         {
+            LogService.AddLog("/doubling", $"input={input}");
             if (input is null)
             {
                 return Ok(new { error = "Please provide an input!"});
             }
+            
             return Ok(new {received = input, result = input * 2});
         }
 
         [HttpGet("/greeter")]
         public IActionResult Greet([FromQuery] string name, string title)
         {
+            LogService.AddLog("/greeter", $"name={name}&title={title}");
             if (name is null)
             {
                 return BadRequest(new {error = "Please provide a name and a title!"});
@@ -52,6 +63,7 @@ namespace Frontend.Controllers.API
         [HttpGet("/appenda/{appendable}")]
         public IActionResult AppendA([FromRoute] string appendable)
         {
+            LogService.AddLog($"/appenda/{appendable}", appendable);
             if (appendable is null)
             {
                 return NotFound(new {error = "Appendable not found"});
@@ -65,6 +77,7 @@ namespace Frontend.Controllers.API
         [HttpPost("/dountil/{operation}")]
         public IActionResult DoUntil([FromRoute]string operation, [FromBody]DoUntil input)
         {
+            LogService.AddLog($"/dountil/{operation}", $"{operation}, until={input.until}");
             int num = input.until;
             switch (operation)
             {
@@ -91,6 +104,7 @@ namespace Frontend.Controllers.API
         [HttpPost("/arrays")]
         public IActionResult HandleArrays([FromBody] What input)
         {
+            LogService.AddLog("/arrays", $"numbers={input.numbers}&operation={input.what}");
             string myWhat = input.what;
             int[] myNumbers = input.numbers;
             int myResult = 0;
@@ -123,6 +137,8 @@ namespace Frontend.Controllers.API
             }
             return Ok();
         }
+        
+        [HttpGet("/log")]
         
         // PUT api/<ValuesController>/5
         [HttpPut("{id}")]
