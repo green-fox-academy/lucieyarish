@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Reddit.Models.Entities;
 using Reddit.Services;
 using Reddit.ViewModels;
 
@@ -28,6 +29,19 @@ namespace Reddit.Controllers
         {
             return View("AddPost");
         }
+
+        [HttpPost("add")]
+        public IActionResult Add(Post post)
+        {
+            PostService.CreatePost(post);
+            return RedirectToAction("ListAll");
+        }
         
+        [HttpPost("{id:long}/voteup")]
+        public IActionResult VoteUp([FromRoute] int id, Post post)
+        {
+            PostService.EditVoteUp(id, post);
+            return LocalRedirect($"~/post/index");
+        }
     }
 }

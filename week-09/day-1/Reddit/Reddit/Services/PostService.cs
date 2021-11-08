@@ -20,6 +20,28 @@ namespace Reddit.Services
         {
             return DbContext.Posts.ToList();
         }
+
+        public Post CreatePost(Post post)
+        {
+            var savedPost = DbContext.Posts.Add(post).Entity;
+            DbContext.SaveChanges();
+            return savedPost;
+        }
+
+        public Post FindById(long id)
+        {
+            var foundPost = FindAll().Where(a => a.Id == id).ToList().First();
+            return foundPost;
+        }
+
+        public void EditVoteUp(long id, Post post)
+        {
+            var foundPost = FindById(id);
+            foundPost.NumberOfVotes += 1;
+            foundPost.PostTitle = post.PostTitle;
+            foundPost.PostURL = post.PostURL;
+            DbContext.SaveChanges();
+        }
         
     }
 }
