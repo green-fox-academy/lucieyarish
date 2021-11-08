@@ -9,23 +9,24 @@ namespace Frontend.Services
         public string ReverseText(string textToReverse)
         {
 
-            string toBeReversed = textToReverse;
-            for (int i = toBeReversed.Length - 1; i >= 0; i--)
-            {
-                var c = toBeReversed[i];
-            }
-            return toBeReversed;
-            // string[] words = textToReverse.Split(' ');
-            // string temp;
-            // int j = words.Length - 1;
-            // for (int i = 0; i < j; i++)
+            // string toBeReversed = textToReverse;
+            // for (int i = toBeReversed.Length - 1; i >= 0; i--)
             // {
-            //     temp = words[i];
-            //     words[i] = words[j];
-            //     words[j] = temp;
+            //     var c = toBeReversed[i];
             // }
-            // var reversedArr = words.Reverse().Select(c => new string(c.Reverse().ToArray())).ToArray();
-            // string reversedText = string.Join(' ', reversedArr);
+            // return toBeReversed;
+            string[] words = textToReverse.Split(' ');
+            string temp;
+            int j = words.Length - 1;
+            for (int i = 0; i < j; i++)
+            {
+                temp = words[i];
+                words[i] = words[j];
+                words[j] = temp;
+            }
+            var reversedArr = words.Reverse().Select(c => new string(c.Reverse().ToArray())).ToArray();
+            string reversedText = string.Join(' ', reversedArr);
+            return reversedText;
         }
         
 

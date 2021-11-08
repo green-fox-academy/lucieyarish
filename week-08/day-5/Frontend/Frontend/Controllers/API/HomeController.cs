@@ -150,9 +150,10 @@ namespace Frontend.Controllers.API
         }
 
         [HttpPost("sith")]
-        public IActionResult ReverseSith([FromBody] string text)
+        public IActionResult ReverseSith([FromBody] SithReverser text)
         {
-            var reversedSentence = SithReverserService.ReverseText(text);
+            var sentence = text.TextToReverse;
+            var reversedSentence = SithReverserService.ReverseText(sentence);
             return Ok(new { sith_text = reversedSentence});
         }
 
