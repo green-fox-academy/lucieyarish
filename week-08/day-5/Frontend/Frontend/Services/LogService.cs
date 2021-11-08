@@ -25,15 +25,15 @@ namespace Frontend.Services
         {
             return new List<Log>(DbContext.Logs.ToList());
         }
-        public EntryCounter GetLogsCount()
-        {
-            EntryCounter allLogs = new();
-            allLogs.LogCount = DbContext.Logs.Count();
-            foreach (var item in DbContext.Logs)
-            {
-                allLogs.Logs.Add(item);
-            }
-            return allLogs;
-        }
+        // public EntryCounter GetLogsCount()
+        // {
+        //     EntryCounter allLogs = new();
+        //     allLogs.LogCount = DbContext.Logs.Count();
+        //     foreach (var item in DbContext.Logs)
+        //     {
+        //         allLogs.Logs.Add(item);
+        //     }
+        //     return allLogs;
+        // }
     }
 }

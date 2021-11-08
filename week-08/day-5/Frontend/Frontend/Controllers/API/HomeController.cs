@@ -14,20 +14,20 @@ namespace Frontend.Controllers.API
     public class HomeController : ControllerBase
     {
         private LogService LogService { get; }
+        private SithReverserService SithReverserService { get; }
 
-        public HomeController(LogService service)
+        public HomeController(LogService service, SithReverserService sithService)
         {
             LogService = service;
+            SithReverserService = sithService;
         }
-
-        // GET: api/<ValuesController>
+        
         [HttpGet]
         public ActionResult Get()
         {
             return File("index.html", "text/html");
         }
-
-        // GET api/<ValuesController>/5
+        
         [HttpGet("doubling")]
         public IActionResult GetDouble([FromQuery] int? input)
         {
@@ -73,9 +73,7 @@ namespace Frontend.Controllers.API
 
             return Ok(new {appended = appendable + "a"});
         }
-
-
-        // POST api/<ValuesController>
+        
         [HttpPost("dountil/{operation}")]
         public IActionResult DoUntil([FromRoute] string operation, [FromBody] DoUntil input)
         {
@@ -107,9 +105,9 @@ namespace Frontend.Controllers.API
         }
 
         [HttpPost("arrays")]
-        public IActionResult HandleArrays([FromBody] What input)
+        public IActionResult HandleArrays([FromBody] ArrayHandler input)
         {
-            LogService.AddLog("arrays", $"numbers={input.Numbers}&operation={input.Numbers}");
+            LogService.AddLog("arrays", $"numbers={string.Join(",", input.Numbers)}&operation={input.Operation}");
             string myOperation = input.Operation;
             int[] myNumbers = input.Numbers;
             int myResult = 0;
@@ -127,32 +125,20 @@ namespace Frontend.Controllers.API
                     {
                         myResult += num;
                     }
-
-                    // for (int i = 0; i < myNumbers.Length; i++)
-                    // {
-                    //     myResult += i;
-                    // }
                     return Ok(new {result = myResult});
                 case "multiply":
                     foreach (var num in myNumbers)
                     {
                         myResult2 *= num;
                     }
-
-                    // for (int i = 0; i < myNumbers.Length; i++)
-                    // {
-                    //     myResult2 *= i;
-                    // }
                     return Ok(new {result = myResult2});
                 case "double":
                     for (int i = 0; i < myNumbers.Length; i++)
                     {
                         myNumbers[i] = myNumbers[i] * 2;
                     }
-
                     return Ok(new {result = myNumbers});
             }
-
             return Ok();
         }
 
@@ -164,6 +150,11 @@ namespace Frontend.Controllers.API
         }
 
         [HttpPost("sith")]
+        public IActionResult ReverseSith([FromBody] string text)
+        {
+            var reversedSentence = SithReverserService.ReverseText(text);
+            return Ok(new { sith_text = reversedSentence});
+        }
 
         // PUT api/<ValuesController>/5
         [HttpPut("{id}")]

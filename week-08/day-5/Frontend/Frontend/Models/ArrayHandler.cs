@@ -1,6 +1,6 @@
 namespace Frontend.Models
 {
-    public class What
+    public class ArrayHandler
     {
         public string Operation { get; set; }
         public int[] Numbers { get; set; }

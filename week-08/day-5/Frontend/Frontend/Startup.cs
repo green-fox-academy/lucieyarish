@@ -30,6 +30,7 @@ namespace Frontend
             services.AddControllers();
             services.AddMvc(options => options.EnableEndpointRouting = false);
             services.AddTransient<LogService>();
+            services.AddTransient<SithReverserService>();
             ConfigureDb(services);
         }
 
