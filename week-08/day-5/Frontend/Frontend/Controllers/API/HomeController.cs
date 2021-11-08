@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.Serialization;
 using Frontend.Models;
+using Frontend.Models.Entities;
 using Frontend.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Frontend.Controllers.API
 {
-    [Route("/")]
+    [Route("")]
     [ApiController]
     public class HomeController : ControllerBase
     {
@@ -18,7 +19,7 @@ namespace Frontend.Controllers.API
         {
             LogService = service;
         }
-        
+
         // GET: api/<ValuesController>
         [HttpGet]
         public ActionResult Get()
@@ -27,26 +28,27 @@ namespace Frontend.Controllers.API
         }
 
         // GET api/<ValuesController>/5
-        [HttpGet("/doubling")]
+        [HttpGet("doubling")]
         public IActionResult GetDouble([FromQuery] int? input)
         {
-            LogService.AddLog("/doubling", $"input={input}");
+            LogService.AddLog("doubling", $"input={input}");
             if (input is null)
             {
-                return Ok(new { error = "Please provide an input!"});
+                return Ok(new {error = "Please provide an input!"});
             }
-            
+
             return Ok(new {received = input, result = input * 2});
         }
 
-        [HttpGet("/greeter")]
+        [HttpGet("greeter")]
         public IActionResult Greet([FromQuery] string name, string title)
         {
-            LogService.AddLog("/greeter", $"name={name}&title={title}");
+            LogService.AddLog("greeter", $"name={name}&title={title}");
             if (name is null)
             {
                 return BadRequest(new {error = "Please provide a name and a title!"});
             }
+
             if (title is null)
             {
                 return BadRequest(new {error = "Please provide a title!"});
@@ -60,10 +62,10 @@ namespace Frontend.Controllers.API
             return Ok(new {welcome_message = $"Oh, hi there {name}, my dear {title}!"});
         }
 
-        [HttpGet("/appenda/{appendable}")]
+        [HttpGet("appenda/{appendable}")]
         public IActionResult AppendA([FromRoute] string appendable)
         {
-            LogService.AddLog($"/appenda/{appendable}", appendable);
+            LogService.AddLog($"appenda/{appendable}", appendable);
             if (appendable is null)
             {
                 return NotFound(new {error = "Appendable not found"});
@@ -71,13 +73,13 @@ namespace Frontend.Controllers.API
 
             return Ok(new {appended = appendable + "a"});
         }
-        
-        
+
+
         // POST api/<ValuesController>
-        [HttpPost("/dountil/{operation}")]
-        public IActionResult DoUntil([FromRoute]string operation, [FromBody]DoUntil input)
+        [HttpPost("dountil/{operation}")]
+        public IActionResult DoUntil([FromRoute] string operation, [FromBody] DoUntil input)
         {
-            LogService.AddLog($"/dountil/{operation}", $"{operation}, until={input.until}");
+            LogService.AddLog($"dountil/{operation}", $"{operation}, until={input.until}");
             int num = input.until;
             switch (operation)
             {
@@ -87,6 +89,7 @@ namespace Frontend.Controllers.API
                     {
                         sum += i + 1;
                     }
+
                     return Ok(new {until = num, result = sum});
                 case "factor":
                     int fact = 1;
@@ -94,56 +97,74 @@ namespace Frontend.Controllers.API
                     {
                         fact *= (x + 1);
                     }
+
                     return Ok(new {until = num, result = fact});
                 case null:
                     return BadRequest(new {error = "Please provide a title!"});
             }
+
             return Ok(new {error = "Please provide a title!"});
         }
 
-        [HttpPost("/arrays")]
+        [HttpPost("arrays")]
         public IActionResult HandleArrays([FromBody] What input)
         {
-            LogService.AddLog("/arrays", $"numbers={input.numbers}&operation={input.what}");
-            string myWhat = input.what;
-            int[] myNumbers = input.numbers;
+            LogService.AddLog("arrays", $"numbers={input.Numbers}&operation={input.Numbers}");
+            string myOperation = input.Operation;
+            int[] myNumbers = input.Numbers;
             int myResult = 0;
             int myResult2 = 1;
 
-            if (myWhat is null || myNumbers is null)
+            if (string.IsNullOrEmpty(myOperation) || myNumbers is null)
             {
-                return Ok(new {error = "Please provide what to do with the numbers!"});
+                return NotFound(new {error = "Please provide what to do with the numbers!"});
             }
-            switch (myWhat)
+
+            switch (myOperation)
             {
                 case "sum":
-                    for (int i = 0; i <= myNumbers.Length; i++)
+                    foreach (var num in myNumbers)
                     {
-                        myResult += i;
+                        myResult += num;
                     }
+
+                    // for (int i = 0; i < myNumbers.Length; i++)
+                    // {
+                    //     myResult += i;
+                    // }
                     return Ok(new {result = myResult});
                 case "multiply":
-                    for (int i = 0; i <= myNumbers.Length; i++)
+                    foreach (var num in myNumbers)
                     {
-                        myResult2 *= i;
+                        myResult2 *= num;
                     }
-                    return Ok(new {result = myResult});
+
+                    // for (int i = 0; i < myNumbers.Length; i++)
+                    // {
+                    //     myResult2 *= i;
+                    // }
+                    return Ok(new {result = myResult2});
                 case "double":
-                    for (int i = 0; i <= myNumbers.Length; i++)
+                    for (int i = 0; i < myNumbers.Length; i++)
                     {
                         myNumbers[i] = myNumbers[i] * 2;
                     }
+
                     return Ok(new {result = myNumbers});
             }
+
             return Ok();
         }
 
-        [HttpGet("/log")]
+        [HttpGet("log")]
         public IActionResult LogEntries()
         {
-            return Ok(new { entries = LogService.DisplayLogs(), entry_count = LogService.GetLogsCount()});
+            var allLogs = LogService.DisplayLogs();
+            return Ok(new {entries = allLogs, entries_count = allLogs.Count});
         }
-        
+
+        [HttpPost("sith")]
+
         // PUT api/<ValuesController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
