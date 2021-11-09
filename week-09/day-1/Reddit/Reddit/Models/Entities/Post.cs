@@ -1,3 +1,5 @@
+using System;
+
 namespace Reddit.Models.Entities
 {
     public class Post
@@ -6,5 +8,6 @@ namespace Reddit.Models.Entities
         public int NumberOfVotes { get; set; }
         public string PostTitle { get; set; }
         public string PostURL { get; set; }
+        public DateTime CreatedAt { get; set; }
     }
 }

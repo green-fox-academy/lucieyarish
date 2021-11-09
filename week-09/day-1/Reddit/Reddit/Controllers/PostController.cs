@@ -36,12 +36,21 @@ namespace Reddit.Controllers
             PostService.CreatePost(post);
             return RedirectToAction("ListAll");
         }
-        
-        [HttpPost("{id:long}/voteup")]
-        public IActionResult VoteUp([FromRoute] int id, Post post)
+
+        [HttpGet("{id:long}/voteup")]
+        public IActionResult VoteUp([FromRoute] long id)
         {
-            PostService.EditVoteUp(id, post);
-            return LocalRedirect($"~/post/index");
+            PostService.EditVoteUp(id);
+            return RedirectToAction("ListAll");
         }
+        
+        [HttpGet("{id:long}/votedown")]
+        public IActionResult VoteDown([FromRoute] long id)
+        {
+            PostService.EditVoteDown(id);
+            return RedirectToAction("ListAll");
+        }
+        
+        []
     }
 }
