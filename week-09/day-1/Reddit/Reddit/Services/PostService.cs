@@ -24,9 +24,9 @@ namespace Reddit.Services
 
         public List<Post> ListTopTen(int pageNumber, int pageSize)
         {
-            int ExcludedRecords = (pageSize * pageNumber) - pageSize;
+            int ExcludeRecords = (pageSize * pageNumber) - pageSize;
             var topTenPosts = DbContext.Posts
-                .Skip(ExcludedRecords)
+                .Skip(ExcludeRecords)
                 .OrderByDescending(p => p.NumberOfVotes)
                 .Take(10)
                 .ToList();
