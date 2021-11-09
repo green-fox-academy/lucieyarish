@@ -29,6 +29,7 @@ namespace Reddit
         {
             services.AddMvc(options => options.EnableEndpointRouting = false);
             services.AddTransient<PostService>(); //Table1
+            services.AddCloudscribePagination();
             ConfigureDb(services);
         }
 

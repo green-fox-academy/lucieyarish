@@ -22,6 +22,17 @@ namespace Reddit.Services
             return DbContext.Posts.ToList();
         }
 
+        public List<Post> ListTopTen(int pageNumber, int pageSize)
+        {
+            int ExcludedRecords = (pageSize * pageNumber) - pageSize;
+            var topTenPosts = DbContext.Posts
+                .Skip(ExcludedRecords)
+                .OrderByDescending(p => p.NumberOfVotes)
+                .Take(10)
+                .ToList();
+            return topTenPosts;
+        }
+
         public Post CreatePost(Post post)
         {
             var savedPost = DbContext.Posts.Add(post).Entity;
@@ -55,6 +66,15 @@ namespace Reddit.Services
             // foundPost.PostTitle = post.PostTitle;
             // foundPost.PostURL = post.PostURL;
             DbContext.SaveChanges();
+        }
+
+        public List<Post> SearchPost(string post)
+        {
+            var allPosts = DbContext.Posts;
+            var foundPosts = allPosts
+                .Where(p => p.PostTitle.Contains(post))
+                .ToList();
+            return foundPosts;
         }
     }
 }
