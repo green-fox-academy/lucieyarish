@@ -9,5 +9,7 @@ namespace Reddit.Models.Entities
         public string PostTitle { get; set; }
         public string PostURL { get; set; }
         public DateTime CreatedAt { get; set; }
+        public User User { get; set; }
+        public long UserId { get; set; }
     }
 }

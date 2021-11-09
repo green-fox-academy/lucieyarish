@@ -32,7 +32,6 @@ namespace Reddit.Controllers
                 PageSize = pageSize
             };
             return View("Index", result);
-            return View("Index", result);
         }
         
         // public IActionResult ListAll2()
