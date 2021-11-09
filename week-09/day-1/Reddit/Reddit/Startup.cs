@@ -43,6 +43,7 @@ namespace Reddit
 
             app.UseRouting();
             app.UseMvc();
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             {
