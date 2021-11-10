@@ -152,10 +152,16 @@ namespace Frontend.Controllers.API
         [HttpPost("sith")]
         public IActionResult ReverseSith([FromBody] SithReverser text)
         {
+            if (text.TextToReverse is null)
+            {
+                return NotFound(new {error = "Feed me some text you have to, padawan young you are. Hmmm."});
+            }
             var sentence = text.TextToReverse;
             var reversedSentence = SithReverserService.ReverseText(sentence);
             return Ok(new { sith_text = reversedSentence});
         }
+        
+        [HttpPost("translate")]
 
         // PUT api/<ValuesController>/5
         [HttpPut("{id}")]
