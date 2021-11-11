@@ -91,6 +91,17 @@ namespace URLAliaser.Services
         // {
         //     
         // }
+
+        public Link FindById(int id)
+        {
+            var foundLink = DbContext.Links.ToList().Where(a => a.Id == id).ToList().First();
+            return foundLink;
+        }
+        
+        public void Remove(Link removeLink)
+        {
+            DbContext.Links.Remove(removeLink);
+        }
         
     }
 }

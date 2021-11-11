@@ -62,6 +62,17 @@ namespace URLAliaser.Controllers
                 Links = allLinks
             });
         }
-        
+
+        [HttpDelete("api/links/{id}")]
+        public IActionResult DeleteLink([FromRoute]int id)
+        {
+            Link toDelete = LinkService.FindById(id);
+            if (toDelete is null)
+            {
+                return NotFound();
+            }
+            LinkService.Remove(toDelete);
+            return NoContent();
+        }
     }
 }
