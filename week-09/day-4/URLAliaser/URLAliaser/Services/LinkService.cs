@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using URLAliaser.Models.Entities;
 using URLAliaser.Persistence;
 
@@ -70,7 +71,26 @@ namespace URLAliaser.Services
 
         public bool CheckIfAliasExists(string alias)
         {
-            var foundAlias = DbContext.Links.Contains(alias);
+            foreach (var item in DbContext.Links)
+            {
+                if (item.Alias == alias)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
+
+        public List<Link> DisplayLinks()
+        {
+            return new List<Link>(DbContext.Links.ToList());
+        }
+
+        // public void AddHit(string alias)
+        // {
+        //     
+        // }
+        
     }
 }

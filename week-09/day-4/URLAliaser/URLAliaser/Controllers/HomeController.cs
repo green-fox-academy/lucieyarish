@@ -43,7 +43,7 @@ namespace URLAliaser.Controllers
         [HttpGet("a/{alias}")]
         public IActionResult ViewLink([FromRoute] string alias)
         {
-            if (alias is null)
+            if (LinkService.CheckIfAliasExists(alias) == false)
             {
                 return NotFound(new {error = "Alias not found!"});
             }
@@ -52,9 +52,16 @@ namespace URLAliaser.Controllers
 
             return Redirect(linkToVisit);
         }
-        
-        // [HttpGet("api/links")]
-        // public 
+
+        [HttpGet("api/links")]
+        public IActionResult ViewLink()
+        {
+            var allLinks = LinkService.DisplayLinks();
+            return Ok(new
+            {
+                Links = allLinks
+            });
+        }
         
     }
 }
