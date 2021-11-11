@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using URLAliaser.Models.Entities;
 using URLAliaser.Services;
+using URLAliaser.ViewModels;
 
 namespace URLAliaser.Controllers
 {
@@ -15,6 +17,23 @@ namespace URLAliaser.Controllers
 
         [HttpGet("")]
         public IActionResult Index()
+        {
+            return View();
+        }
+        
+        [HttpPost("save-link")]
+        public IActionResult SaveLink(Link link)
+        {
+            var savedLink = LinkService.SaveLink(link);
+            var result = new LinkViewModel()
+            {
+                Link = savedLink
+            };
+            return View("YourLink", result);
+        }
+        
+        [HttpGet("your-link")]
+        public IActionResult YourLink()
         {
             return View();
         }
