@@ -1,4 +1,7 @@
+using System.Data.Common;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using URLAliaser.Models.Entities;
 using URLAliaser.Services;
 using URLAliaser.ViewModels;
@@ -31,12 +34,12 @@ namespace URLAliaser.Controllers
             };
             return View("YourLink", result);
         }
-        
-        [HttpGet("your-link")]
-        public IActionResult YourLink()
-        {
-            return View();
-        }
+        //
+        // [HttpGet("your-link")]
+        // public IActionResult YourLink()
+        // {
+        //     return View();
+        // }
         
     }
 }

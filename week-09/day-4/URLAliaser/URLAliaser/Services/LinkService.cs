@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using URLAliaser.Models.Entities;
 using URLAliaser.Persistence;
 
@@ -29,6 +31,26 @@ namespace URLAliaser.Services
             int max = 9999;
             Random random = new Random();
             return random.Next(min, max);
+        }
+
+        public List<Link> FindALl()
+        {
+            return DbContext.Links.ToList();
+        }
+        public bool CheckIfExists(Link link)
+        {
+            // var checkedAlias = 
+            //     FindALl()
+            //     .Where(a => a.Alias == link.Alias)
+            //     .ToList();
+            if (!DbContext.Links.Contains(link))
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
     }
 }

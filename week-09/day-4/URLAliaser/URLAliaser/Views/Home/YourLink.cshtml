@@ -2,10 +2,30 @@
 
 <html>
 <head>
-    <title>URL Aliaser</title>
+    <title>Your Link</title>
 </head>
 <body>
-<h1>Submit URL</h1>
+@* @foreach (var link in @Model.Links) *@
+@* { *@
+@*     @if (@Model.Links.Contains(link)) *@
+@*     { *@
+@*         <p>Your alias is already in use!</p> *@
+@*     } *@
+@*     else *@
+@*     { *@
+@*         <p>Your URL is aliased to @Model.Link.Alias and your secret code is @Model.Link.SecretCode.</p> *@
+@*     } *@
+@* } *@
 <p>Your URL is aliased to @Model.Link.Alias and your secret code is @Model.Link.SecretCode.</p>
+
+@* <h1>Submit URL</h1> *@
+@* <form method="post" action="save-link"> *@
+@*     <label for="url">URL:</label> *@
+@*     <input type="text" id="url" name="LinkURL"><br/> *@
+@*     <label for="alias">Alias:</label> *@
+@*     <input type="text" id="alias" name="Alias"><br/> *@
+@*     <button type="submit" value="Submit">Submit</button> *@
+@* </form> *@
+@Html.ActionLink("Home", "Index", "Home")
 </body>
 </html>
