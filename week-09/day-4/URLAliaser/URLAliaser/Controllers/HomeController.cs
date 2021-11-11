@@ -40,11 +40,21 @@ namespace URLAliaser.Controllers
             return View("ErrorMessage");
         }
         
-        [HttpGet("your-link")]
-        public IActionResult YourLink()
+        [HttpGet("a/{alias}")]
+        public IActionResult ViewLink([FromRoute] string alias)
         {
-            return View();
+            if (alias is null)
+            {
+                return NotFound(new {error = "Alias not found!"});
+            }
+
+            var linkToVisit = LinkService.FindByAlias(alias);
+
+            return Redirect(linkToVisit);
         }
+        
+        // [HttpGet("api/links")]
+        // public 
         
     }
 }

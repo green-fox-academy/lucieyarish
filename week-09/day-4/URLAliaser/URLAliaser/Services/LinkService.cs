@@ -51,8 +51,26 @@ namespace URLAliaser.Services
                     return true;
                 }
             }
-
             return false;
+        }
+
+        // public string VisitLink(string alias)
+        // {
+        //     var foundAlias = FindALl()
+        //         .Where(l => l.Alias == alias);
+        //     var foundLink = foundAlias.Where(a => a.LinkURL).ToString();
+        //     return foundLink;
+        // }
+
+        public string FindByAlias(string alias)
+        {
+            var foundAlias = DbContext.Links.Where(a => a.Alias == alias).FirstOrDefault();
+            return foundAlias.LinkURL;
+        }
+
+        public bool CheckIfAliasExists(string alias)
+        {
+            var foundAlias = DbContext.Links.Contains(alias);
         }
     }
 }
