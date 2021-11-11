@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using URLAliaser.Models.Entities;
 using URLAliaser.Persistence;
@@ -43,14 +44,15 @@ namespace URLAliaser.Services
             //     FindALl()
             //     .Where(a => a.Alias == link.Alias)
             //     .ToList();
-            if (!DbContext.Links.Contains(link))
+            foreach (var item in DbContext.Links)
             {
-                return false;
+                if (item.Alias == link.Alias)
+                {
+                    return true;
+                }
             }
-            else
-            {
-                return true;
-            }
+
+            return false;
         }
     }
 }

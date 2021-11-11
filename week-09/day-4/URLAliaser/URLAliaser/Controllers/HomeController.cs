@@ -27,19 +27,24 @@ namespace URLAliaser.Controllers
         [HttpPost("save-link")]
         public IActionResult SaveLink(Link link)
         {
-            var savedLink = LinkService.SaveLink(link);
-            var result = new LinkViewModel()
+
+            if (LinkService.CheckIfExists(link) == false)
             {
-                Link = savedLink
-            };
-            return View("YourLink", result);
+                var savedLink = LinkService.SaveLink(link);
+                var result = new LinkViewModel()
+                {
+                    Link = savedLink
+                };
+                return View("YourLink", result);
+            }
+            return View("ErrorMessage");
         }
-        //
-        // [HttpGet("your-link")]
-        // public IActionResult YourLink()
-        // {
-        //     return View();
-        // }
+        
+        [HttpGet("your-link")]
+        public IActionResult YourLink()
+        {
+            return View();
+        }
         
     }
 }
