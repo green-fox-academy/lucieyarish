@@ -1,3 +1,4 @@
+using System;
 using URLAliaser.Models.Entities;
 using URLAliaser.Persistence;
 
@@ -14,9 +15,20 @@ namespace URLAliaser.Services
 
         public Link SaveLink(Link link)
         {
-            var savedLink = DbContext.Links.Add(link).Entity;
+            int secretCode = GenerateRandomCode();
+            var linkToSave = link;
+            linkToSave.SecretCode = secretCode;
+            var saveToDb = DbContext.Links.Add(linkToSave).Entity;
             DbContext.SaveChanges();
-            return savedLink;
+            return saveToDb;
+        }
+
+        public int GenerateRandomCode()
+        {
+            int min = 1000;
+            int max = 9999;
+            Random random = new Random();
+            return random.Next(min, max);
         }
     }
 }
