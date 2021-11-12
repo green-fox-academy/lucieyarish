@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAmGroot", "IAmGroot\IAmGroot.csproj", "{3163358B-6ECE-49B8-8A7A-A86097C11D60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAmGrootIntegrationTests", "IAmGrootIntegrationTests\IAmGrootIntegrationTests.csproj", "{329C5AD1-E99C-439F-9766-94974A508269}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{3163358B-6ECE-49B8-8A7A-A86097C11D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3163358B-6ECE-49B8-8A7A-A86097C11D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3163358B-6ECE-49B8-8A7A-A86097C11D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329C5AD1-E99C-439F-9766-94974A508269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329C5AD1-E99C-439F-9766-94974A508269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329C5AD1-E99C-439F-9766-94974A508269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329C5AD1-E99C-439F-9766-94974A508269}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
