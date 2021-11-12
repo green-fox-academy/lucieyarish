@@ -36,7 +36,7 @@ namespace IAmGrootIntegrationTests
 
             //assert
             // Assert.Equal(expectedStatusCode, response.StatusCode);
-            Assert.Equal(expectedMessage, responseDataObj["I am groot!"]);
+            Assert.Equal(expectedMessage, responseDataObj["error"]);
         }
     }
 }
