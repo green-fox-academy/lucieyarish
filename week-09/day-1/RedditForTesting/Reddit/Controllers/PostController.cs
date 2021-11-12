@@ -57,8 +57,13 @@ namespace Reddit.Controllers
         }
 
         [HttpGet("{id:long}/voteup")]
+        
         public IActionResult VoteUp([FromRoute] long id)
         {
+            if (id == null)
+            {
+                return NotFound("Post not found!");
+            }
             PostService.EditVoteUp(id);
             return RedirectToAction("ListAll");
         }
