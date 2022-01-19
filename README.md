@@ -48,6 +48,8 @@
 
 ## Orientation
 
+###### Web Development With ASP.NET Core, MySQL and Entity Framework
+
   Week 6  | C# Essentials
   -------:|:-----------------------
   Day 1  | [LINQ](https://github.com/green-fox-academy/lucieyarish/tree/master/week-06/day-1)
